@@ -13,7 +13,7 @@ SCRIPTPATH=$(dirname "$SCRIPT")
 for x in */*.tmp; do rm $x; done
 for x in */*/*.tmp; do rm $x; done
 
-printf "accession;organism;description;basepairs;date;country;plasmid_name;inc_type;transposon;beta-lactamases;kpc_type;kpc_start;kpc_end;integronfinder\n" > plasmid_table.csv
+printf "accession;organism;description;basepairs;date;country;plasmid_name;inc_type;transposon;beta-lactamases;beta-lactamases_range;kpc_type;kpc_start;kpc_end;integronfinder\n" > plasmid_table.csv
 
 #FOR EACH FASTA FILE
 for x in plasmid_files/*.fasta; do
@@ -50,8 +50,10 @@ for x in plasmid_files/*.fasta; do
         bla_start=$(echo "$blanr" | cut -f 4) 
         bla_end=$(echo "$blanr" | cut -f 5 )
             printf "[$bla_types: $bla_start - $bla_end] " >> blast_results/${name}.tmp
+            printf "$bla_types " >> blast_results/${name}_2.tmp
     done < <(printf '%s\n' "$blas")  
     betalactamase=$(cat blast_results/${name}.tmp)
+    betalactamase2=$(cat blast_results/${name}_2.tmp)
 #Transposontyp anhand der Resolvase extrahiert
     Tns=$(grep "resolvase" blast_results/${name}_resistance_genes.gff | cut -f 9 | cut -f2 -d ";" | cut -f2 -d "=" | sed 's/\<transposon\>//g' | sed 's/\<resolvase\>//g' | sed 's/\<TnpR\>//g' | sed 's/\<for\>//g' | uniq -i | cut -f2 -d " ")
         if [[ -z "$Tns" ]]; then Tns=unknown; fi 
@@ -74,7 +76,7 @@ for x in plasmid_files/*.fasta; do
         integron=$(cat integron_results/Results_Integron_Finder_${name}/integronrange.tmp)
         fi
 #Add all the data to the csv file        
-    printf "$accnum;$org;${desc//;};$basepairs;${date//;};${country//;};${plasmidname//;};${inc_type};$transposon;$betalactamase;${kpc_type//;};${kpc_start};${kpc_end};${integron//#}\n" >> plasmid_table.csv
+    printf "$accnum;$org;${desc//;};$basepairs;${date//;};${country//;};${plasmidname//;};${inc_type};$transposon;$betalactamase2;$betalactamase;${kpc_type//;};${kpc_start};${kpc_end};${integron//#}\n" >> plasmid_table.csv
 done
 
 for x in */*.tmp; do rm $x; done
