@@ -57,4 +57,4 @@ rm *.tmp
 
 }
 
-gff_conversion
+blast; gff_conversion

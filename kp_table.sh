@@ -13,7 +13,7 @@ SCRIPTPATH=$(dirname "$SCRIPT")
 for x in */*.tmp; do rm $x; done
 for x in */*/*.tmp; do rm $x; done
 
-printf "accession;organism;description;basepairs;date;country;plasmid_name;inc_type;transposon;beta-lactamases;beta-lactamases_range;kpc_type;kpc_start;kpc_end;integronfinder\n" > plasmid_table.csv
+printf "accession;organism;description;basepairs;date;country;plasmid_name;plasmid_type;inc_type;transposon;beta-lactamases;beta-lactamases_range;kpc_type;kpc_start;kpc_end;integronfinder\n" > plasmid_table.csv
 
 #FOR EACH FASTA FILE
 for x in plasmid_files/*.fasta; do
@@ -75,8 +75,10 @@ for x in plasmid_files/*.fasta; do
         done < <(printf '%s\n' "$amount_of_integrons")  
         integron=$(cat integron_results/Results_Integron_Finder_${name}/integronrange.tmp)
         fi
+#Getting plasmidtype
+    pltype=$(find plasmid_bining/*/$name.fasta | cut -f 2 -d "/" | cut -f 3 -d "_")
 #Add all the data to the csv file        
-    printf "$accnum;$org;${desc//;};$basepairs;${date//;};${country//;};${plasmidname//;};${inc_type};$transposon;$betalactamase2;$betalactamase;${kpc_type//;};${kpc_start};${kpc_end};${integron//#}\n" >> plasmid_table.csv
+    printf "$accnum;$org;${desc//;};$basepairs;${date//;};${country//;};${plasmidname//;};${pltype};${inc_type};$transposon;$betalactamase2;$betalactamase;${kpc_type//;};${kpc_start};${kpc_end};${integron//#}\n" >> plasmid_table.csv
 done
 
 for x in */*.tmp; do rm $x; done
