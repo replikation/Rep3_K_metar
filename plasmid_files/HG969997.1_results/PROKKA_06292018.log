@@ -1,0 +1,122 @@
+[10:08:30] This is prokka 1.14-dev
+[10:08:30] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[10:08:30] Homepage is https://github.com/tseemann/prokka
+[10:08:30] Local time is Fri Jun 29 10:08:30 2018
+[10:08:30] You are christian
+[10:08:30] Operating system is linux
+[10:08:30] You have BioPerl 1.007002
+[10:08:30] System has 20 cores.
+[10:08:30] Will use maximum of 20 cores.
+[10:08:30] Annotating as >>> Bacteria <<<
+[10:08:30] Generating locus_tag from 'plasmid_files/HG969997.1.fasta' contents.
+[10:08:30] Setting --locustag OGCDEIPE from MD5 80cde29e254869a62481726704d47c64
+[10:08:30] Creating new output folder: plasmid_files/HG969997.1_results
+[10:08:30] Running: mkdir -p plasmid_files\/HG969997\.1_results
+[10:08:30] Using filename prefix: PROKKA_06292018.XXX
+[10:08:30] Setting HMMER_NCPU=1
+[10:08:30] Writing log to: plasmid_files/HG969997.1_results/PROKKA_06292018.log
+[10:08:30] Command: /home/christian/install/prokka/bin/prokka plasmid_files/HG969997.1.fasta --outdir plasmid_files/HG969997.1_results --cpus 20
+[10:08:30] Appending to PATH: /home/christian/install/prokka/bin/../binaries/linux
+[10:08:30] Appending to PATH: /home/christian/install/prokka/bin/../binaries/linux/../common
+[10:08:30] Appending to PATH: /home/christian/install/prokka/bin
+[10:08:30] Looking for 'aragorn' - found /home/christian/install/prokka/bin/../binaries/linux/aragorn
+[10:08:30] Determined aragorn version is 1.2
+[10:08:30] Looking for 'blastp' - found /usr/bin/blastp
+[10:08:31] Determined blastp version is 2.2
+[10:08:31] Looking for 'cmpress' - found /usr/local/bin/cmpress
+[10:08:31] Determined cmpress version is 1.1
+[10:08:31] Looking for 'cmscan' - found /usr/local/bin/cmscan
+[10:08:31] Determined cmscan version is 1.1
+[10:08:31] Looking for 'egrep' - found /bin/egrep
+[10:08:31] Looking for 'find' - found /usr/bin/find
+[10:08:31] Looking for 'grep' - found /bin/grep
+[10:08:31] Looking for 'hmmpress' - found /usr/local/bin/hmmpress
+[10:08:31] Determined hmmpress version is 3.1
+[10:08:31] Looking for 'hmmscan' - found /usr/local/bin/hmmscan
+[10:08:31] Determined hmmscan version is 3.1
+[10:08:31] Looking for 'java' - found /usr/bin/java
+[10:08:31] Looking for 'less' - found /usr/bin/less
+[10:08:31] Looking for 'makeblastdb' - found /usr/bin/makeblastdb
+[10:08:31] Determined makeblastdb version is 2.2
+[10:08:31] Looking for 'minced' - found /home/christian/install/prokka/bin/../binaries/linux/../common/minced
+[10:08:31] Determined minced version is 2.0
+[10:08:31] Looking for 'parallel' - found /usr/bin/parallel
+[10:08:31] Determined parallel version is 20141022
+[10:08:31] Looking for 'prodigal' - found /usr/local/bin/prodigal
+[10:08:31] Determined prodigal version is 2.6
+[10:08:31] Looking for 'prokka-genbank_to_fasta_db' - found /home/christian/install/prokka/bin/prokka-genbank_to_fasta_db
+[10:08:31] Looking for 'sed' - found /bin/sed
+[10:08:31] Looking for 'tbl2asn' - found /home/christian/install/prokka/bin/../binaries/linux/tbl2asn
+[10:08:31] Determined tbl2asn version is 25.6
+[10:08:31] Using genetic code table 11.
+[10:08:31] Loading and checking input file: plasmid_files/HG969997.1.fasta
+[10:08:31] Wrote 1 contigs totalling 114173 bp.
+[10:08:31] Predicting tRNAs and tmRNAs
+[10:08:31] Running: aragorn -l -gc11  -w plasmid_files\/HG969997\.1_results\/PROKKA_06292018\.fna
+[10:08:31] Found 0 tRNAs
+[10:08:31] Predicting Ribosomal RNAs
+[10:08:31] You need either Barrnap or RNAmmer installed to predict rRNAs!
+[10:08:31] Skipping ncRNA search, enable with --rfam if desired.
+[10:08:31] Total of 0 tRNA + rRNA features
+[10:08:31] Searching for CRISPR repeats
+[10:08:31] Found 0 CRISPRs
+[10:08:31] Predicting coding sequences
+[10:08:31] Contigs total 114173 bp, so using single mode
+[10:08:31] Running: prodigal -i plasmid_files\/HG969997\.1_results\/PROKKA_06292018\.fna -c -m -g 11 -p single -f sco -q
+[10:08:31] Found 127 CDS
+[10:08:31] Connecting features back to sequences
+[10:08:31] Not using genus-specific database. Try --usegenus to enable it.
+[10:08:31] Annotating CDS, please be patient.
+[10:08:31] Will use 20 CPUs for similarity searching.
+[10:08:31] There are still 127 unannotated CDS left (started with 127)
+[10:08:31] Will use blast to search against /home/christian/install/prokka/db/kingdom/Bacteria/sprot with 20 CPUs
+[10:08:31] Running: cat plasmid_files\/HG969997\.1_results\/sprot\.faa | parallel --gnu --plain -j 20 --block 807 --recstart '>' --pipe blastp -query - -db /home/christian/install/prokka/db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > plasmid_files\/HG969997\.1_results\/sprot\.blast 2> /dev/null
+[10:08:32] Modify product: Uncharacterized signaling protein PA1727 => putative signaling protein
+[10:08:32] Modify product: UPF0401 protein YkfF => hypothetical protein
+[10:08:32] Cleaned 2 /product names
+[10:08:32] Deleting unwanted file: plasmid_files/HG969997.1_results/sprot.faa
+[10:08:32] Deleting unwanted file: plasmid_files/HG969997.1_results/sprot.blast
+[10:08:32] There are still 83 unannotated CDS left (started with 127)
+[10:08:32] Will use hmmer3 to search against /home/christian/install/prokka/db/hmm/HAMAP.hmm with 20 CPUs
+[10:08:32] Running: cat plasmid_files\/HG969997\.1_results\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 20 --block 445 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/christian/install/prokka/db/hmm/HAMAP.hmm /dev/stdin > plasmid_files\/HG969997\.1_results\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[10:08:33] Deleting unwanted file: plasmid_files/HG969997.1_results/HAMAP.hmm.faa
+[10:08:33] Deleting unwanted file: plasmid_files/HG969997.1_results/HAMAP.hmm.hmmer3
+[10:08:33] Labelling remaining 82 proteins as 'hypothetical protein'
+[10:08:33] Possible /pseudo 'Beta-lactamase OXA-18' at HG969997.1 position 26326
+[10:08:33] Found 38 unique /gene codes.
+[10:08:33] Fixed 2 duplicate /gene - xerD_1 xerD_2
+[10:08:33] Fixed 4 duplicate /gene - bla_1 bla_2 bla_3 bla_4
+[10:08:33] Fixed 2 colliding /gene names.
+[10:08:33] Adding /locus_tag identifiers
+[10:08:33] Assigned 127 locus_tags to CDS and RNA features.
+[10:08:33] Writing outputs to plasmid_files/HG969997.1_results/
+[10:08:33] Generating annotation statistics file
+[10:08:33] Generating Genbank and Sequin files
+[10:08:33] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14-dev from https://github.com/tseemann/prokka' -Z plasmid_files\/HG969997\.1_results\/PROKKA_06292018\.err -i plasmid_files\/HG969997\.1_results\/PROKKA_06292018\.fsa 2> /dev/null
+[10:08:33] Deleting unwanted file: plasmid_files/HG969997.1_results/errorsummary.val
+[10:08:33] Deleting unwanted file: plasmid_files/HG969997.1_results/PROKKA_06292018.dr
+[10:08:33] Deleting unwanted file: plasmid_files/HG969997.1_results/PROKKA_06292018.fixedproducts
+[10:08:33] Deleting unwanted file: plasmid_files/HG969997.1_results/PROKKA_06292018.ecn
+[10:08:33] Deleting unwanted file: plasmid_files/HG969997.1_results/PROKKA_06292018.val
+[10:08:33] Repairing broken .GBK output that tbl2asn produces...
+[10:08:33] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < plasmid_files\/HG969997\.1_results\/PROKKA_06292018\.gbf > plasmid_files\/HG969997\.1_results\/PROKKA_06292018\.gbk
+[10:08:33] Deleting unwanted file: plasmid_files/HG969997.1_results/PROKKA_06292018.gbf
+[10:08:33] Output files:
+[10:08:33] plasmid_files/HG969997.1_results/PROKKA_06292018.sqn
+[10:08:33] plasmid_files/HG969997.1_results/PROKKA_06292018.fsa
+[10:08:33] plasmid_files/HG969997.1_results/PROKKA_06292018.tbl
+[10:08:33] plasmid_files/HG969997.1_results/PROKKA_06292018.log
+[10:08:33] plasmid_files/HG969997.1_results/PROKKA_06292018.gff
+[10:08:33] plasmid_files/HG969997.1_results/PROKKA_06292018.txt
+[10:08:33] plasmid_files/HG969997.1_results/PROKKA_06292018.gbk
+[10:08:33] plasmid_files/HG969997.1_results/PROKKA_06292018.faa
+[10:08:33] plasmid_files/HG969997.1_results/PROKKA_06292018.fna
+[10:08:33] plasmid_files/HG969997.1_results/PROKKA_06292018.tsv
+[10:08:33] plasmid_files/HG969997.1_results/PROKKA_06292018.ffn
+[10:08:33] plasmid_files/HG969997.1_results/PROKKA_06292018.err
+[10:08:33] Annotation finished successfully.
+[10:08:33] Walltime used: 0.05 minutes
+[10:08:33] If you use this result please cite the Prokka paper:
+[10:08:33] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[10:08:33] Type 'prokka --citation' for more details.
+[10:08:33] Share and enjoy!

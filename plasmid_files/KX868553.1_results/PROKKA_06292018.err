@@ -1,0 +1,102 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:9 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 9 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:9 features have inconsistent gene locations.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:10 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::9 proteins have invalid IDs.
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_1 (length 72)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_2 (length 61)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_3 (length 439)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_4 (length 293)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_5 (length 259)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_6 (length 341)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_7 (length 1009)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_8 (length 571)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_9 (length 75)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 9 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1 (length 12506)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::9 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/KX868553.1_results/PROKKA_06292018:CDS	hypothetical protein	KX868553.1:73-291	KHMGPDIP_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/KX868553.1_results/PROKKA_06292018:CDS	Regulatory protein rop	KX868553.1:c767-582	KHMGPDIP_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/KX868553.1_results/PROKKA_06292018:CDS	hypothetical protein	KX868553.1:1475-2794	KHMGPDIP_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/KX868553.1_results/PROKKA_06292018:CDS	Carbapenem-hydrolyzing beta-lactamase KPC	KX868553.1:c3925-3044	KHMGPDIP_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/KX868553.1_results/PROKKA_06292018:CDS	Insertion sequence IS5376 putative ATP-binding protein	KX868553.1:c5091-4312	KHMGPDIP_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/KX868553.1_results/PROKKA_06292018:CDS	hypothetical protein	KX868553.1:c6113-5088	KHMGPDIP_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/KX868553.1_results/PROKKA_06292018:CDS	hypothetical protein	KX868553.1:c9249-6220	KHMGPDIP_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/KX868553.1_results/PROKKA_06292018:CDS	Tyrosine recombinase XerD	KX868553.1:9359-11074	KHMGPDIP_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/KX868553.1_results/PROKKA_06292018:CDS	putative lipoprotein YgdR	KX868553.1:c11371-11144	KHMGPDIP_00009
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1:Annotated using prokka 1.14-dev from https://github.com/tseemann/prokka
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1 (length 12506)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1 (length 12506)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1 (length 12506)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1 (length 12506)
+
+DiscRep_ALL:MISSING_PROJECT::10 sequences do not include project.
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1 (length 12506)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_1 (length 72)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_2 (length 61)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_3 (length 439)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_4 (length 293)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_5 (length 259)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_6 (length 341)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_7 (length 1009)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_8 (length 571)
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1_9 (length 75)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+plasmid_files/KX868553.1_results/PROKKA_06292018:KX868553.1 (length 12506)
+

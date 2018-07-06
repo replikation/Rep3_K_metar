@@ -1,0 +1,1130 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14-dev from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 6 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 29 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2018 } } } ,
+        create-date
+          std {
+            year 2018 ,
+            month 6 ,
+            day 29 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "KF724507.1" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 12915 ,
+            seq-data
+              iupacna "ACCTTTGATGGTGGCGTAAGCCGTCTTCATGGATTTAAATCCCAGCGTGGCGCCG
+ATTATCCGTTTCAGTTTGCCATGATCGCATTCAATCACGTTGTTCCGGTACTTAATCTGTCGGTGTTCAACGTCAGAC
+GGGCACCGGCCTTCGCGTTTGAGCAGAGCAAGCGCGCGACCATAGGCGGGCGCTTTATCCGTGTTGATGGGGAGCCCG
+CAGAATTCGGAAAAAATCGTACGCTAAGGTTTTCCGGGCATCCGTAAGGGCCGAAACTTCCCGTCTTCCAGTCTGCGG
+CTCTGCCGCCAGACGTAATCGCCGGTTAGGTTGATGTGCTCCCAGCCCAGCGGCGACAGGAATTGCAGCAGCTCGCCG
+TCCACCGGCTTGCCGGCCTCGACCAACCCCTGGGTGGCGCGTTCCAGGTACACCGTGTTCCACAGCACGATAGCCGCC
+GTCACCAGGTTGAGGCCGCTGGCCCGGTAGCGCTGCTGCTCGAAGCTCCGATCCCTGATTTCCCCAAGGCGGTTGAAG
+AACACCGCCCTGGCCAGCGAGTTGCGCGCCTCACCTTTGTTCAGGCCGGCATGCACGCGGCGGCGCAGTTCAACACTT
+TGCAGCCAGTCCAGGATGAACAGCGTGCGCTCGATCCGGCCCAGCTCGCGCAGGGCCACGGCCAGTCCGTTCTGGCGC
+GGGTAGCTGCCGAGCTTGCGCAGCATCAGCGAGGCGGTGACGGTGCCCTGCTTGATCGAGCTGGCCAGGCGCAGGATG
+TCGTCCCAGTGGGCACGCACGTGCTTGATGTTCAGGGTGCCGCCGATCAGCGGGCGCAACGTCGGGTAGGCTTGCACG
+CCCTGCGGCACGTACAGCTTGGTTTCGCCGAGGTCGCGGATGCGCGGCGCGAAGCGGAAGCCTAGCAGGTGCATCAGG
+GCAAAGACGTGATCGGTGAAGCCGGCCGTGTCGGTGTAGTGCTCCTCGATCCGCAGGTCGGACTCGTGGTACAGCAGG
+CCGTCGAGCACATAGGTGGAATCGCGGACGCCGACATTCACCACGCGGGTGCTGAACGGCGCGTACTGGTCGGAGATA
+TGGGTATAGAACAGCCGTCCCGGCTCGCTACCGTACTTCGGGTTGACGTGCCCGGTGCTCTCGCCCCGGCCACCCGCG
+CGGAAGCGCTGGCCATCGGAGGATGAGGTCGTGCCGTCGCCCCAGTGGGCGGCAAAGGCGTGGCGATACTGGTGGTTG
+ACCAGCTCGGCCAAGGCCGCCGAATAGGTTTCGTCGCGGATGTGCCAGGCTTGCAGCCAGGACAGCTTGGCGTAGGTC
+AGGCCGGGGCTCGACTCGGCCATCTTGGTCAGCCCGAGGTTGATCGCATCACCGAGGATTGCGGACAGCAGCAACGTC
+CTGTCTTTGGCCTCGGCCCCGTCCTTCAAGTGGGTGAAGTGGCGGCTGAAGCCCGTCCAGTCGTCCACGTCCATCAGC
+AGTTCGGTGATCTTGATGCGCGGCAGTAACTGGCTGGTTTGGTCGATCAGCGCCTGCGCCCGATCCGGCACCGCCGCA
+TCCAGCGGGGTGATTTTCAGCCCTGACTCGGTGAGGATGGCATCGGGCAGCTCGTTGTCCTTGGCCAGGCGGGTGACG
+GTGGCCAACTGCTCGTCCAGCAGCTGCAAACGCTCTTCCAGGTACTGGTCGCTGTTCGGGTTGATCGCCAGGGGCAGG
+GCCTGCTCGCGCTTGAGTGCGGCGAACTTCTCGGCCGGCAGCAGGTAGTCGTCGAAGTCGCGGAACTGCCGCGAGCCC
+TTGACCCAGATGTCGCCGGAGCGCAGGGCGTTCTTCAGCTCGGACAGGGCGCAGATTTCGTAGAATTTCCGGTCGAGG
+CCTTCCGGGGTGATCACCAGCGGCTTCCAGCGCGGCTTGATGAAGGCCGTGGGTGCATCGGCCGGCACCTTGCGCAGG
+TTGTCGGCGTTCATCTCACGCAGGGTCTGCACGGCTGCCAGCACGCCTTGCGCGGCCGGCGCGGCGCGCAGTTCCAGC
+ACCTCCAGCAAGGCCGGCGTGTAACGGCGCAGGGTGGCGAAGTTCTCGCCGACCAGGTGCAGGTGGTCGAAGCCTTCC
+GGCCGGGCCAGCAGCTCGGCCTCGCTGACGCTCTCGGTGAACTCGTCCCAGGGAATCACCGCCTCGATGGCGGCATAG
+GGGTCGCTGCCGCTTTCCTTCGCTTCCAGCAGCGCCTGGCCGATCCTGGAGTACAGGCGCACCTTGTCGTTGATCGCC
+TTGCCCTGCTTCTGGAACTGCTGCTGATGCTTGTGCTTCGCGCCGCTGAACAGCTTGACCAGGATGCGGTCATGCAGA
+TCGACCAGCTCATCGATCACGGTCGCGGTGCTCTCCAGCACCACGGCGGCCAGGGTCGCGTAGCGGCGCTGCGGCTCG
+AACTTACCGAGGTCTTTGGGCGTCATCTGCCCACCCTCGCGGGCCAGCTTGAGCAGGCGGTTCTGGTGGATGTGCCGG
+CCCAGGCCTTCGGGCAAGTCCACCAACTGAAATGTCTTCAGCCGCTCGATGTGTTCCAGCATGTGCCGAGAGTTGGGT
+TTCAGCGGTGCCTGGCGCAGCCAGGTCAACCAGGTGATGCTGCTGCCGGCCTTGAGCTTCAACAGCTCGTCCAGCTTG
+GCCCGATGCGAGTCCGTGAGTGGTTCGACCAGGGCGCGGTAGACCCGCCGATTGGCTCGCGCAATGGCTTCCGAGCAG
+GCCCGGTCAATCACGCTCAGCGCCGGCAGGATGCGTCGTTTCTGCCGTAGGCTCTCCAGGGCCTGACCGGCCAGCAGC
+AAGCCTTTGTCGGTCTGCTGGGCCAGCTCGGTTAGCTCGCGCACCAGGGCGCGGAAGTCGGACAGGCCGAACGGGGCC
+AGTTGCAGGTAGGTGCGCAGTTCCTGGGCATGCTCGCGACGGGTCACGTCGCGCTCGCCGTACTTTGCCCAGCTCGCC
+GGCTCGGCCTGGACTTGCTTCGCCACCCACAGGATGACCGGCTCGGGCAGCTCGCTGTCGGTTCCCAGCGCGTAACCG
+GGGTAGCGCAGCAGGCAGAGCTGCACGGCGAAGCCGAGGCGGTTGGCGTCGCCGCGTCGCTGGCGGATCAGCGACAGG
+TCGGAGTCGTTGAAGGTGTAGTAGCGGATCAGGTCATCCTGGCTTTCCGGCAGCGCAAGCAGGGTGTCCCGCTCCGTG
+GCCGAGAGGATCAAGCGACGCGGCATGTGTCAGTCGTCCGTGCGGAGGTACTGGTAGAGGGTTTCCCGGCTGATGTTG
+AACTCGCGGGCAAGCTGCGCCTTGGGCTCGCCGGCCGTCGCTCGCTGCCGCAGGGTAGCAGCCTGCTCATCGGACAGG
+GCTTTCTTGCGGCCCCGGTACGCGCCACGCTGCTTGGCCAAGGCGATGCCCTCACGCTGCCGCTCGCGGATCAGGGCG
+CGCTCGAACTCAGCGAAGGCCCCCATCACCGACAGCATCAGGTTGGCCATCGGCGAGTCCTCGCCAGTGAACACCAGG
+CCCTCCTTCAGGAACTCGATGCGCACGCCGCGCTGAGTCAGCTTCTGTACCAAGCGACGCAGGTCATCGAGGTTGCGG
+GCCAGCCGATCCATGCTGTGCACCACCACTGTATCGCCTTCGCGGACGAAGCTCAGCAGCGCTTCGAGCTGGGGGCGC
+TGGGTGTCCTTGCCCGATGCCTTGTCGGTGAACACCTTGCTCACCTGGGTTTGTTCCAGCTGGCGTTCCGGGTTCTGG
+TCAAAGCTGCTGACCCGGACGTAGCCGATGCGGTGCCCCTGCACGATGTCTCCTTGGTTGAAGGCGGCTTAAGTGCAC
+TTTCTGTTCCGTTGTGCCTCAAAGCCCATTTCTGTCAGGCTGAAATCTATAACCTTCGCGGGCATGTGTCAAAAAATG
+GGAAAGCAGACTCTATTCTGACGAAGCGGCGCGGCCCTGCCTGACATCAAGTTAGGGTATAGCCTAGATTGACATGCG
+CGATGCAACCCTTAACTTGCTTGCACCTATCGTTTCCATGCTAGCTTTATCGTAACGCTAAGGAAGCTCTGAAAAAGC
+CCATGTTTCGCGAAATCACCGCTCTGTAACCCGCATGGTTGCTGGGATGCATTTCTCGAGCGGGGGCTTTTTCAGACC
+TTCCTTAGCTTAGCGTACGATTTTTTCCGAATTCTGCGGTTCCCCCTGGAAGACCTACGCAAGTTGGGCCAGCTCAGA
+GGTGGAATCAACGAAGGCGAGCGAATGAGGCATCTTTTCTGGCGTCTTAACTTTCTCCTTCTCTCCGGGGCAACAAAC
+AGCGCCCAGATGTACCATGAGGCCGCCGCTCTTTCCTCCGAGCTGGATACTCGTTGGTCTTACCGCTCCAAAGAGCTT
+ATGACGCTCTACAGCAAGGCGAAATCCTATGAGGCTGGGGAACGTGTCGAGTTCGGCGGAAAGTCGTTTGCACCGCTA
+TACACGCCCAAAAACGACACGCTGATCAACCTATTCCAGATCTCACAGCAAGAACAAGAGCAACTGAAGACGATTATC
+AGCACTGACGAGGCTCAGAAGCGCCGCAGAGAGCGCGATAGACTGCGTGATGAAGAACGTCGCCGCGCCGCTGGCCAG
+CTTGAGCGTGAAGCCTATGAAGCCAACTCATTGAGCAGGCAAAAGCCCTGGGAAGCTATGGGCATGAGCCGGGCTAAA
+TGGTATCGCCTGGGCAAGCCTTCACCTCAACAAAACAGTGAGACAAGTCCCTCCCCTATTACTAATGGCGAAGCCTCA
+GCGGTTGCCCTTCAGGCGGCCAGGTGTAAAGCCGTTTAGATGGCTATTTCAAAGTGAGTGAGATTTCGTAACGGATGG
+CAGCCCTAGAGGCTGCTTTCTTTTGAGGGGTTAGCAGGCGTATAGCCATGCTGGATCTCAGTCTATCACTACCTGCTT
+AATATTCCACCTTTAGATCCGGCAGCAGTTCGACCAGGTGGCCAACTTACCAGGCACCGGCAGCAGCTCGACCGGGTG
+GCCAAGTTCAGATCTGGACGCCAGAAGGAAATCAACCAGGTGGCCAACTTACCAGGCACCGGCAGCAGCTCGACCAGG
+TGGCCAAGTTCAGATCTGGACGCCAGAAGGAAATCAACCAGGTGGCCAACTCACCAGGCATCGGCAGCAGCTCGACCA
+GGTGGCCCATTTCGTACGTACGAAATCAGGCGACGCTATGCGAAATCTTGGCGGCAATCCCCCGCGACTACGTGATTT
+TTTTAACGTAGAGCGCGCTTTTTCTTGCCATAGTAGGCCATTTTGGCCTATAATCTTAATTAAGAAGACCGGGCACCC
+GCCACGGTCAATACCGGAGAACTCCGATGATCCACACAGCTAACCGCACCTTTCACCAACTCTATCGAGAATGGATAC
+GCGAACGCCGCGAGCATATGCACAACGTTTTGACCTGGGAGCGTGATCGTTACGGTGCTCGCCTCGTCGGTCTGTTTT
+ATCGTTACTGCAAGGTGGCCAACCCCTTTCCCCGTTGCACTCTGAATACTCGGATCAACTACCGCGCCCATGCGGTGA
+ATCTGCCAGATTGGCCAGCCCGCAGCCTGGAGCTGAATAAAATGTGGCTCAGTTGGAGAGAAAAAAAGTAGGCCGATT
+TGGCCTATTTTTTATTGTACCCGCTTGACACAATAGGCCAAAATGGCCTATTATATATCTCAGAAGGCCGGGCACCCG
+CCACGGTCAATACCGGAGAACTCCGATGATGCAAACAGAACTTAATCCCCTGATCTGCTCCCTGGTCGCCACCCCTCG
+CCGTATGGCTGCAATGCCCCGCTATGTAGGCCGTTTCTATGTGGTTTTCGAGTCGATGCTTTACCAGCAAATGAAAGG
+GCTCTGCCGCGAGTATCGCGGGGCTTATTGGCTTATGTGGGAGCTGTCGAACGGCGGCTTTTATATGGCTCCTGGGCG
+TCGTGATGAAATGCTGAACATCGAGGCCATGAACTACTTTAGTGGCCAAATGAGCGCCGATGCTGCCGGGATTACCGC
+TTGCCTCTACCTCTATAGCCATCTGTCATTTCACACAGAAGGCGCTGACCAGGAGCGGTTTTCAAGGCTGTATCACAG
+CTTGCGGGATTGGGCTTGTGAGCATGACGAAAAAGAGGCCATCTTGGCCGCAATAGACTAGCAACAGAAAGCCCCGGT
+GATGGCCGGGGCTCTTAAAGGAGGTGCATAGGTAGAAAAAGAAATGGTGCCCCTGGTATGGCTGCAACCAATCACAGG
+GGCTTTCACCGGTCAATTTGAGGATAAACGCGATGAATACGGATATTGTATCACTTGCAAAACACATTGGCGACGCTC
+TGACGGCCCGCCGCCCCGTTCATATGCCGCGCATGAAGATGCGGGAGCTTGGCTTGCTCTTGATTGAACTGAAGGCGT
+ATCGGGAGGCCGCCGCGACCGTTACCCATTGATAAAAAAGCCCCGGCATTGACCGGGGCTATTTGAGGATTTATCGCA
+TGATTAGACCTGAAACGCTTAGGCCGTTCGCTGAAGATTGGCAGGCTCCAACCGCCGATGAAATCAAAGAGGTGTTGG
+AGCTGATTAGGCAACGAAAAGGGCTTAGTAAGCCTCTCAGTGGCGTTGATGTCGCTGATCTCGTTGGTTTGCCTGGTG
+AGAGAGGCAGCGGAAAGGGAACCCGAACCTTCAGGCGTTGGGTGAGCAAAACCAACCCTAGCCCTATTGCTTATGGTG
+CCTGGTCTATCTTGGCCCACCTGGCAGGTTTCGGGGCTATATGGGACGCTGACCGGGATTGAAACCATGACCGAACAT
+AAGGCCGAACGTGCTCCCTGGGGAGACTTCCCGGCAGTAGTGAGGAACGGCGATCTAAAGGATCTCTCTAAAGAACCT
+GAATACGAAGCCGCCAAACATGGCGACCACAAGGCGATGAGCTATAAGCGCATGAAGCCGGCCGAGGACGAATTGCAT
+TGCGAGATCAAGGCGCTGCTTGATCGCGCCAAGGCTACCGACGACCAGGAGCGTAACGAGCCGGAGCTGGACATTCCT
+GCCGAGATTTCTCGCCGCGAGAAGCGCCTGGAGGCGATCCAGGCGGCAAAGGCGCGCCTGGAAGCGCGCCAGCGTGAA
+GCGGACCAGGCCCGGGGGCGCAGCGAAGACGATGGCCGCCGGCCTCGCCATCCGGATGGCTCGGACAAGGGCGGTGGC
+TCGTACAAACGCGAGTTTGGTGTGCCGGATGACCGTGATCAGGAAAGCTTCACCGATCCGGACAGCCGGATCATGAAA
+CACGCCGGTGGTGGCTCCGAGCAGAGCTACAACGGGTACACAGCGGTCGATGCCGAGCACCAGATCATCGTGGCGGCG
+GAGTTGACCAACTGCGCCGCGGACAGTCAGGCGCTGCTGGGCATGCTGGCAGCAGTTCAGGCCAACACCGGAGAAATG
+CCGGCCCAGACGCTGGCGGATGCGGGATTCCGTAGTGAGGCTGTTCTGGCAAAGGTCGCCGATCACCACGGCGATGTC
+ATCGTTGCCCTCGGCCGCGAGGGACGTGAAGATGCCAAGGTCAATGCCAAGACCCATCCGCATACGGCGGCGATTGCG
+GCGAAATTGAAAACGGAGCAAGGCGATGCAGCTTACCGCCGGCGCAAGTCGATCGTGGAGGCTCCGAATGGTTGGATC
+AAGGCGGTGATGGGATTGCGTCAGTTCAGCATGAGGGGCCTGGACAAGGTGCAAGCCGAGTGGAAGCTCGTCTGCATG
+GCGCTAAATCTGAGGCGAATGGCGTATCTGTGAGGGCGAAGGTTAAATGGGGCGGCTCAAATGCACCCCAGTCGTCAT
+AACACGCCGCGCGCCGCAAGATTGGTATCCTTGGCGCCGACGCCTTGCCAATTGCAGAGAGCGCCGCCGCCATCGTCA
+GTGCTCTACAGAAAACCGGTCACACGGCTCTGCCGCGCAGACTCCTAGCCTAAATGTGACAGTGGTTGGTAATCCATG
+CCGCCCGCAAGGGCGGCGGTGGTGGGCCAATAGATGATTTTCAGAGCCTTACTGCCCGTTGACGCCCAATCCCTCGAG
+CGCGAGTCTAGCCGCAGCGGCGATGACGGCCTCGCTGTGCTTGTCATCCTTGTTAGGCGCCCGGGTGTAGACGGCCAA
+CACAATAGGTGCGCGCCCAGTGGGCCAGACGACGGCATAGTCATTTGCCGTGCCATACACTCCGCAGGTTCCGGTTTT
+GTCTCCGACTGCCCAGTCTGCCGGCACCGCCGCGCGGATGCGGTGGTTGCCGGTCGTGTTTCCCTTTAGCCAATCAAC
+AAACTGCTGCCGCTGCGGCGCAGCCAGTGCAGAGCCCAGTGTCAGTTTTTGTAAGCTTTCCGTCACGGCGCGCGGCGA
+TGAGGTATCGCGCGCATCGCCTGGGATGGCGGAGTTCAGCTCCAGCTCCCAGCGGTCCAGACGGAACGTGGTATCGCC
+GATAGAGCGCATGAAGGCCGTCAGCCCGGCCGGGCCGCCCAACTCCTTCAGCAACAAATTGGCGGCGGCGTTATCACT
+GTATTGCACGGCGGCCGCGGACAGCTCCGCCACCGTCATGCCTGTTGTCAGATATTTTTCCGAGATGGGTGACCACGG
+AACCAGCGCATTTTTGCCGTAACGGATGGGTGTGTCCAGCAAGCCGGCCTGCTGCTGGCTGCGAGCCAGCACAGCGGC
+AGCAAGAAAGCCCTTGAATGAGCTGCACAGTGGGAAGCGCTCCTCAGCGCGGTAACTTACAGTTGCGCCTGAGCCGGT
+ATCCATCGCGTACACACCGATGGAGCCGCCAAAGTCCTGTTCGAGTTTAGCGAATGGTTCCGCGACGAGGTTGGTCAG
+CGCGGTGGCAGAAAAGCCAGCCAGCGGCCATGAGAGACAAGACAGCAGAACTAGACGGCGATACAGTGACATCAACGA
+TATTCCTTGTTTGAAGGTGGAGCTAGGTGTAGCGGCCGGATGTAATCAGGCCGCTACAGCTGGGATTAGGGGTCTGAC
+GCTCAGTGGAACGAAAACTCACGTTAAGAAGTCATTTTTCAATATTATTGAAGCATTTATCAGGGTTATTGTCTCATG
+AGCGGATACATATTTGAATGTATTTAGAAAAATAAACAAATAGGGGTTCCGCGCACATTTCCCCGAAAAGTGCCACCT
+GACGTCTAAGAAACCATTATTATCATGACATTAACCTATATGTCAAGACCCGGCTGGTTATACACGCGTTTCCTGAAC
+AATTCAGGGCGTTTTTCATGCCATTCCTTGAGCGCCTGAACGGGTGTTTTGTGTTGGAGCGCGCGTTGCGGAATGCTG
+TGGTTGTAGATCTTGACGTAATTGCGCAGCGTCGATTCCAGTTCGGCAGCTGAACCAAAACGGGTCTGGTTGACGATG
+TCGCTGATACGACCGTTGAAGCGCTCCACCATGCCGTTGGTCTGCGGATGACGAGGCGGGATGAGCCGGTGCTCGATG
+CCGAGCTGCTTGCACAGGCGGTCGAACACGTGTGTGCCGCTGGGTTCCTTCTTCTTGCCGCCAGCCGTGAAGCGGTCG
+GTGAACTGGCTGCCGTTGTCGGTCAGAAGCTTGACGATCTTGACGGGACAGGCTTGCTGGACTTTGTTGAGGAAGTCG
+CCACTGCTGCCATCGGTCTGGTCGGCATAGAGCTCGATGAAGACCCAGCGCGTAGCACGGTCGATGGCAACGAAGAGA
+TAGCGCCTTGCCGTCTCGTCGGGCATCTGCGGCAGGTACTTGATGTCGATGTGCACAAAGCCCGGCTCGTAGTCCTTG
+AAGGTCTTTTTCGTGGCGGGCGCAGTGCCTTCCTGCTCGACCAGGTTACGTAGATCCGAGACACCGTGGCGGCGCAGG
+CAACGTCCCAGGCCGGCACGCGAGACGGCTGGATTGATGAACTCGCGCGTGACCGCCAGCAGGTCGTCCGTGGGCAGC
+AGCAACGTCTTGCGCAGCTCCACCACGATGAGCTCCTGCTCGGGCGTGAGCGTCGTGTACATCTTGTTCGGCGCATGC
+GACTTGTCTTCAGGAGACTCGCGGTTTTGCCACTTTCGGATGGTTTGGCGGGTGACGTTGTACATCCTGGCCAGTTCG
+GCCTGCGGGAGCGTCGAGTTCCTGATTTCCTCACGGATCAGGTGGGTAGTACGGGCTTGGCTGTGCAGTGCCTGGGTC
+ATCGAGTTGCCAGTGAAGAGTCGGATTGGAACAGTGTACGCAAAACGTGTCTGGCCTTGAAGAGCGGCCAGCTACGCA
+TGGGTACATGATCCCACGAGTCCAGACACCTATAAAAATAGGCGTATCACGAGGCCCTTTCGTCTTCAAGAATTTTAT
+AAACCGTGGAGCGGGCAATACTGAGCTGATGAGCAATTTCCGTTGCACCAGTGCCCTTCTGATGAAGCGTCAGCACGA
+CGTTCCTGTCCACGGTACGCCTGCGGCCAAATTTGATTCCTTTCAGCTTTGCTTCCTGTCGGCCCTCATTCGTGCGCT
+CTAGGATCCTCCGGCGTTCAGCTTGTGCCACAGCCGACAGGATGGTGACCACCATTTGCCCCATATCACCGTCGGTAC
+TGATCCCGTCGTCAATAAACCGAACCGCGACACCCTGAGCATCAAACTCTTTTATCAGTTGGATCATGTCGGCGGTGT
+CGCGGCCAAGACGGTCGAGCTTCTTCACCAGAATGACATCACCTTCCTCCACCTTCATCCTCAGCAAATCCAGCCCTT
+CCCGATCTGTTGAACTGCCGGATGCCTTGTCGGTAAAGATGCTGGCACTGTTGCAAAGTTAGCGATGAGGCAGCCTTT
+TGTCTTATTCAAAGGCCTTACATTTCAAAAACTCTGCTTACCAGGCGCATTTCGCCCAGGGGATCACCATAATAAAAT
+GCTGAGGCCTGGCCTTTGCGTAGTGCACGCATCACCTCAATACCTTTGATGGTGGCGTAAGCCGTCTTCATGGATTTA
+AATCCCAGCGTGGCGTTGATTATCCGTTTCAGTTTGCCATGATCGCATTCAATCACGTTGTTCCGGTACTTAATCTGT
+CGGTGTTCAACGTCAGACGGGCACCGGCCTTCGCGTTTGAGCAGAGCAAGCGCGCGACCATAGGCGGGCGCTTTATCC
+GTGTTGATGAATCGCGGGATCTGCCACTTCTTCACGTTGTTGAGGATTTTACCCAGAAACCGGTATGCAGCTTTGCTG
+TTACGACGGGAGGAGAGATAAAAATCGACAGTGCGGCCCCGGCTGTCGACGGCCCGGTACAGATACGCCCAGCGGCCA
+TTGACCTTCACGTAGGTTTCATCCATGTGCCACGGGCAAAGATCGGAAGGGTTACGCCAGTACCAGCGCAGCCGTTTT
+TCCATTTCAGGCGCATAACGCTGAACCCAGCGGTAAATCGTGGAGTGATCGACATTCACTCCGCGTTCAGCCAGCATC
+TCCTGCAGCTCACGGTAACTGATGCCGTATTTGCAGTACCAGCGTACGGCCCACAGAATGATGTCACGCTGAAAATGC
+CGGCCTTTGAATGGGTTCATGTGCAGCTCCATCAGCAAAAGGGGATGATAAGTTTATCACCACCGACTATTTGCAACA
+GTGCCCATCGGCGTAGTAGTGGATGTGGTCGATGACAAAGCCGGTGCGGGTCAGCGTGCGCCGGAGGATCGGCAGAAA
+ATCGACCAGGAACGAAGTAGCGCGTGTGACGACGGCCGGTACGCCGACACGCGCCACGGCCTCGGCCCAGCGCGCGGC
+CGGCGGTTGGAGCAGGCCGTTGTGCACCGAACCGTGGTAGGTGCCGACCGCCAATGTGAGCCAGCGCTCTAGCTCGCG
+CAGCGTCAGGGCGGCCTTGTTTTCGGAATCGTAGTCGCCGCGCTGGTCAGGGTTGGAGAAGGTCGTTCCCGGCAGTTC
+GTCGTGAATCATCTGCATCGCCGTGCCGATGATCCGTTCCACGATGCCGCCATAGTGCGGCTGTCCCAGCGGGCGATA
+GTCCAGCCGGATGCCATGCTGCTCGCAACCCCGGCGCAGGGCCTCGCTCTTGAACTCGGCCGCGTTGTCTAGGTAGAG
+CAGCAAGGGCTTGCCGCTCATCTGCCAATCCATTTCCACGTTCAGTCCTTCCAGCCAAGGGCGCTTGTCGCAGGCGAC
+ATGCACGAGGCACAGGCCAACCGAAACGGCAGACGGCGCTTCCAGCGTGACGACCATGCCGAGCACGCAGCGGGTGAA
+CACGTCGATGGCGAGGGTCAGGTACGGGCGGCCAATAGGTTGCCGGTCGCGGTCATCGACCACGATCAGGTCGATGAC
+CGTATGGTCTATCTGCACCTGCTCCAGCGGCGCGGTCACGGCAGGAGGCTCGCCGCCCACACCTTGTAGGTCACGAGC
+GGCATCCTGGCCTTCCCGCCGGCGGATGACCTTGCGCGGGTCAAGGCTAGCGATCCGTAAGGCCACGGTATTGCGCGC
+CGGCACTCGCAGTTTTTGAGCCTTGCACACCTGAGTGACTTCGCGGTGAAAGGCCGCTAGGCTGCGCTTCTGCTTGGT
+CAGGAACCGCTTTTGCAGTAGCTCGTGGATGACGCGCTCGACCGGTTCCGGCAAGCGCCCCTTACCTTTACCTCCACC
+GGACTGGCCGGGCACCAGATCCGTCACGAGGCCGCTGCCTTGCCGGGCACGCCGGATCAGAACGTATACCTGGCGCCG
+AGACAAGCCCAGCGCCTGAGCCGCCATATCGGCCGCTTCGTGCCCGACCGTCTCCGACTGCGCCAACGGACTGATGAT
+CTCCGCACGACGGCGCGCACGCTCCCAAGCCTCATCAGGCAGAGTGGCCACGCCTTGTTCTGGAATCCGTGGGGTGTC
+CGTCGCCATGCTCACCTCGCTTTGGTGCACACGAGTATTGAGCATAGTCGAGATTGGTGCAGATCACTTCTGATATTG
+AACTGTCAGGAGCTGGCTGCACAACAGCCATTACGCCCAATCAACTGGTGCAGTCGTCTTCTGAAAAT" } } ,
+        seq {
+          id {
+            local
+              str "KF724507.1_1" } ,
+          descr {
+            title "hypothetical protein HHJLCAPH_00001 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 988 ,
+            seq-data
+              ncbieaa "MPRRLILSATERDTLLALPESQDDLIRYYTFNDSDLSLIRQRRGDANRLGFAVQL
+CLLRYPGYALGTDSELPEPVILWVAKQVQAEPASWAKYGERDVTRREHAQELRTYLQLAPFGLSDFRALVRELTELAQ
+QTDKGLLLAGQALESLRQKRRILPALSVIDRACSEAIARANRRVYRALVEPLTDSHRAKLDELLKLKAGSSITWLTWL
+RQAPLKPNSRHMLEHIERLKTFQLVDLPEGLGRHIHQNRLLKLAREGGQMTPKDLGKFEPQRRYATLAAVVLESTATV
+IDELVDLHDRILVKLFSGAKHKHQQQFQKQGKAINDKVRLYSRIGQALLEAKESGSDPYAAIEAVIPWDEFTESVSEA
+ELLARPEGFDHLHLVGENFATLRRYTPALLEVLELRAAPAAQGVLAAVQTLREMNADNLRKVPADAPTAFIKPRWKPL
+VITPEGLDRKFYEICALSELKNALRSGDIWVKGSRQFRDFDDYLLPAEKFAALKREQALPLAINPNSDQYLEERLQLL
+DEQLATVTRLAKDNELPDAILTESGLKITPLDAAVPDRAQALIDQTSQLLPRIKITELLMDVDDWTGFSRHFTHLKDG
+AEAKDRTLLLSAILGDAINLGLTKMAESSPGLTYAKLSWLQAWHIRDETYSAALAELVNHQYRHAFAAHWGDGTTSSS
+DGQRFRAGGRGESTGHVNPKYGSEPGRLFYTHISDQYAPFSTRVVNVGVRDSTYVLDGLLYHESDLRIEEHYTDTAGF
+TDHVFALMHLLGFRFAPRIRDLGETKLYVPQGVQAYPTLRPLIGGTLNIKHVRAHWDDILRLASSIKQGTVTASLMLR
+KLGSYPRQNGLAVALRELGRIERTLFILDWLQSVELRRRVHAGLNKGEARNSLARAVFFNRLGEIRDRSFEQQRYRAS
+GLNLVTAAIVLWNTVYLERATQGLVEAGKPVDGELLQFLSPLGWEHINLTGDYVWRQSRRLEDGKFRPLRMPGKP" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 14 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 987 ,
+                        id
+                          local
+                            str "KF724507.1_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "KF724507.1_2" } ,
+          descr {
+            title "DNA-invertase hin [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 186 ,
+            seq-data
+              ncbieaa "MQGHRIGYVRVSSFDQNPERQLEQTQVSKVFTDKASGKDTQRPQLEALLSFVREG
+DTVVVHSMDRLARNLDDLRRLVQKLTQRGVRIEFLKEGLVFTGEDSPMANLMLSVMGAFAEFERALIRERQREGIALA
+KQRGAYRGRKKALSDEQAATLRQRATAGEPKAQLAREFNISRETLYQYLRTDD" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 15 ,
+                    data
+                      prot {
+                        name {
+                          "DNA-invertase hin" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 185 ,
+                        id
+                          local
+                            str "KF724507.1_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "KF724507.1_3" } ,
+          descr {
+            title "hypothetical protein HHJLCAPH_00003 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 186 ,
+            seq-data
+              ncbieaa "MRHLFWRLNFLLLSGATNSAQMYHEAAALSSELDTRWSYRSKELMTLYSKAKSYE
+AGERVEFGGKSFAPLYTPKNDTLINLFQISQQEQEQLKTIISTDEAQKRRRERDRLRDEERRRAAGQLEREAYEANSL
+SRQKPWEAMGMSRAKWYRLGKPSPQQNSETSPSPITNGEASAVALQAARCKAV" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 16 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 185 ,
+                        id
+                          local
+                            str "KF724507.1_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "KF724507.1_4" } ,
+          descr {
+            title "hypothetical protein HHJLCAPH_00004 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 92 ,
+            seq-data
+              ncbieaa "MIHTANRTFHQLYREWIRERREHMHNVLTWERDRYGARLVGLFYRYCKVANPFPR
+CTLNTRINYRAHAVNLPDWPARSLELNKMWLSWREKK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 17 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 91 ,
+                        id
+                          local
+                            str "KF724507.1_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "KF724507.1_5" } ,
+          descr {
+            title "Antirestriction protein KlcA [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 141 ,
+            seq-data
+              ncbieaa "MMQTELNPLICSLVATPRRMAAMPRYVGRFYVVFESMLYQQMKGLCREYRGAYWL
+MWELSNGGFYMAPGRRDEMLNIEAMNYFSGQMSADAAGITACLYLYSHLSFHTEGADQERFSRLYHSLRDWACEHDEK
+EAILAAID" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 18 ,
+                    data
+                      prot {
+                        name {
+                          "Antirestriction protein KlcA" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 140 ,
+                        id
+                          local
+                            str "KF724507.1_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "KF724507.1_6" } ,
+          descr {
+            title "hypothetical protein HHJLCAPH_00006 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 51 ,
+            seq-data
+              ncbieaa "MNTDIVSLAKHIGDALTARRPVHMPRMKMRELGLLLIELKAYREAAATVTH" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 19 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 50 ,
+                        id
+                          local
+                            str "KF724507.1_6" } } } } } } ,
+        seq {
+          id {
+            local
+              str "KF724507.1_7" } ,
+          descr {
+            title "hypothetical protein HHJLCAPH_00007 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 98 ,
+            seq-data
+              ncbieaa "MIRPETLRPFAEDWQAPTADEIKEVLELIRQRKGLSKPLSGVDVADLVGLPGERG
+SGKGTRTFRRWVSKTNPSPIAYGAWSILAHLAGFGAIWDADRD" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 20 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 97 ,
+                        id
+                          local
+                            str "KF724507.1_7" } } } } } } ,
+        seq {
+          id {
+            local
+              str "KF724507.1_8" } ,
+          descr {
+            title "hypothetical protein HHJLCAPH_00008 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 326 ,
+            seq-data
+              ncbieaa "MTEHKAERAPWGDFPAVVRNGDLKDLSKEPEYEAAKHGDHKAMSYKRMKPAEDEL
+HCEIKALLDRAKATDDQERNEPELDIPAEISRREKRLEAIQAAKARLEARQREADQARGRSEDDGRRPRHPDGSDKGG
+GSYKREFGVPDDRDQESFTDPDSRIMKHAGGGSEQSYNGYTAVDAEHQIIVAAELTNCAADSQALLGMLAAVQANTGE
+MPAQTLADAGFRSEAVLAKVADHHGDVIVALGREGREDAKVNAKTHPHTAAIAAKLKTEQGDAAYRRRKSIVEAPNGW
+IKAVMGLRQFSMRGLDKVQAEWKLVCMALNLRRMAYL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 21 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 325 ,
+                        id
+                          local
+                            str "KF724507.1_8" } } } } } } ,
+        seq {
+          id {
+            local
+              str "KF724507.1_9" } ,
+          descr {
+            title "Carbapenem-hydrolyzing beta-lactamase KPC [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 293 ,
+            seq-data
+              ncbieaa "MSLYRRLVLLSCLSWPLAGFSATALTNLVAEPFAKLEQDFGGSIGVYAMDTGSGA
+TVSYRAEERFPLCSSFKGFLAAAVLARSQQQAGLLDTPIRYGKNALVPWSPISEKYLTTGMTVAELSAAAVQYSDNAA
+ANLLLKELGGPAGLTAFMRSIGDTTFRLDRWELELNSAIPGDARDTSSPRAVTESLQKLTLGSALAAPQRQQFVDWLK
+GNTTGNHRIRAAVPADWAVGDKTGTCGVYGTANDYAVVWPTGRAPIVLAVYTRAPNKDDKHSEAVIAAAARLALEGLG
+VNGQ" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 22 ,
+                    data
+                      prot {
+                        name {
+                          "Carbapenem-hydrolyzing beta-lactamase KPC" } ,
+                        ec {
+                          "3.5.2.6" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 292 ,
+                        id
+                          local
+                            str "KF724507.1_9" } } } } } } ,
+        seq {
+          id {
+            local
+              str "KF724507.1_10" } ,
+          descr {
+            title "hypothetical protein HHJLCAPH_00010 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 326 ,
+            seq-data
+              ncbieaa "MTQALHSQARTTHLIREEIRNSTLPQAELARMYNVTRQTIRKWQNRESPEDKSHA
+PNKMYTTLTPEQELIVVELRKTLLLPTDDLLAVTREFINPAVSRAGLGRCLRRHGVSDLRNLVEQEGTAPATKKTFKD
+YEPGFVHIDIKYLPQMPDETARRYLFVAIDRATRWVFIELYADQTDGSSGDFLNKVQQACPVKIVKLLTDNGSQFTDR
+FTAGGKKKEPSGTHVFDRLCKQLGIEHRLIPPRHPQTNGMVERFNGRISDIVNQTRFGSAAELESTLRNYVKIYNHSI
+PQRALQHKTPVQALKEWHEKRPELFRKRVYNQPGLDI" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 23 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 325 ,
+                        id
+                          local
+                            str "KF724507.1_10" } } } } } } ,
+        seq {
+          id {
+            local
+              str "KF724507.1_11" } ,
+          descr {
+            title "Transposon Tn3 resolvase [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 133 ,
+            seq-data
+              ncbieaa "MKVEEGDVILVKKLDRLGRDTADMIQLIKEFDAQGVAVRFIDDGISTDGDMGQMV
+VTILSAVAQAERRRILERTNEGRQEAKLKGIKFGRRRTVDRNVVLTLHQKGTGATEIAHQLSIARSTVYKILEDERAS
+" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 24 ,
+                    data
+                      prot {
+                        name {
+                          "Transposon Tn3 resolvase" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 132 ,
+                        id
+                          local
+                            str "KF724507.1_11" } } } } } } ,
+        seq {
+          id {
+            local
+              str "KF724507.1_12" } ,
+          descr {
+            title "hypothetical protein HHJLCAPH_00012 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 234 ,
+            seq-data
+              ncbieaa "MNPFKGRHFQRDIILWAVRWYCKYGISYRELQEMLAERGVNVDHSTIYRWVQRYA
+PEMEKRLRWYWRNPSDLCPWHMDETYVKVNGRWAYLYRAVDSRGRTVDFYLSSRRNSKAAYRFLGKILNNVKKWQIPR
+FINTDKAPAYGRALALLKREGRCPSDVEHRQIKYRNNVIECDHGKLKRIINATLGFKSMKTAYATIKGIEVMRALRKG
+QASAFYYGDPLGEMRLVSRVFEM" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 25 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 233 ,
+                        id
+                          local
+                            str "KF724507.1_12" } } } } } } ,
+        seq {
+          id {
+            local
+              str "KF724507.1_13" } ,
+          descr {
+            title "Transposon Tn7 transposition protein TnsB [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 422 ,
+            seq-data
+              ncbieaa "MATDTPRIPEQGVATLPDEAWERARRRAEIISPLAQSETVGHEAADMAAQALGLS
+RRQVYVLIRRARQGSGLVTDLVPGQSGGGKGKGRLPEPVERVIHELLQKRFLTKQKRSLAAFHREVTQVCKAQKLRVP
+ARNTVALRIASLDPRKVIRRREGQDAARDLQGVGGEPPAVTAPLEQVQIDHTVIDLIVVDDRDRQPIGRPYLTLAIDV
+FTRCVLGMVVTLEAPSAVSVGLCLVHVACDKRPWLEGLNVEMDWQMSGKPLLLYLDNAAEFKSEALRRGCEQHGIRLD
+YRPLGQPHYGGIVERIIGTAMQMIHDELPGTTFSNPDQRGDYDSENKAALTLRELERWLTLAVGTYHGSVHNGLLQPP
+AARWAEAVARVGVPAVVTRATSFLVDFLPILRRTLTRTGFVIDHIHYYADGHCCK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 26 ,
+                    data
+                      prot {
+                        name {
+                          "Transposon Tn7 transposition protein TnsB" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 421 ,
+                        id
+                          local
+                            str "KF724507.1_13" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KF724507.1_1" ,
+                location
+                  int {
+                    from 234 ,
+                    to 3200 ,
+                    strand minus ,
+                    id
+                      local
+                        str "KF724507.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HHJLCAPH_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KF724507.1_2" ,
+                location
+                  int {
+                    from 3204 ,
+                    to 3764 ,
+                    strand minus ,
+                    id
+                      local
+                        str "KF724507.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P03013" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "hin" ,
+                        locus-tag "HHJLCAPH_00002" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KF724507.1_3" ,
+                location
+                  int {
+                    from 4213 ,
+                    to 4773 ,
+                    strand plus ,
+                    id
+                      local
+                        str "KF724507.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HHJLCAPH_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KF724507.1_4" ,
+                location
+                  int {
+                    from 5307 ,
+                    to 5585 ,
+                    strand plus ,
+                    id
+                      local
+                        str "KF724507.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HHJLCAPH_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KF724507.1_5" ,
+                location
+                  int {
+                    from 5696 ,
+                    to 6121 ,
+                    strand plus ,
+                    id
+                      local
+                        str "KF724507.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P52603" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "klcA" ,
+                        locus-tag "HHJLCAPH_00005" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KF724507.1_6" ,
+                location
+                  int {
+                    from 6249 ,
+                    to 6404 ,
+                    strand plus ,
+                    id
+                      local
+                        str "KF724507.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HHJLCAPH_00006" } } } } ,
+              {
+                id
+                  local
+                    id 7 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KF724507.1_7" ,
+                location
+                  int {
+                    from 6450 ,
+                    to 6746 ,
+                    strand plus ,
+                    id
+                      local
+                        str "KF724507.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HHJLCAPH_00007" } } } } ,
+              {
+                id
+                  local
+                    id 8 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KF724507.1_8" ,
+                location
+                  int {
+                    from 6751 ,
+                    to 7731 ,
+                    strand plus ,
+                    id
+                      local
+                        str "KF724507.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HHJLCAPH_00008" } } } } ,
+              {
+                id
+                  local
+                    id 9 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KF724507.1_9" ,
+                location
+                  int {
+                    from 7981 ,
+                    to 8862 ,
+                    strand minus ,
+                    id
+                      local
+                        str "KF724507.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:Q9F663" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "bla" ,
+                        locus-tag "HHJLCAPH_00009" } } } } ,
+              {
+                id
+                  local
+                    id 10 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KF724507.1_10" ,
+                location
+                  int {
+                    from 9138 ,
+                    to 10118 ,
+                    strand minus ,
+                    id
+                      local
+                        str "KF724507.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HHJLCAPH_00010" } } } } ,
+              {
+                id
+                  local
+                    id 11 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KF724507.1_11" ,
+                location
+                  int {
+                    from 10241 ,
+                    to 10642 ,
+                    strand minus ,
+                    id
+                      local
+                        str "KF724507.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P0ADI2" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "tnpR" ,
+                        locus-tag "HHJLCAPH_00011" } } } } ,
+              {
+                id
+                  local
+                    id 12 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KF724507.1_12" ,
+                location
+                  int {
+                    from 10758 ,
+                    to 11462 ,
+                    strand minus ,
+                    id
+                      local
+                        str "KF724507.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "HHJLCAPH_00012" } } } } ,
+              {
+                id
+                  local
+                    id 13 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KF724507.1_13" ,
+                location
+                  int {
+                    from 11509 ,
+                    to 12777 ,
+                    strand minus ,
+                    id
+                      local
+                        str "KF724507.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P13989" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "tnsB" ,
+                        locus-tag "HHJLCAPH_00013" } } } } } } } } } }

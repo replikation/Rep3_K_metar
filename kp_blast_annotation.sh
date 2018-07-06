@@ -14,10 +14,10 @@ blast()
 echo "                                                ____________________________"
 echo -e "_______________________________________________/ blastn annotation ${RED}- beta - ${NC}\___"
 echo " "
-plasmidlist=$(ls plasmid_files/)
+plasmidlist=$(ls -I "*_results" plasmid_files/)
 while IFS= read -r z || [[ -n "$z" ]]; do
     echo "  Blasting contig $z against resistance database" 
-    blastn -query plasmid_files/$z -db $SCRIPTPATH/db_bioprj_313047/resistance_db -out blast_results/${z%.fasta}.blast -outfmt "6 qseqid length qstart qend sstrand stitle evalue mismatch" -num_threads $CPU -culling_limit 1 -evalue 0.0000000000000000001 
+    blastn -query plasmid_files/$z -db $SCRIPTPATH/db_bioprj_313047/resistance_db -out blast_results/${z%.fasta}.blast -outfmt "6 qseqid length qstart qend sstrand stitle evalue mismatch" -num_threads $CPU -culling_limit 1 -evalue 10E-150
     done < <(printf '%s\n' "$plasmidlist")
 }
 

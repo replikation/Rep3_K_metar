@@ -1,0 +1,501 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14-dev from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 6 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 29 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2018 } } } ,
+        create-date
+          std {
+            year 2018 ,
+            month 6 ,
+            day 29 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "KP870110.1" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 5632 ,
+            seq-data
+              iupacna "GATCCCTCTAAAGAACCAATTCACTAGTGAGGGGCGGCAGCGCATCAAGCGGTGA
+GCGCACTCCGGCACCGCCAACTTTCAGCACATGCGTGTAAATCATCGTCGTAGAGACGTCGGAATGGCCGAGCAGATC
+CTGCACGGTTCGAATGTCGTAACCGCTGCGGAGCAAGGCCGTCGCGAACGAGTGGCGGAGGGTGTGCGGTGTGGCGGG
+CTTCGTGATGCCTGCTTGTTCTACGGCACGTTTGAAGGCGCGCTGAAAGGTCTGGTCATACATGTGATGGCGACGCAC
+GACACCGCTCCGTGGATCGGTCGAATGCGTGTGCTGCGCAAAAACCCAGAACCACGGCCAGGAATGCCCGGCGCGCGG
+ATACTTCCGCTCAAGGGCGTCGGGAAGCGCAACGCCGCTGCGGCCCTCGGCCTGGTCCTTCAGCCACCATGCCCGTGC
+ACGCGACAGCTGCTCGCGCAGGCTGGGTGCCAAGCTCTCGGGTAACATCAAGGCCCGATCCTTGGAGCCCTTGCCCTC
+CCGCACGATGATCGTGCCGTGATCGAAATCCAGATCCTTGACCCGCAGTTGCAAACCCTCACTGATCCGCATGCCCGT
+TCCATACAGAAGCTGGGCGAACAAACGATGCTCGCCTTCCAGAAAACCGAGGATGCGAACCACTTCATCCGGGGTCAG
+CACCACCGGCAAGCGCCGCGACGGCCGAGGTCTTCCGATCTCCTGAAGCCAGGGCAGATCCGTGCACAGCACCTTGCC
+GTAGAAGAACAGCAAGGCCGCCAATGCCTGACGATGCGTGGAGACCGAAACCTTGCGCTCGTTCGCCAGCCAGGACAG
+AAATGCCTCGACTTCGCTGCTGCCCAAGGTTGCCGGGTGACGCACACCGTGGAAACGGATGAAGGCACGAACCCAGTG
+GACATAAGCCTGTTCGGTTCGTAAACTGTAATGCAAGTAGCGTATGCGCTCACGCAACTGGTCCAGAACCTTGACCGA
+ACGCAGCGGTGGTAACGGCGCAGTGGCGGTTTTCATGGCTTGTTATGACTGTTTTTTTGTACAGTCTATGCCTCGGGC
+ATCCAAGCAGCAAGCGCGTTACGCCGTGGGTCGATGTTTGATGTTATGGAGCAGCAACGATGTTACGCAGCAGGGCAG
+TCGCCCTAAAACAAAGTTAGATGCACTAAGCACATAATTGCTCACAGCCAAACTATCAGGTCAAGTCTGCTTTTATTA
+TTTTTAAGCGTGCATAATAAGCCCTACACAAATTGGGAGTTAGACATCATGGAGTCTTGGGGCGAAGGTTAAATGGGG
+CGGCTCAAATGCACCCCAGTCGTCATAACACGCCGCGCGCCGCAAGATTGGTATCCTTGGCGCCGACGCCTTGCCAAT
+TGCAGAGAGCGCCGCCGCCATCGTCAGTGCTCTACAGAAAACCGGTCACACGGCTCTGCCGCGCAGACTCCTAGCCTA
+AATGTGACAGTGGTTGGTAATCCATGCCGCCCGCAAGGGCGGCGGTGGTGGGCCAATAGATGATTTTCAGAGCCATGT
+CACTGTATCGCCGTCTAGTTCTGCTGTCTTGTCTCTCATGGCCGCTGGCTGGCTTTTCTGCCACCGCGCTGACCAACC
+TCGTCGCGGAACCATTCGCTAAACTCGAACAGGACTTTGGCGGCTCCATCGGTGTGTACGCGATGGATACCGGCTCAG
+GCGCAACTGTAAGTTACCGCGCTGAGGAGCGCTTCCCACTGTGCAGCTCATTCAAGGGCTTTCTTGCTGCCGCTGTGC
+TGGCTCGCAGCCAGCAGCAGGCCGGCTTGCTGGACACACCCATCCGTTACGGCAAAAATGCGCTGGTTCGGTGGTCAC
+CCATCTCGGAAAAATATCTGACAACAGGCATGACGGTGGCGGAGCTGTCCGCGGCCGCCGTGCAATACAGTGATAACG
+CCGCCGCCAATTTGTTGCTGAAGGAGTTGGGCGGCCCGGCCGGGCTGACGGCCTTCATGCGCTCTATCGGCGATACCA
+CGTTCCGTCTGGACCGCTGGGAGCTGGAGCTGAACTCCGCCATCCCAGGCGATGCGCGCGATACCTCATCGCCGCGCG
+CCGTGACGGAAAGCTTACAAAAACTGACACTGGGCTCTGCACTGGCTGCGCCGCAGCGGCAGCAGTTTGTTGATTGGC
+TAAAGGGAAACACGACCGGCAACCACCGCATCCGCGCGGCGGTGCCGGCAGACTGGGCAGTCGGAGACAAAACCGGAA
+CCTGCGGAGTGTATGGCACGGCAAATGACTATGCCGTCGTCTGGCCCACTGGGCGCGCACCTATTGTGTTGGCCGTCT
+ACACCCGGGCGCCTAACAAGGATGACAAGCACAGCGAGGCCGTCATCGCCGCTGCGGCTAGACTCGCGCTCGAGGGAT
+TGGGCGTCAACGGGCAGTAACAACGATATTCCTTGTTTGAAGGTGGAGCTAGGTGTAGCGGCCGGATGTAATCAGGCC
+GCTACAGCTGGGATTAGGGGTCTGACGCTCAGTGGAACGAAAACTCACGTTAAGGGATTTTGGTCATGAGATTATCAA
+AAAGGATCTTCACCTAGATCCTTTTAAATTAAAAATGAAGTTTTAAATCAATCTAAAGTATATATGAGTAAACTTGGT
+CTGACAGGATGACTGAGCATGACCTTGCGATGCTCTATGAGTGGCTAAATCGATCTCATATCGTCGAGTGGTGGGGCG
+GAGAAGAAGCACGCCCGACACTTGCTGACGTACAGGAACAGTACTTGCCAAGCGTTTTAGCGCAAGAGTCCGTCACTC
+CATACATTGCAATGCTGAATGGAGAGCCGATTGGGTATGCCCAGTCGTACGTTGCTCTTGGAAGCGGGGACGGATGGT
+GGGAAGAAGAAACCGATCCAGGAGTACGCGGAATAGACCAGTCACTGGCGAATGCATCACAACTGGGCAAAGGCTTGG
+GAACCAAGCTGGTTCGAGCTCTGGTTGAGTTGCTGTTCAATGATCCCGAGGTCACCAAGATCCAAACGGACCCGTCGC
+CGAGCAACTTGCGAGCGATCCGATGCTACGAGAAAGCGGGGTTTGAGAGGCAAGGTACCGTAACCACCCCAGATGGTC
+CAGCCGTGTACATGGTTCAAACACGCCAGGCATTCGAGCGAACACGCAGTGATGCCTAACCCTTCCATCGAGGGGGAC
+GTCCAAGGGCTGGCGCCCTTGGCCGCCCCTCATGTCAAACGTTGAACGACAGCTTTCCCAAAAGCTCTACGGCTGCTC
+TGGGTCGACACCGGTAATCGGATCGTTGCCGCACTGAACAGCGCCCCGTTCCAGGTCGCCTCCATATGAGCAACGCAG
+TGCCCGCATGAGTATTCAACATTTCCGTGTCGCCCTTATTCCCTTTTTTGCGGCATTTTGCCTTCCTGTTTTTGCTCA
+CCCAGAAACGCTGGTGAAAGTAAAAGATGCTGAAGATAAGTTGGGTGCACGAGTGGGTTACATCGAGCTGGATCTCAA
+CAGCGGTAAGATCCTTGAGAGTTTTCGCCCCGAAGAACGTTTTCCAATGATGAGCACTTTTAAAGTTCTGCTATGTGG
+TGCGGTATTATCCCGTGTTGACGCCGGGCAAGAGCAACTCGGTCGCCGCATACACTATTCTCAGAATGACTTGGTTGA
+GTACTCACCAGTCACAGAAAAGCATCTTACGGATGGCATGACAGTAAGAGAATTATGCAGTGCTGCCATAACCATGAG
+TGATAACACTGCGGCCAACTTACTTCTGACAACGATCGGAGGACCGAAGGAGCTAACCGCTTTTTTGCACAACATGGG
+GGATCATGTAACCCGCCTTGATCATTGGGAACCGGAGCTGAATGAAGCCATACCAAACGACGAGCGTGACACCACGAT
+GCCTGCAGCAATGGCAACAACGTTGCGCAAACTATTAACTGGCGAACTACTTACTCTAGCTTCCCGGCAACAATTAAT
+AGACTGGATGGAGGCGGATAAAGTTGCAGGACCACTTCTGCGCTCGGCCCTTCCGGCTGGCTGGTTTATTGCTGATAA
+ATCTGGAGCCGGTGAGCGTGGATCTCGCGGTATCATTGCAGCACTGGGGCCAGATGGTAAGCCCTCCCGTATCGTAGT
+TATCTACACGACGGGGAGTCAGGCAACTATGGATGAACGAAATAGACAGATCGCTGAGATAGGTGCCTCACTGATTAA
+GCATTGGTAAGCCATCCGTAAGATGCTTTTCTGTGACTGGTGAGTACTCAACCAAGTCATTTTTCAATATTATTGAAG
+CATTTATCAGGGTTATTGTCTCATGAGCGGATACATATTTGAATGTATTTAGAAAAATAAACAAATAGGGGTTCCGCG
+CACATTTCCCCGAAAAGTGCCACCTGACGTCTAAGAAACCATTATTATCATGACATTAACCTATATGTCAAGACCCGG
+CTGGTTATACACGCGTTTCCTGAACAATTCAGGGCGTTTTTCATGCCATTCCTTGAGCGCCTGAACGGGTGTTTTGTG
+TTGGAGCGCGCGTTGCGGAATGCTGTGGTTGTAGATCTTGACGTAATTGCGCAGCGTCGATTCCAGTTCGGCAGCTGA
+ACCAAAACGGGTCTGGTTGACGATGTCGCTGATACGACCGTTGAAGCGCTCCACCATGCCGTTGGTCTGCGGATGACG
+AGGCGGGATGAGCCGGTGCTCGATGCCGAGCTGCTTGCACAGGCGGTCGAACACGTGTGTGCCGCTGGGTTCCTTCTT
+CTTGCCGCCAGCCGTGAAGCGGTCGGTGAACTGGCTGCCGTTGTCGGTCAGAAGCTTGACGATCTTGACGGGACAGGC
+TTGCTGGACTTTGTTGAGGAAGTCGCCACTGCTGCCATCGGTCTGGTCGGCATAGAGCTCGATGAAGACCCAGCGCGT
+AGCACGGTCGATGGCAACGAAGAGATAGCGCCTTGCCGTCTCGTCGGGCATCTGCGGCAGGTACTTGATGTCGATGTG
+CACAAAGCCCGGCTCGTAGTCCTTGAAGGTCTTTTTCGTGGCGGGCGCAGTGCCTTCCTGCTCGACCAGGTTACGTAG
+ATCCGAGACACCGTGGCGGCGCAGGCAACGTCCCAGGCCGGCACGCGAGACGGCTGGATTGATGAACTCGCGCGTGAC
+CGCCAGCAGGTCGTCCGTGGGCAGCAGCAACGTCTTGCGGAGCTCCACCACGATGAGCTCCTGCTCGGGCGTGAGCGT
+CGTGTACATCTTGTTCGGCGCATGCGACTTGTCTTCAGGAGACTCGCGGTTTTGCCACTTTCGGATGGTTTGGCGGGT
+GACGTTGTACATCCTGGCCAGTTCGGCCTGCGGGAGCGTCGAGTTCCTGATTTCCTCACGGATCAGGTGGGTAGTACG
+GGCTTGGCTGTGCAGTGCCTGGGTCATCGAGTTGCCAGTGAAGAGTCGGATTGGAACAGTGTACGCAAAACGTGTCTG
+GCCTTGAAGAGCGGCCAGCTACGCATGGGTACATGATCCCACGAGTCCAGACACCTATAAAAATAGGCGTATCACGAG
+GCCCTTTCGTCTTCAAGAATTTTATAAACCGTGGAGCGGGCAATACTGAGCTGATGAGCAATTTCCGTTGCACCAGTG
+CCCTTCTGATGAAGCGTCAGCACGACGTTCCTGTCCACG" } } ,
+        seq {
+          id {
+            local
+              str "KP870110.1_1" } ,
+          descr {
+            title "Tyrosine recombinase XerD [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 339 ,
+            seq-data
+              ncbieaa "MKTATAPLPPLRSVKVLDQLRERIRYLHYSLRTEQAYVHWVRAFIRFHGVRHPAT
+LGSSEVEAFLSWLANERKVSVSTHRQALAALLFFYGKVLCTDLPWLQEIGRPRPSRRLPVVLTPDEVVRILGFLEGEH
+RLFAQLLYGTGMRISEGLQLRVKDLDFDHGTIIVREGKGSKDRALMLPESLAPSLREQLSRARAWWLKDQAEGRSGVA
+LPDALERKYPRAGHSWPWFWVFAQHTHSTDPRSGVVRRHHMYDQTFQRAFKRAVEQAGITKPATPHTLRHSFATALLR
+SGYDIRTVQDLLGHSDVSTTMIYTHVLKVGGAGVRSPLDALPPLTSELVL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 6 ,
+                    data
+                      prot {
+                        name {
+                          "Tyrosine recombinase XerD" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 338 ,
+                        id
+                          local
+                            str "KP870110.1_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "KP870110.1_2" } ,
+          descr {
+            title "Carbapenem-hydrolyzing beta-lactamase KPC [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 293 ,
+            seq-data
+              ncbieaa "MSLYRRLVLLSCLSWPLAGFSATALTNLVAEPFAKLEQDFGGSIGVYAMDTGSGA
+TVSYRAEERFPLCSSFKGFLAAAVLARSQQQAGLLDTPIRYGKNALVRWSPISEKYLTTGMTVAELSAAAVQYSDNAA
+ANLLLKELGGPAGLTAFMRSIGDTTFRLDRWELELNSAIPGDARDTSSPRAVTESLQKLTLGSALAAPQRQQFVDWLK
+GNTTGNHRIRAAVPADWAVGDKTGTCGVYGTANDYAVVWPTGRAPIVLAVYTRAPNKDDKHSEAVIAAAARLALEGLG
+VNGQ" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 7 ,
+                    data
+                      prot {
+                        name {
+                          "Carbapenem-hydrolyzing beta-lactamase KPC" } ,
+                        ec {
+                          "3.5.2.6" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 292 ,
+                        id
+                          local
+                            str "KP870110.1_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "KP870110.1_3" } ,
+          descr {
+            title "Aminoglycoside N(6')-acetyltransferase type 1 [Genus
+ species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 172 ,
+            seq-data
+              ncbieaa "MTEHDLAMLYEWLNRSHIVEWWGGEEARPTLADVQEQYLPSVLAQESVTPYIAML
+NGEPIGYAQSYVALGSGDGWWEEETDPGVRGIDQSLANASQLGKGLGTKLVRALVELLFNDPEVTKIQTDPSPSNLRA
+IRCYEKAGFERQGTVTTPDGPAVYMVQTRQAFERTRSDA" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 8 ,
+                    data
+                      prot {
+                        name {
+                          "Aminoglycoside N(6')-acetyltransferase type 1" } ,
+                        ec {
+                          "2.3.1.82" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 171 ,
+                        id
+                          local
+                            str "KP870110.1_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "KP870110.1_4" } ,
+          descr {
+            title "Beta-lactamase TEM [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 286 ,
+            seq-data
+              ncbieaa "MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDKLGARVGYIELDLNSGKIL
+ESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAA
+NLLLTTIGGPKELTAFLHNMGDHVTRLDHWEPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEA
+DKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 9 ,
+                    data
+                      prot {
+                        name {
+                          "Beta-lactamase TEM" } ,
+                        ec {
+                          "3.5.2.6" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 285 ,
+                        id
+                          local
+                            str "KP870110.1_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "KP870110.1_5" } ,
+          descr {
+            title "hypothetical protein IAFODBEC_00005 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 326 ,
+            seq-data
+              ncbieaa "MTQALHSQARTTHLIREEIRNSTLPQAELARMYNVTRQTIRKWQNRESPEDKSHA
+PNKMYTTLTPEQELIVVELRKTLLLPTDDLLAVTREFINPAVSRAGLGRCLRRHGVSDLRNLVEQEGTAPATKKTFKD
+YEPGFVHIDIKYLPQMPDETARRYLFVAIDRATRWVFIELYADQTDGSSGDFLNKVQQACPVKIVKLLTDNGSQFTDR
+FTAGGKKKEPSGTHVFDRLCKQLGIEHRLIPPRHPQTNGMVERFNGRISDIVNQTRFGSAAELESTLRNYVKIYNHSI
+PQRALQHKTPVQALKEWHEKRPELFRKRVYNQPGLDI" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 10 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 325 ,
+                        id
+                          local
+                            str "KP870110.1_5" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KP870110.1_1" ,
+                location
+                  int {
+                    from 7 ,
+                    to 1026 ,
+                    strand minus ,
+                    id
+                      local
+                        str "KP870110.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P9WF33" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "xerD" ,
+                        locus-tag "IAFODBEC_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KP870110.1_2" ,
+                location
+                  int {
+                    from 1533 ,
+                    to 2414 ,
+                    strand plus ,
+                    id
+                      local
+                        str "KP870110.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:Q9F663" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "bla_1" ,
+                        locus-tag "IAFODBEC_00002" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KP870110.1_3" ,
+                location
+                  int {
+                    from 2637 ,
+                    to 3155 ,
+                    strand plus ,
+                    id
+                      local
+                        str "KP870110.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P20092" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "aacA4" ,
+                        locus-tag "IAFODBEC_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KP870110.1_4" ,
+                location
+                  int {
+                    from 3338 ,
+                    to 4198 ,
+                    strand plus ,
+                    id
+                      local
+                        str "KP870110.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P62593" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "bla_2" ,
+                        locus-tag "IAFODBEC_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "KP870110.1_5" ,
+                location
+                  int {
+                    from 4405 ,
+                    to 5385 ,
+                    strand minus ,
+                    id
+                      local
+                        str "KP870110.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "IAFODBEC_00005" } } } } } } } } } }

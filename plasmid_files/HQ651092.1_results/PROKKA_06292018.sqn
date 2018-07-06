@@ -1,0 +1,771 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14-dev from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 6 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 29 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2018 } } } ,
+        create-date
+          std {
+            year 2018 ,
+            month 6 ,
+            day 29 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "HQ651092.1" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 6964 ,
+            seq-data
+              iupacna "AATTCTGCGGTTCCCCCTGGAAGACCTACGCAAGTTGGGCCAGCTCAGAGGTGGA
+ATCAACGAAGGCGAGCGAATGAGGCATCTTTTCTGGCGTCTTAACTTTCTCCTTCTCTCCGGGGCAACAAACAGCGCC
+CAGATGTACCATGAGGCCGCCGCTCTTTCCTCCGAGCTGGATACTCGTTGGTCTTACCGCTCCAAAGAGCTTATGACG
+CTCTACAGCAAGGCGAAATCCTATGAGGCTGGGGAACGTGTCGAGTTCGGCGGAAAGTCGTTTGCACCGCTATACACG
+CCCAAAAACGACACGCTGATCAACCTATTCCAGATCTCACAGCAAGAACAAGAGCAACTGAAGACGATTATCAGCACT
+GACGAGGCTCAGAAGCGCCGCAGAGAGCGCGATAGACTGCGTGATGAAGAACGTCGCCGCGCCGCTGGCCAGCTTGAG
+CGTGAAGCCTATGAAGCCAACTCATTGAGCAGGCAAAAGCCCTGGGAAGCTATGGGCATGAGCCGGGCTAAATGGTAT
+CGCCTGGGCAAGCCTTCACCTCAACAAAACAGTGAGACAAGTCCCTCCCCTATTACTAATGGCGAAGCCTCAGCGGTT
+GCCCTTCAGGCGGCCAGGTGTAAAGCCGTTTAGATGGCTATTTCAAAGTGAGTGAGATTTCGTAACGGATGGCAGCCC
+TAGAGGCTGCTTTCTTTTGAGGGGTTAGCAGGCGTATAGCCATGCTGGATCTCAGTCTATCACTACCTGCTTAATATT
+CCACCTTTAGATCCGGCAGCAGTTCGACCAGGTGGCCAACTTACCAGGCACCGGCAGCAGCTCGACCGGGTGGCCAAG
+TTCAGATCTGGACGCCAGAAGGAAATCAACCAGGTGGCCAACTTACCAGGCACCGGCAGCAGCTCGACCAGGTGGCCA
+AGTTCAGATCTGGACGCCAGAAGGAAATCAACCAGGTGGCCAACTCACCAGGCATCGGCAGCAGCTCGACCAGGTGGC
+CCATTTCGTACGTACGAAATCAGGCGACGCTATGCGAAATCTTGGCGGCAATCCCCCGCGACTACGTGATTTTTTTAA
+CGTAGAGCGCGCTTTTTCTTGCCATAGTAGGCCATTTTGGCCTATAATCTTAATTAAGAAGACCGGGCACCCGCCACG
+GTCAATACCGGAGAACTCCGATGATCCACACAGCTAACCGCACCTTTCACCAACTCTATCGAGAATGGATACGCGAAC
+GCCGCGAGCATATGCACAACGTTTTGACCTGGGAGCGTGATCGTTACGGTGCTCGCCTCGTCGGTCTGTTTTATCGTT
+ACTGCAAGGTGGCCAACCCCTTTCCCCGTTGCACTCTGAATACTCGGATCAACTACCGCGCCCATGCGGTGAATCTGC
+CAGATTGGCCAGCCCGCAGCCTGGAGCTGAATAAAATGTGGCTCAGTTGGAGAGAAAAAAAGTAGGCCGATTTGGCCT
+ATTTTTTATTGTACCCGCTTGACACAATAGGCCAAAATGGCCTATTATATATCTCAGAAGGCCGGGCACCCGCCACGG
+TCAATACCGGAGAACTCCGATGATGCAAACAGAACTTAATCCCCTGATCTGCTCCCTGGTCGCCACCCCTCGCCGTAT
+GGCTGCAATGCCCCGCTATGTAGGCCGTTTCTATGTGGTTTTCGAGTCGATGCTTTACCAGCAAATGAAAGGGCTCTG
+CCGCGAGTATCGCGGGGCTTATTGGCTTATGTGGGAGCTGTCGAACGGCGGCTTTTATATGGCTCCTGGGCGTCGTGA
+TGAAATGCTGAACATCGAGGCCATGAACTACTTTAGTGGCCAAATGAGCGCCGATGCTGCCGGGATTACCGCTTGCCT
+CTACCTCTATAGCCACCTGTCATTTCACACAGAAGGCGCTGACCAGGAGCGGTTTTCAAGGCTGTATCACAGCTTGCG
+GGATTGGGCTTGTGAGCATGACGAAAAAGAGGCCATCTTGGCCGCAATAGACTAGCAACAGAAAGCCCCGGTGATGGC
+CGGGGCTCTTAAAGGAGGTGCATAGGTAGAAAAAGAAATGGTGCCCCTGGTATGGCTGCAACCAATCACAGGGGCTTT
+CACCGGTCAATTTGAGGATAAACGCGATGAATACGGATATTGTATCACTTGCAAAACACATTGGCGACGCTCTGACGG
+CCCGCCGCCCCGTTCATATGCCGCGCATGAAGATGCGGGAGCTTGGCTTGCTCTTGATTGAACTGAAGGCGTATCGGG
+AGGCCGCCGCGACCGTTACCCATTGATAAAAAAGCCCCGGCATTGACCGGGGCTATTTGAGGATTTATCGCATGATTA
+GACCTGAAACGCTTAGGCCGTTCGCTGAAGATTGGCAGGCTCCAACCGCCGATGAAATCAAAGAGGTGTTGGAGCTGA
+TTAGGCAACGAAAAGGGCTTAGTAAGCCTCTCAGTGGCGTTGATGTCGCTGATCTCGTTGGTTTGCCTGGTGAGAGAG
+GCAGCGGAAAGGGAACCCGAACCTTCAGGCGTTGGGTGAGCAAAACCAACCCTAGCCCTATTGCTTATGGTGCCTGGT
+CTATCTTGGCCCACCTGGCAGGTTTCGGGGCTATATGGGACGCTGACCGGGATTGAAACCATGACCGAACATAAGGCC
+GAACGTGCTCCCTGGGGAGACTTCCCGGCAGTAGTGAGGAACGGCGATCTAAAGGATCTCTCTAAAGAACCTGAATAC
+GAAGCCGCCAAACATGGCGACCACAAGGCGATGAGCTATAAGCGCATGAAGCCGGCCGAGGACGAATTGCATTGCGAG
+ATCAAGGCGCTGCTTGATCGCGCCAAGGCTACCGACGACCAGGAGCGTAACGAGCCGGAGCTGGACATTCCTGCCGAG
+ATTTCTCGCCGCGAGAAGCGCCTGGAGGCGATCCAGGCGGCAAAGGCGCGCCTGGAAGCGCGCCAGCGTGAAGCGGAC
+CAGGCCCGGGGGCGCAGCGAAGACGATGGCCGCCGGCCTCGCCATCCGGATGGCTCGGACAAGGGCGGTGGCTCGTAC
+AAACGCGAGTTTGGTGTGCCGGATGACCGTGATCAGGAAAGCTTCACCGATCCGGACAGCCGGATCATGAAACACGCC
+GGTGGTGGCTCCGAGCAGAGCTACAACGGGTACACAGCGGTCGATGCCGAGCACCAGATCATCGTGGCGGCGGAGTTG
+ACCAACTGCGCCGCGGACAGTCAGGCGCTGCTGGGCATGCTGGCAGCAGTTCAGGCCAACACCGGAGAAATGCCGGCC
+CAGACGCTGGCGGATGCGGGATTCCGTAGTGAGGCTGTTCTGGCAAAGGTCGCCGATCACCACGGCGATGTCATCGTT
+GCCCTCGGCCGCGAGGGACGTGAAGATGCCAAGGTCAATGCCAAGACCCATCCGCATACGGCGGCGATTGCGGCGAAA
+TTGAAAACGGAGCAAGGCGATGCAGCTTACCGCCGGCGCAAGTCGATCGTGGAGGCTCCGAATGGTTGGATCAAGGCG
+GTGATGGGATTGCGTCAGTTCAGCATGAGGGGCCTGGACAAGGTGCAAGCCGAGTGGAAGCTCGTCTGCATGGCGCTA
+AATCTGAGGCGAATGGCGTATCTGTGAGGGCGAAGGTTAAATGGGGCGGCTCAAATGCACCCCAGTCGTCATAACACG
+CCGCGCGCCGCAAGATTGGTATCCTTGGCGCCGACGCCTTGCCAATTGCAGAGAGCGCCGCCGCCATCGTCAGTGCTC
+TACAGAAAACCGGTCACACGGCTCTGCCGCGCAGACTCCTAGCCTAAATGTGACAGTGGTTGGTAATCCATGCCGCCC
+GCAAGGGCGGCGGTGGTGGGCCAATAGATGATTTTCAGAGCCTTACTGCCCGTTGACGCCCAATCCCTCGAGCGCGAG
+TCTAGCCGCAGCGGCGATGACGGCCTCGCTGTGCTTGTCATCCTTGTTAGGCGCCCGGGTGTAGACGGCCAACACAAT
+AGGTGCGCGCCCAGTGGGCCAGACGACGGCATAGTCATTTGCCGTGCCATACACTCCGCAGGTTCCGGTTTTGTCTCC
+GACTGCCCAGTCTGCCGGCACCGCCGCGCGGATGCGGTGGTTGCCGGTCGTGTTTCCCTTTAGCCAATCAACAAACTG
+CTGCCGCTGCGGCGCAGCCAGTGCAGAGCCCAGTGTCAGTTTTTGTAAGCTTTCCGTCACGGCGCGCGGCGATGAGGT
+ATCGCGCGCATCGCCTGGGATGGCGGAGTTCAGCTCCAGCTCCCAGCGGTCCAGACGGAACGTGGTATCGCCGATAGA
+GCGCATGAAGGCCGTCAGCCCGGCCGGGCCGCCCAACTCCTTCAGCAACAAATTGGCGGCGGCGTTATCACTGTATTG
+CACGGCGGCCGCGGACAGCTCCGCCACCGTCATGCCTGTTGTCAGATATTTTTCCGAGATGGGTGACCACGGAACCAG
+CGCATTTTTGCCGTAACGGATGGGTGTGTCCAGCAAGCCGGCCTGCTGCTGGCTGCGAGCCAGCACAGCGGCAGCAAG
+AAAGCCCTTGAATGAGCTGCACAGTGGGAAGCGCTCCTCAGCGCGGTAACTTACAGTTGCGCCTGAGCCGGTATCCAT
+CGCGTACACACCGATGGAGCCGCCAAAGTCCTGTTCGAGTTTAGCGAATGGTTCCGCGACGAGGTTGGTCAGCGCGGT
+GGCAGAAAAGCCAGCCAGCGGCCATGAGAGACAAGACAGCAGAACTAGACGGCGATACAGTGACATCAACGATATTCC
+TTGTTTGAAGGTGGAGCTAGGTGTAGCGGCCGGATGTAATCAGGCCGCTACAGCTGGGATTAGGGGTCTGACGCTCAG
+TGGAACGAAAACTCACGTTAAGGGATTTTGGTCATGAGATTATCAAAAAGGATCTTCACCTAGATCCTTTTAAATTAA
+AAATGAAGTTTTAAATCAATCTAAAGTATATATGAGTAAACTTGGTCTGACAGTTACCAATGCTTAATCAGTGAGGCA
+CCTATCTCAGCGATCTGTCTATTTCGTTCATCCATAGTTGCCTGACTCCCCGTCGTGTAGATAACTACGATACGGGAG
+GGCTTACCATCTGGCCCCAGTGCTGCAATGATACCGCGAGACCCACGCTCACCGGCTCCAGATTTATCAGCAATAAAC
+CAGCCAGCCGGAAGGGCCGAGCGCAGAAGTGGTCCTGTAACTTTATCCGCCTCCATCCAGTCTATTAATTGTTGCCGG
+GAAGCTAGAGTAAGTAGTTCGCCAGTTAATAGTTTGCGCAACGTTGTTGCCATTGCTGCAGGCATCGTGGTGTCACGC
+TCGTCGTTTGGTATGGCTTCATTCAGCTCCGGTTCCCAACGATCAAGGCGAGTTACATGATCCCCCATGTTGTGCAAA
+AAAGCGGTTAGCTCCTTCGGTCCTCCGATCGTTGTCAGAAGTAAGTTGGCCGCAGTGTTATCACTCATGGTTATGGCA
+GCACTGCATAATTCTCTTACTGTCATGCCATCCGTAAGATGCTTTTCTGTGACTGGTGAGTACTCAACCAAGTCATTT
+TTCAATATTATTGAAGCATTTATCAGGGTTATTGTCTCATGAGCGGATACATATTTGAATGTATTTAGAAAAATAAAC
+AAATAGGGGTTCCGCGCACATTTCCCCGAAAAGTGCCACCTGACGTCTAAGAAACCATTATTATCATGACATTAACCT
+ATATGTCAAGACCCGGCTGGTTATACACGCGTTTCCTGAACAATTCAGGGCGTTTTTCATGCCATTCCTTGAGCGCCT
+GAACGGGTGTTTTGTGTTGGAGCGCGCGTTGCGGAATGCTGTGGTTGTAGATCTTGACGTAATTGCGCAGCGTCGATT
+CCAGTTCGGCAGCTGAACCAAAACGGGTCTGGTTGACGATGTCGCTGATACGACCGTTGAAGCGCTCCACCATGCCGT
+TGGTCTGCGGATGACGAGGCGGGATGAGCCGGTGCTCGATGCCGAGCTGCTTGCACAGGCGGTCGAACACGTGTGTGC
+CGCTGGGTTCCTTCTTCTTGCCGCCAGCCGTGAAGCGGTCGGTGAACTGGCTGCCGTTGTCGGTCAGAAGCTTGACGA
+TCTTGACGGGACAGGCTTGCTGGACTTTGTTGAGGAAGTCGCCACTGCTGCCATCGGTCTGGTCGGCATAGAGCTCGA
+TGAAGACCCAGCGCGTAGCACGGTCGATGGCAACGAAGAGATAGCGCCTTGCCGTCTCGTCGGGCATCTGCGGCAGGT
+ACTTGATGTCGATGTGCACAAAGCCCGGCTCGTAGTCCTTGAAGGTCTTTTTCGTGGCGGGCGCAGTGCCTTCCTGCT
+CGACCAGGTTACGTAGATCCGAGACACCGTGGCGGCGCAGGCAACGTCCCAGGCCGGCACGCGAGACGGCTGGATTGA
+TGAACTCGCGCGTGACCGCCAGCAGGTCGTCCGTGGGCAGCAGCAACGTCTTGCGCAGCTCCACCACGATGAGCTCCT
+GCTCGGGCGTGAGCGTCGTGTACATCTTGTTCGGCGCATGCGACTTGTCTTCAGGAGACTCGCGGTTTTGCCACTTTC
+GGATGGTTTGGCGGGTGACGTTGTACATCCTGGCCAGTTCGGCCTGCGGGAGCGTCGAGTTCCTGATTTCCTCACGGA
+TCAGGTGGGTAGTACGGGCTTGGCTGTGCAGTGCCTGGGTCATCGAGTTGCCAGTGAAGAGTCGGATTGGAACAGTGT
+ACGCAAAACGTGTCTGGCCTTGAAGAGCGGCCAGCTACGCATGGGTACATGATCCCACGAGTCCAGACACCTATAAAA
+ATAGGCGTATCACGAGGCCCTTTCGTCTTCAAGAATTTTATAAACCGTGGAGCGGGCAATACTGAGCTGATGAGCAAT
+TTCCGTTGCACCAGTGCCCTTCTGATGAAGCGTCAGCACGACGTTCCTGTCCACGGTACGCCTGCGGCCAAATTTGAT
+TCCTTTCAGCTTTGCTTCCTGTCGGCCCTCATTCGTGCGCTCTAG" } } ,
+        seq {
+          id {
+            local
+              str "HQ651092.1_1" } ,
+          descr {
+            title "hypothetical protein DJKHBFFK_00001 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 186 ,
+            seq-data
+              ncbieaa "MRHLFWRLNFLLLSGATNSAQMYHEAAALSSELDTRWSYRSKELMTLYSKAKSYE
+AGERVEFGGKSFAPLYTPKNDTLINLFQISQQEQEQLKTIISTDEAQKRRRERDRLRDEERRRAAGQLEREAYEANSL
+SRQKPWEAMGMSRAKWYRLGKPSPQQNSETSPSPITNGEASAVALQAARCKAV" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 10 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 185 ,
+                        id
+                          local
+                            str "HQ651092.1_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "HQ651092.1_2" } ,
+          descr {
+            title "hypothetical protein DJKHBFFK_00002 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 92 ,
+            seq-data
+              ncbieaa "MIHTANRTFHQLYREWIRERREHMHNVLTWERDRYGARLVGLFYRYCKVANPFPR
+CTLNTRINYRAHAVNLPDWPARSLELNKMWLSWREKK" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 11 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 91 ,
+                        id
+                          local
+                            str "HQ651092.1_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "HQ651092.1_3" } ,
+          descr {
+            title "Antirestriction protein KlcA [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 141 ,
+            seq-data
+              ncbieaa "MMQTELNPLICSLVATPRRMAAMPRYVGRFYVVFESMLYQQMKGLCREYRGAYWL
+MWELSNGGFYMAPGRRDEMLNIEAMNYFSGQMSADAAGITACLYLYSHLSFHTEGADQERFSRLYHSLRDWACEHDEK
+EAILAAID" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 12 ,
+                    data
+                      prot {
+                        name {
+                          "Antirestriction protein KlcA" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 140 ,
+                        id
+                          local
+                            str "HQ651092.1_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "HQ651092.1_4" } ,
+          descr {
+            title "hypothetical protein DJKHBFFK_00004 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 51 ,
+            seq-data
+              ncbieaa "MNTDIVSLAKHIGDALTARRPVHMPRMKMRELGLLLIELKAYREAAATVTH" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 13 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 50 ,
+                        id
+                          local
+                            str "HQ651092.1_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "HQ651092.1_5" } ,
+          descr {
+            title "hypothetical protein DJKHBFFK_00005 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 98 ,
+            seq-data
+              ncbieaa "MIRPETLRPFAEDWQAPTADEIKEVLELIRQRKGLSKPLSGVDVADLVGLPGERG
+SGKGTRTFRRWVSKTNPSPIAYGAWSILAHLAGFGAIWDADRD" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 14 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 97 ,
+                        id
+                          local
+                            str "HQ651092.1_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "HQ651092.1_6" } ,
+          descr {
+            title "hypothetical protein DJKHBFFK_00006 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 326 ,
+            seq-data
+              ncbieaa "MTEHKAERAPWGDFPAVVRNGDLKDLSKEPEYEAAKHGDHKAMSYKRMKPAEDEL
+HCEIKALLDRAKATDDQERNEPELDIPAEISRREKRLEAIQAAKARLEARQREADQARGRSEDDGRRPRHPDGSDKGG
+GSYKREFGVPDDRDQESFTDPDSRIMKHAGGGSEQSYNGYTAVDAEHQIIVAAELTNCAADSQALLGMLAAVQANTGE
+MPAQTLADAGFRSEAVLAKVADHHGDVIVALGREGREDAKVNAKTHPHTAAIAAKLKTEQGDAAYRRRKSIVEAPNGW
+IKAVMGLRQFSMRGLDKVQAEWKLVCMALNLRRMAYL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 15 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 325 ,
+                        id
+                          local
+                            str "HQ651092.1_6" } } } } } } ,
+        seq {
+          id {
+            local
+              str "HQ651092.1_7" } ,
+          descr {
+            title "Carbapenem-hydrolyzing beta-lactamase KPC [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 293 ,
+            seq-data
+              ncbieaa "MSLYRRLVLLSCLSWPLAGFSATALTNLVAEPFAKLEQDFGGSIGVYAMDTGSGA
+TVSYRAEERFPLCSSFKGFLAAAVLARSQQQAGLLDTPIRYGKNALVPWSPISEKYLTTGMTVAELSAAAVQYSDNAA
+ANLLLKELGGPAGLTAFMRSIGDTTFRLDRWELELNSAIPGDARDTSSPRAVTESLQKLTLGSALAAPQRQQFVDWLK
+GNTTGNHRIRAAVPADWAVGDKTGTCGVYGTANDYAVVWPTGRAPIVLAVYTRAPNKDDKHSEAVIAAAARLALEGLG
+VNGQ" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 16 ,
+                    data
+                      prot {
+                        name {
+                          "Carbapenem-hydrolyzing beta-lactamase KPC" } ,
+                        ec {
+                          "3.5.2.6" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 292 ,
+                        id
+                          local
+                            str "HQ651092.1_7" } } } } } } ,
+        seq {
+          id {
+            local
+              str "HQ651092.1_8" } ,
+          descr {
+            title "Beta-lactamase TEM [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 216 ,
+            seq-data
+              ncbieaa "MFIFLNTFKYVSAHETITLINASIILKNDLVEYSPVTEKHLTDGMTVRELCSAAI
+TMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQ
+QLIDWMEADKVTGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
+LIKHW" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 17 ,
+                    data
+                      prot {
+                        name {
+                          "Beta-lactamase TEM" } ,
+                        ec {
+                          "3.5.2.6" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 215 ,
+                        id
+                          local
+                            str "HQ651092.1_8" } } } } } } ,
+        seq {
+          id {
+            local
+              str "HQ651092.1_9" } ,
+          descr {
+            title "hypothetical protein DJKHBFFK_00009 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 326 ,
+            seq-data
+              ncbieaa "MTQALHSQARTTHLIREEIRNSTLPQAELARMYNVTRQTIRKWQNRESPEDKSHA
+PNKMYTTLTPEQELIVVELRKTLLLPTDDLLAVTREFINPAVSRAGLGRCLRRHGVSDLRNLVEQEGTAPATKKTFKD
+YEPGFVHIDIKYLPQMPDETARRYLFVAIDRATRWVFIELYADQTDGSSGDFLNKVQQACPVKIVKLLTDNGSQFTDR
+FTAGGKKKEPSGTHVFDRLCKQLGIEHRLIPPRHPQTNGMVERFNGRISDIVNQTRFGSAAELESTLRNYVKIYNHSI
+PQRALQHKTPVQALKEWHEKRPELFRKRVYNQPGLDI" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 18 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 325 ,
+                        id
+                          local
+                            str "HQ651092.1_9" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "HQ651092.1_1" ,
+                location
+                  int {
+                    from 73 ,
+                    to 633 ,
+                    strand plus ,
+                    id
+                      local
+                        str "HQ651092.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "DJKHBFFK_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "HQ651092.1_2" ,
+                location
+                  int {
+                    from 1167 ,
+                    to 1445 ,
+                    strand plus ,
+                    id
+                      local
+                        str "HQ651092.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "DJKHBFFK_00002" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "HQ651092.1_3" ,
+                location
+                  int {
+                    from 1556 ,
+                    to 1981 ,
+                    strand plus ,
+                    id
+                      local
+                        str "HQ651092.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P52603" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "klcA" ,
+                        locus-tag "DJKHBFFK_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "HQ651092.1_4" ,
+                location
+                  int {
+                    from 2109 ,
+                    to 2264 ,
+                    strand plus ,
+                    id
+                      local
+                        str "HQ651092.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "DJKHBFFK_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "HQ651092.1_5" ,
+                location
+                  int {
+                    from 2310 ,
+                    to 2606 ,
+                    strand plus ,
+                    id
+                      local
+                        str "HQ651092.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "DJKHBFFK_00005" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "HQ651092.1_6" ,
+                location
+                  int {
+                    from 2611 ,
+                    to 3591 ,
+                    strand plus ,
+                    id
+                      local
+                        str "HQ651092.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "DJKHBFFK_00006" } } } } ,
+              {
+                id
+                  local
+                    id 7 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "HQ651092.1_7" ,
+                location
+                  int {
+                    from 3841 ,
+                    to 4722 ,
+                    strand minus ,
+                    id
+                      local
+                        str "HQ651092.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:Q9F663" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "bla_1" ,
+                        locus-tag "DJKHBFFK_00007" } } } } ,
+              {
+                id
+                  local
+                    id 8 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "HQ651092.1_8" ,
+                location
+                  int {
+                    from 4944 ,
+                    to 5594 ,
+                    strand minus ,
+                    id
+                      local
+                        str "HQ651092.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P62593" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "bla_2" ,
+                        locus-tag "DJKHBFFK_00008" } } } } ,
+              {
+                id
+                  local
+                    id 9 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "HQ651092.1_9" ,
+                location
+                  int {
+                    from 5669 ,
+                    to 6649 ,
+                    strand minus ,
+                    id
+                      local
+                        str "HQ651092.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "DJKHBFFK_00009" } } } } } } } } } }

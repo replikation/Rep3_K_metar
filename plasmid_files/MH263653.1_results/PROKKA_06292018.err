@@ -1,0 +1,953 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:175 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 175 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:175 features have inconsistent gene locations.
+OVERLAPPING_CDS:2 coding regions overlap another coding region with a similar or identical name.
+SUSPECT_PRODUCT_NAMES:1 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		1 features Three or more numbers together
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:4 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:176 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::175 proteins have invalid IDs.
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_1 (length 251)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_2 (length 189)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_3 (length 85)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_4 (length 110)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_5 (length 91)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_6 (length 177)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_7 (length 234)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_8 (length 40)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_9 (length 291)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_10 (length 322)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_11 (length 341)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_12 (length 234)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_13 (length 191)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_14 (length 234)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_15 (length 240)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_16 (length 62)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_17 (length 171)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_18 (length 286)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_19 (length 251)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_20 (length 93)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_21 (length 234)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_22 (length 78)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_23 (length 93)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_24 (length 117)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_25 (length 320)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_26 (length 141)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_27 (length 227)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_28 (length 73)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_29 (length 144)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_30 (length 258)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_31 (length 141)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_32 (length 140)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_33 (length 63)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_34 (length 555)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_35 (length 85)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_36 (length 76)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_37 (length 453)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_38 (length 187)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_39 (length 151)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_40 (length 78)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_41 (length 175)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_42 (length 77)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_43 (length 473)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_44 (length 191)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_45 (length 144)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_46 (length 239)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_47 (length 71)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_48 (length 52)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_49 (length 125)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_50 (length 78)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_51 (length 98)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_52 (length 273)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_53 (length 55)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_54 (length 215)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_55 (length 87)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_56 (length 228)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_57 (length 77)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_58 (length 121)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_59 (length 103)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_60 (length 188)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_61 (length 242)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_62 (length 475)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_63 (length 196)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_64 (length 65)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_65 (length 83)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_66 (length 171)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_67 (length 73)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_68 (length 875)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_69 (length 128)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_70 (length 210)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_71 (length 330)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_72 (length 102)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_73 (length 173)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_74 (length 176)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_75 (length 234)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_76 (length 143)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_77 (length 207)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_78 (length 210)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_79 (length 300)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_80 (length 253)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_81 (length 286)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_82 (length 988)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_83 (length 186)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_84 (length 186)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_85 (length 92)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_86 (length 141)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_87 (length 51)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_88 (length 98)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_89 (length 326)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_90 (length 293)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_91 (length 326)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_92 (length 133)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_93 (length 234)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_94 (length 396)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_95 (length 235)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_96 (length 78)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_97 (length 120)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_98 (length 564)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_99 (length 153)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_100 (length 91)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_101 (length 116)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_102 (length 144)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_103 (length 334)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_104 (length 125)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_105 (length 91)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_106 (length 340)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_107 (length 520)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_108 (length 138)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_109 (length 76)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_110 (length 91)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_111 (length 314)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_112 (length 130)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_113 (length 173)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_114 (length 67)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_115 (length 334)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_116 (length 259)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_117 (length 85)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_118 (length 91)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_119 (length 288)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_120 (length 47)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_121 (length 203)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_122 (length 401)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_123 (length 324)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_124 (length 423)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_125 (length 143)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_126 (length 494)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_127 (length 323)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_128 (length 223)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_129 (length 76)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_130 (length 233)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_131 (length 73)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_132 (length 139)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_133 (length 254)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_134 (length 142)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_135 (length 168)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_136 (length 63)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_137 (length 84)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_138 (length 106)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_139 (length 75)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_140 (length 76)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_141 (length 451)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_142 (length 187)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_143 (length 109)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_144 (length 180)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_145 (length 82)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_146 (length 685)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_147 (length 143)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_148 (length 242)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_149 (length 108)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_150 (length 124)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_151 (length 52)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_152 (length 90)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_153 (length 116)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_154 (length 105)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_155 (length 118)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_156 (length 70)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_157 (length 74)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_158 (length 106)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_159 (length 92)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_160 (length 35)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_161 (length 273)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_162 (length 104)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_163 (length 161)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_164 (length 127)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_165 (length 245)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_166 (length 122)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_167 (length 101)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_168 (length 128)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_169 (length 234)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_170 (length 248)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_171 (length 186)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_172 (length 66)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_173 (length 199)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_174 (length 110)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_175 (length 49)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 175 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1 (length 126126)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::175 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:663-1418	BMAEAACI_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:2441-3010	BMAEAACI_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Antitoxin PemI	MH263653.1:3103-3360	BMAEAACI_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Endoribonuclease PemK	MH263653.1:3362-3694	BMAEAACI_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:3943-4218	BMAEAACI_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c4927-4394	BMAEAACI_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c5709-5005	BMAEAACI_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:5951-6073	BMAEAACI_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Beta-lactamase Toho-1	MH263653.1:6220-7095	BMAEAACI_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:7130-8098	BMAEAACI_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Catecholate siderophore receptor Fiu	MH263653.1:8227-9252	BMAEAACI_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c10553-9849	BMAEAACI_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:10633-11208	BMAEAACI_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:11664-12368	BMAEAACI_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c13036-12314	BMAEAACI_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c13234-13046	BMAEAACI_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Transposon Tn3 resolvase	MH263653.1:13347-13862	BMAEAACI_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Beta-lactamase TEM	MH263653.1:14045-14905	BMAEAACI_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	16S rRNA (guanine(1405)-N(7))-methyltransferase	MH263653.1:15075-15830	BMAEAACI_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c16192-15911	BMAEAACI_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c16984-16280	BMAEAACI_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c18897-18661	BMAEAACI_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:18926-19207	BMAEAACI_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Protein StbB	MH263653.1:c19683-19330	BMAEAACI_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Plasmid segregation protein ParM	MH263653.1:c20645-19683	BMAEAACI_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:20660-21085	BMAEAACI_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	DNA adenine methyltransferase YhdJ	MH263653.1:21162-21845	BMAEAACI_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:21846-22067	BMAEAACI_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:22081-22515	BMAEAACI_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:22566-23342	BMAEAACI_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Antirestriction protein KlcA	MH263653.1:23760-24185	BMAEAACI_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:24232-24654	BMAEAACI_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:24651-24842	BMAEAACI_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Group II intron-encoded protein LtrA	MH263653.1:c26823-25156	BMAEAACI_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c27960-27703	BMAEAACI_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:28223-28453	BMAEAACI_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:28505-29866	BMAEAACI_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Ribosomal RNA small subunit methyltransferase A	MH263653.1:29913-30476	BMAEAACI_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c31017-30562	BMAEAACI_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c31254-31018	BMAEAACI_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Plasmid-derived single-stranded DNA-binding protein	MH263653.1:31319-31846	BMAEAACI_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:31904-32137	BMAEAACI_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Chromosome-partitioning protein Spo0J	MH263653.1:32198-33619	BMAEAACI_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:33646-34221	BMAEAACI_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Protein PsiB	MH263653.1:34290-34724	BMAEAACI_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:34721-35440	BMAEAACI_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c35676-35461	BMAEAACI_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Stable plasmid inheritance protein	MH263653.1:35720-35878	BMAEAACI_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c36493-36116	BMAEAACI_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c36730-36494	BMAEAACI_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:36793-37089	BMAEAACI_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:37200-38021	BMAEAACI_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c38237-38070	BMAEAACI_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c38965-38318	BMAEAACI_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Relaxosome protein TraM	MH263653.1:39362-39625	BMAEAACI_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Protein TraJ	MH263653.1:39816-40502	BMAEAACI_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c40739-40506	BMAEAACI_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Pilin	MH263653.1:40857-41222	BMAEAACI_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:41237-41548	BMAEAACI_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:41570-42136	BMAEAACI_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:42123-42851	BMAEAACI_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:42851-44278	BMAEAACI_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:44268-44858	BMAEAACI_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:44845-45042	BMAEAACI_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:45054-45305	BMAEAACI_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Protein TraV	MH263653.1:45302-45817	BMAEAACI_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Protein TraR	MH263653.1:45952-46173	BMAEAACI_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Protein TraC	MH263653.1:46333-48960	BMAEAACI_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:48957-49343	BMAEAACI_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:49340-49972	BMAEAACI_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:49969-50961	BMAEAACI_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:50988-51296	BMAEAACI_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:51359-51880	BMAEAACI_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:51907-52437	BMAEAACI_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:52484-53188	BMAEAACI_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	3-oxo-tetronate 4-phosphate decarboxylase	MH263653.1:c53565-53134	BMAEAACI_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	3-oxo-tetronate kinase	MH263653.1:c54181-53558	BMAEAACI_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	3-oxo-tetronate kinase	MH263653.1:c54810-54178	BMAEAACI_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	L-threonate dehydrogenase	MH263653.1:c55724-54822	BMAEAACI_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Glycerol-3-phosphate regulon repressor	MH263653.1:55986-56747	BMAEAACI_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Beta-lactamase SHV-2	MH263653.1:c57628-56768	BMAEAACI_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c60835-57869	BMAEAACI_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	DNA-invertase hin	MH263653.1:c61399-60839	BMAEAACI_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:61848-62408	BMAEAACI_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:62862-63140	BMAEAACI_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Antirestriction protein KlcA	MH263653.1:63251-63676	BMAEAACI_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:63804-63959	BMAEAACI_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:64005-64301	BMAEAACI_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:64306-65286	BMAEAACI_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Carbapenem-hydrolyzing beta-lactamase KPC	MH263653.1:c66417-65536	BMAEAACI_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c67673-66693	BMAEAACI_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Transposon Tn3 resolvase	MH263653.1:c68197-67796	BMAEAACI_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c69013-68309	BMAEAACI_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Transposon Tn7 transposition protein TnsB	MH263653.1:c70250-69060	BMAEAACI_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	putative signaling protein	MH263653.1:c71032-70325	BMAEAACI_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c71265-71029	BMAEAACI_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	HTH-type transcriptional activator mta	MH263653.1:c71624-71262	BMAEAACI_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Mercuric reductase	MH263653.1:c73336-71642	BMAEAACI_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Mercuric transport protein MerC	MH263653.1:c73849-73388	BMAEAACI_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Mercuric transport protein periplasmic component	MH263653.1:c74121-73846	BMAEAACI_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Mercuric transport protein MerT	MH263653.1:c74485-74135	BMAEAACI_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Mercuric resistance operon regulatory protein	MH263653.1:74557-74991	BMAEAACI_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:75070-76074	BMAEAACI_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c77032-76655	BMAEAACI_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c77352-77077	BMAEAACI_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c78630-77608	BMAEAACI_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	DNA replication and repair protein RecF	MH263653.1:c80177-78615	BMAEAACI_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	tRNA(fMet)-specific endonuclease VapC	MH263653.1:c80667-80251	BMAEAACI_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Antitoxin VapB	MH263653.1:c80894-80664	BMAEAACI_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c81339-81064	BMAEAACI_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:81473-82417	BMAEAACI_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:82454-82846	BMAEAACI_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:82904-83425	BMAEAACI_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:83471-83674	BMAEAACI_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:83704-84708	BMAEAACI_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Tyrosine recombinase XerD	MH263653.1:84892-85671	BMAEAACI_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c85974-85717	BMAEAACI_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c86534-86259	BMAEAACI_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Replication initiation protein	MH263653.1:86752-87618	BMAEAACI_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c87693-87550	BMAEAACI_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c88314-87703	BMAEAACI_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Plasmid partition protein A	MH263653.1:88728-89933	BMAEAACI_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Virulence regulon transcriptional activator VirB	MH263653.1:89933-90907	BMAEAACI_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Protein UmuC	MH263653.1:c92260-90989	BMAEAACI_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Protein UmuD	MH263653.1:c92691-92260	BMAEAACI_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Group II intron-encoded protein LtrA	MH263653.1:93102-94586	BMAEAACI_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Plasmid segregation protein ParM	MH263653.1:94835-95806	BMAEAACI_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:95809-96480	BMAEAACI_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:96543-96773	BMAEAACI_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	DNA adenine methyltransferase YhdJ	MH263653.1:97210-97911	BMAEAACI_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:97911-98132	BMAEAACI_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:98142-98561	BMAEAACI_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:98618-99382	BMAEAACI_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Antirestriction protein KlcA	MH263653.1:100063-100491	BMAEAACI_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:100534-101040	BMAEAACI_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:101083-101274	BMAEAACI_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	DNA polymerase III subunit theta	MH263653.1:101462-101716	BMAEAACI_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:101751-102071	BMAEAACI_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:102751-102978	BMAEAACI_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:103070-103300	BMAEAACI_00140
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:103352-104707	BMAEAACI_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:104755-105318	BMAEAACI_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c105542-105213	BMAEAACI_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Plasmid-derived single-stranded DNA-binding protein	MH263653.1:106151-106693	BMAEAACI_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:106742-106990	BMAEAACI_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Chromosome-partitioning protein Spo0J	MH263653.1:107060-109117	BMAEAACI_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Protein PsiB	MH263653.1:109162-109593	BMAEAACI_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:109590-110318	BMAEAACI_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:110315-110641	BMAEAACI_00149
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:110697-111071	BMAEAACI_00150
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Stable plasmid inheritance protein	MH263653.1:111299-111457	BMAEAACI_00151
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:112150-112422	BMAEAACI_00152
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:112419-112769	BMAEAACI_00153
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:112784-113101	BMAEAACI_00154
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:113942-114298	BMAEAACI_00155
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:114359-114571	BMAEAACI_00156
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:114582-114806	BMAEAACI_00157
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:114887-115207	BMAEAACI_00158
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Antitoxin HigA1	MH263653.1:115197-115475	BMAEAACI_00159
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Antitoxin HigA	MH263653.1:115476-115583	BMAEAACI_00160
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:116413-117234	BMAEAACI_00161
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:117282-117596	BMAEAACI_00162
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c118114-117629	BMAEAACI_00163
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Relaxosome protein TraM	MH263653.1:118538-118921	BMAEAACI_00164
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Protein TraJ	MH263653.1:119121-119858	BMAEAACI_00165
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Pilin	MH263653.1:120241-120609	BMAEAACI_00166
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:120623-120928	BMAEAACI_00167
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:120948-121334	BMAEAACI_00168
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:c122072-121368	BMAEAACI_00169
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:122317-123063	BMAEAACI_00170
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Fertility inhibition protein	MH263653.1:123118-123678	BMAEAACI_00171
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:123810-124010	BMAEAACI_00172
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:124396-124995	BMAEAACI_00173
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	hypothetical protein	MH263653.1:125057-125389	BMAEAACI_00174
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	Protein PndA	MH263653.1:125694-125843	BMAEAACI_00175
+
+DiscRep_ALL:OVERLAPPING_CDS::2 coding regions overlap another coding region with a similar or identical name.
+DiscRep_SUB:OVERLAPPING_CDS::2 coding regions overlap another coding region with a similar or identical name that do not have the appropriate note text
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	3-oxo-tetronate kinase	MH263653.1:c54181-53558	BMAEAACI_00077
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	3-oxo-tetronate kinase	MH263653.1:c54810-54178	BMAEAACI_00078
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::1 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features Three or more numbers together
+plasmid_files/MH263653.1_results/PROKKA_06292018:CDS	16S rRNA (guanine(1405)-N(7))-methyltransferase	MH263653.1:15075-15830	BMAEAACI_00019
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1:Annotated using prokka 1.14-dev from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::4 protein sequences are shorter than 50 aa.
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_8 (length 40)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_120 (length 47)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_160 (length 35)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_175 (length 49)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1 (length 126126)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1 (length 126126)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1 (length 126126)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1 (length 126126)
+
+DiscRep_ALL:MISSING_PROJECT::176 sequences do not include project.
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1 (length 126126)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_1 (length 251)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_2 (length 189)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_3 (length 85)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_4 (length 110)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_5 (length 91)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_6 (length 177)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_7 (length 234)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_8 (length 40)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_9 (length 291)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_10 (length 322)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_11 (length 341)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_12 (length 234)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_13 (length 191)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_14 (length 234)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_15 (length 240)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_16 (length 62)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_17 (length 171)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_18 (length 286)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_19 (length 251)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_20 (length 93)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_21 (length 234)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_22 (length 78)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_23 (length 93)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_24 (length 117)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_25 (length 320)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_26 (length 141)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_27 (length 227)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_28 (length 73)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_29 (length 144)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_30 (length 258)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_31 (length 141)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_32 (length 140)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_33 (length 63)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_34 (length 555)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_35 (length 85)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_36 (length 76)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_37 (length 453)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_38 (length 187)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_39 (length 151)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_40 (length 78)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_41 (length 175)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_42 (length 77)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_43 (length 473)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_44 (length 191)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_45 (length 144)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_46 (length 239)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_47 (length 71)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_48 (length 52)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_49 (length 125)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_50 (length 78)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_51 (length 98)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_52 (length 273)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_53 (length 55)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_54 (length 215)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_55 (length 87)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_56 (length 228)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_57 (length 77)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_58 (length 121)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_59 (length 103)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_60 (length 188)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_61 (length 242)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_62 (length 475)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_63 (length 196)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_64 (length 65)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_65 (length 83)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_66 (length 171)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_67 (length 73)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_68 (length 875)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_69 (length 128)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_70 (length 210)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_71 (length 330)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_72 (length 102)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_73 (length 173)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_74 (length 176)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_75 (length 234)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_76 (length 143)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_77 (length 207)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_78 (length 210)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_79 (length 300)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_80 (length 253)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_81 (length 286)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_82 (length 988)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_83 (length 186)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_84 (length 186)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_85 (length 92)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_86 (length 141)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_87 (length 51)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_88 (length 98)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_89 (length 326)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_90 (length 293)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_91 (length 326)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_92 (length 133)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_93 (length 234)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_94 (length 396)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_95 (length 235)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_96 (length 78)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_97 (length 120)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_98 (length 564)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_99 (length 153)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_100 (length 91)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_101 (length 116)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_102 (length 144)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_103 (length 334)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_104 (length 125)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_105 (length 91)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_106 (length 340)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_107 (length 520)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_108 (length 138)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_109 (length 76)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_110 (length 91)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_111 (length 314)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_112 (length 130)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_113 (length 173)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_114 (length 67)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_115 (length 334)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_116 (length 259)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_117 (length 85)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_118 (length 91)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_119 (length 288)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_120 (length 47)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_121 (length 203)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_122 (length 401)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_123 (length 324)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_124 (length 423)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_125 (length 143)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_126 (length 494)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_127 (length 323)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_128 (length 223)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_129 (length 76)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_130 (length 233)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_131 (length 73)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_132 (length 139)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_133 (length 254)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_134 (length 142)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_135 (length 168)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_136 (length 63)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_137 (length 84)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_138 (length 106)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_139 (length 75)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_140 (length 76)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_141 (length 451)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_142 (length 187)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_143 (length 109)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_144 (length 180)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_145 (length 82)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_146 (length 685)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_147 (length 143)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_148 (length 242)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_149 (length 108)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_150 (length 124)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_151 (length 52)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_152 (length 90)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_153 (length 116)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_154 (length 105)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_155 (length 118)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_156 (length 70)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_157 (length 74)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_158 (length 106)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_159 (length 92)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_160 (length 35)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_161 (length 273)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_162 (length 104)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_163 (length 161)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_164 (length 127)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_165 (length 245)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_166 (length 122)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_167 (length 101)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_168 (length 128)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_169 (length 234)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_170 (length 248)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_171 (length 186)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_172 (length 66)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_173 (length 199)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_174 (length 110)
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1_175 (length 49)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+plasmid_files/MH263653.1_results/PROKKA_06292018:MH263653.1 (length 126126)
+

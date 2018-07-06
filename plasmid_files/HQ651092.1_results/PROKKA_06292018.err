@@ -1,0 +1,102 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:9 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 9 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:9 features have inconsistent gene locations.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:10 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::9 proteins have invalid IDs.
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_1 (length 186)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_2 (length 92)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_3 (length 141)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_4 (length 51)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_5 (length 98)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_6 (length 326)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_7 (length 293)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_8 (length 216)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_9 (length 326)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 9 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1 (length 6964)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::9 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/HQ651092.1_results/PROKKA_06292018:CDS	hypothetical protein	HQ651092.1:74-634	DJKHBFFK_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/HQ651092.1_results/PROKKA_06292018:CDS	hypothetical protein	HQ651092.1:1168-1446	DJKHBFFK_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/HQ651092.1_results/PROKKA_06292018:CDS	Antirestriction protein KlcA	HQ651092.1:1557-1982	DJKHBFFK_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/HQ651092.1_results/PROKKA_06292018:CDS	hypothetical protein	HQ651092.1:2110-2265	DJKHBFFK_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/HQ651092.1_results/PROKKA_06292018:CDS	hypothetical protein	HQ651092.1:2311-2607	DJKHBFFK_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/HQ651092.1_results/PROKKA_06292018:CDS	hypothetical protein	HQ651092.1:2612-3592	DJKHBFFK_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/HQ651092.1_results/PROKKA_06292018:CDS	Carbapenem-hydrolyzing beta-lactamase KPC	HQ651092.1:c4723-3842	DJKHBFFK_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/HQ651092.1_results/PROKKA_06292018:CDS	Beta-lactamase TEM	HQ651092.1:c5595-4945	DJKHBFFK_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+plasmid_files/HQ651092.1_results/PROKKA_06292018:CDS	hypothetical protein	HQ651092.1:c6650-5670	DJKHBFFK_00009
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1:Annotated using prokka 1.14-dev from https://github.com/tseemann/prokka
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1 (length 6964)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1 (length 6964)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1 (length 6964)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1 (length 6964)
+
+DiscRep_ALL:MISSING_PROJECT::10 sequences do not include project.
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1 (length 6964)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_1 (length 186)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_2 (length 92)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_3 (length 141)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_4 (length 51)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_5 (length 98)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_6 (length 326)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_7 (length 293)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_8 (length 216)
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1_9 (length 326)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+plasmid_files/HQ651092.1_results/PROKKA_06292018:HQ651092.1 (length 6964)
+

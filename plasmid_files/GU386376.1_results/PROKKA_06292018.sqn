@@ -1,0 +1,629 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14-dev from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 6 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 29 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2018 } } } ,
+        create-date
+          std {
+            year 2018 ,
+            month 6 ,
+            day 29 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "GU386376.1" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 9803 ,
+            seq-data
+              iupacna "TGATGAAAATTCAGTCGACTCCTCGCTTGACGTGACGAGCGCCAAAAGCCTGCCG
+CATCTGCCTGGCGCGCTCGAGCTCATCGCCATGCAAATACATCGACGTCGTGGCGATCGACGCATGGCGTAGGTTGTC
+GCGCACCGCGGTGAGCTGAGCTCCCCGGGCCAACGCATGGCTGGCATGACTGTGACGCATCCAATGAGGCGTGGCACG
+GCGCAGCTTTTCGGCGGCGACCGGATGATCGGCCTCAATGGCCTCAGCGGCTTGCGTAAAGAATCTTCGCAACACGCA
+CCAAAGGTGAGGGCCGGTGATGCCGGCATTACCGTCTTCCCCAAGACTGCCCACCAGGGGCGTTTTCGGATTCCACCG
+TTCCCGGCTGACTGGCAGTTGACGCTGTGCCAAGTATTGGTCCAGCGCCGTATACGCGAGCGGCGGCAAGGCCACCTT
+ACCTGGTTTGCCACCTTTGCCAACCAAATGCAGCCAGTGGTCACCGTGCTCGTCGAGGCGGACATTACCCAGGACGGC
+GCCGACCAGTTCGCTAGCGCGCAGGCCCGTGGCATAGCCGAAGTCGAGCATGAAGCGCAGGCGTTGTGCTGCCGGCTC
+GGACCAGCCGTAGGACCATTCCAGGCCGTCTGCAATGGCGCGCAGCAGTAGCCATTCTCCCTCGGTAAAGCCTCGCGC
+CGTATCCAGTGCGGGCCGCAAGGCGTGACCGCGTACCTTGACGCCGGCGAAAGGGTTGGCCAGCACATAGCGCTGCTC
+GATGAGCCACCGGAACAGCGCCGAGAGCACCGTCAGCGCATACGCTGCCGAGCGTGCGGACAAGCCGCCCGAGAAGGG
+GCGCCATTCCACCGAATCGCGTGGTCGAGGTGGCCCCACCCAACGCTCGCGCGGGGTCGGGTGCCGGACAAAGGCCCG
+GTACGCGATTGCATCGTCCGTGGTCAGGGATGATAGCGCCCGTCCGCGTTCGACGATGGCCCACAGGATTAGCCGCGC
+AGCCTCCTTGCGATAGGCGCGCTGTGTGGCGACAGTCTCGTGCAGCGCCAGCCAGGCCTGCACGGCCTCGTAGTCGTT
+GGTCGCATTCAGCGTGCAAGCGTTGCGCGGGGCCCGGAAATTGCCCTGCGAGCCGTCGACTTCGTTCGGCAGACGCAA
+CTGCTCCCACGGCACGATGCCGCTGGGCTGAATAATCGGGATCAGGGCCCGGGCGCGCTCGGTGAGCTGCGGATGTGC
+GGCAAAGAAAGCCTCGACCTGCCGGGCGCCTGTCATGCCGAGTCCCTCGATGGCTTTCCACCAGCCACGCCGGCGGGG
+AATGCGCACGGTCAGCGCCGAGAGGGTGTGGATACCGTACGCCTGCAGTGCCCTGACGGTCCTCGGAGACAGCCACTG
+GTCGATGCTGTCGCTGATCTGGGGCTTCGGCGCCGGCAGCGTGGGCAAGAGCCGGATCGCGCGTTCGACGGCACCCGC
+GCGCCCCTGTCGCTCTTCGGGGGCGTGCTGGAACACGTCGGCCAGATCCGGCCGGTGGCGGCTGTTGGCGAAAACGAT
+GAGCTGGCGGCGGATATGCCCCAGCATCCCTCGCGCTGATTGACCGGCGGCCTTGCGTGCCGCCAGGTAGTGTTCAAC
+GGCCGCGCGAGAGCTGAGTCCCGCGTACCAGCCGCGCAAGGCAGCCAGCGAATCCGCATCGGGAAAGCCGACTGGGGT
+AGAACTCGAAGCCGTAGTCTGGCCCGTTTTCATATGGACAGGTTGCGATTCGAAAAGCGAGTAACGCGATAATAACGA
+TTATTTCAGTAGAATCGAAAATGCCCCATGTTTCTACGAAACCTCAAGATAGCAAGAACGGGCCATGAGCAAGAAGAA
+CAAGCTACTCAGCGTCCTATCCGACGCCGAACAGGAGGCCTTGTATGGCCTGCCGGAGTTCGATGATGCGCAGCAGCT
+GGAATATCTGGCTGTGACAGAAACCGAGTTGGCGCTTGCCAACAGCCGGCCCAGTCTTCATGCCAAGGTCTATTGCCT
+CTTGCAGATCGGCTACTTCAAGGCCAAGCATGCCTTCTTCAGTTTCGACTGGGACGAAGTCGAGGACGATTGCGCTTT
+CGTGCTGAGCCGCTATTTCCACGGCGAGGTGTTCGAACCCAAGGCGATCACCAAGCATGAACGCTACACCCAGCGCGA
+GCAGATCGCCAAACTATTCGGCTACTGGCCGTGGTCGGCCGCCTTCCTGCCGCAGCTCGAGCAGCAGGCCGCACGGAC
+CGTGCGGCGTGACGTAACGCCGGGGTTCGTCGCCGCCGAGCTGATCGTCTGGCTCAATGAGCACAAGATTATCCGGCC
+CGGCTATACGACCTTGCAAGAGTTGGTCAGCGAAACGCTATCCGCCGAGCGCCGGCGCCTGGGCAATCTGCTGGAGCA
+AGCGTTGGACGAATCTGCCAAGGCCGCGCTGAGCCAGCTTCTGGTCCGTGATGACACCCTGTCGCAACTGGCGGCGCT
+CAAGCAGGACGCCAAGAATTTCGGCTGGCGCCAGATGGTCCGCGAGCGCGAAAAGCGCGCCACGCTGGAGCCGCTGCA
+CGCAATCGCCAAGACACTGCTGCCTAAACTCGACGTCTCGCAGCAGAACCTGCTGTACTACGCGAGCCTGGCAAACTT
+CTACACCGTCCACGACCTGCGCAATCTGAAGGCCGATCAGACCCAACTCTACCTGCTGTGCTATGCCTGGGTACGCTA
+CCGGCAGCTCTCCGACAACCTGGTCGATGCGATGGCGTACCACATGAAGCAGTTGGAGGACGAAAGCAGCGCTGGTGC
+CAAACAATCCTTTGCCGACGAGCAGGTGCGCCGTCAGCAGGAAACGGCGCGGGTAGGCCGCCTGCTGTCACTCTACGT
+TGATGATAGCGTGGCCGATCCCACGCCCTTCGGCGAGGTGCGGCAGCGCGCCTACAAGATCATGCCTCGCGATACGCT
+GCAAACCACGGCGCAGCGTATGAGCGTGAAGCCGGCGAGCAAGCTGGCCTTGCAGTGGCAGGCGGTGGACGGGCTGGC
+CGACCGCATGCGCCGCCATCTTCGTCCACTGTACGTTGCGCTCGACCTCTCCGGCTCCAATCCAGACAGTCCATGGCT
+TGCCGCGCTGGCCTGGGCCAAAGGTGTTTTTGCCAAGCAGCAGCGGCTGTCGCAACGGCCACTCGACGAGTGGCCCGC
+GGCGACACTTCCGAAACGCTTGCGGCCGTACCTGCTGACCTTCGACGCCGACGGTAAACCAACCGGCCTGCACGCTGA
+CCGCTACGAGTTCTGGCTGTACCGCCAGATCAGGAAGCGTCTCCAATCGGGTGAACTCTACCTCGACGACAGCCTGCA
+ACACCGGCACTTCTCAGATGAACTGGTTGAGATGGACAGGAAGATCGATGTGCTCGCAAAAATGGAGATCCCCTTCCT
+GCAGCAACCCGTCCATGCCCAACTCGATGCGCTGACTGCCGAACTGCGCACGCAGTGGCTGGCGTTCAACCGCGAGCT
+GAAACAGGGCAAGCTGACGCACCTCGAATACAACAAGGACACGCAGAAACTGACCTGGCGCAAGCCCAAGAGCGAGAA
+TGAGAAAGCGCGCGAAAAGGCATTCTACGAGAAGCTTCCGTTCTGCGACGTGGCCGACGTGTTTCGCTTCGTCAACGA
+CGAGTGCAAGTTTCTGTCGGCGTTCACGCCCATGCAGCCGCGCTACGCGAAGAAGGTCGCCGACGCTGACAGCCTGAT
+GGCGGTCATCATCGCGCAAGCGATGAACCACGGCAACCACGTCATGGCGCGCACCAGCGACATCCCGTACCACGTGCT
+GGATAGCGGCTACCAGCAGTACCTGCGCCAGGCAACGCTGCACGCGGCCAACGACTGCATCAGCAACGCCATCGCCAC
+GCTACCGATCTTCCCATACTACTCGTTCGACCTCGAAACGCTGTACGGTGCCGTCGACGGGCAGAAATTCAGCGTCGA
+ACGGCCGACCGTGAAGGCGCGCTATTCGCGCAAGTACTTCGGGCGCGGCAAGGGCGTGGTCGCCTACACGCTGCTGTG
+CAACCACATCCCGCTCAACGGCTACCTGATCGGCGCGCACGACTACGAGGCCCACCACGTGTTCGACATCTGGTATCG
+CAACACGTCGGACATCATGCCGACCGCGATCACCGGCGACATGCACAGCGTCAACAAGGCCAACTTCGCCATCCTGCA
+TTGGTTTGGCCGGCGGTTCGAGCCGCGCTTCACCGACCTCAACGCGCAATTGAAAGAACTCTACTGCGCTGACGATCC
+AGCACAGTATCAGGCGTGCCTGATTCGGCCAGTCGGGAAAATCGACTGCGATCTCATCCATCGCGAGAAGCCGAACAT
+CGACCGGATCGTCGCCACACTCGGGCTGAAGGAAATGACGCAGGGCACGCTGATCCGCAAGCTGTGCACCTACACCAC
+GACGAACCCGACGCGGCGCGCGATCTTCGAGTTCGACAAGCTCATCCGCAGCATCTACACGCTTCGCTACCTGCGCGA
+TCCGCAACTGGAACGCAACGTGCACCGCTCGCAAAATCGCCTCGAGTCCTACCATCAGCTACGCTCGGCCATTGCCCA
+GGTCGGCGGTAAGAAGGAACTGACCGGTCGCACCGACATTGAAATCGAGATCAGCAACCAGTGCGCACGGCTGATCGC
+CAACACGATCATTTTCTACAACTCGGCAATCTTGTCGCGGCTGGTGACCAAGTACGAGGCGGCCGGCAACAGCAAGGC
+GCTGGCACTCATCACAAAAATTTCGCCTGCGGCATGGCGGCACATCCTGCTCAACGGGCACTACACCTTTCAAAGCAG
+CGGCAAGACGATCGATCTCGATGCGATCGTCGCAGGCCTGGAACTGGAGTGACGGAATTTTCAGCGGTTCCGTGTTAG
+CAGCAGTGTAAAACTGACCCACCCCAGCGAAGTAAAACTGATCCACCTGGGCTAGCTTGGCGGCCTTTTCGAGGCCGT
+CGATGTTGACCCAGGAGCAAACCGTGGAAATCAGAGTTCTTGCCCGACAGGGCCACTCCATCCGGCACATCGCCCGCA
+CGTTGGGGGTCTCGCGCAATACCGTGCGCCGCTACCTCCGCGATCCGTCGGTAGCGCGATACCAGCCCCGTGAACCAC
+GCCCCACCAAACTGGGGCCATTTGAATCTTATCTGCGGCAACGGGTCGAGCAGGCCCACCCCATCTGGCTGCCTGCCA
+CCGTCCTGAATCGGGAAATCCGCGCTCAAGGGTATGGCGGCGGTCTCTCGTTATTGCGCGCCTTCCTCGCCACGCTCA
+AGCCCGCCCGCCGCGAAGCAGGTCCGGCCGTCCGTTTCGAGACCGAGCCCGGACGGCAGTTGCAGGCTGATTTCGTGG
+TCTTGCGCCGGGCCAGATCCCCCATGTCGGCCTTCGTCGCCACGCTGGGATACAGCCGCATGACGTTTGTCACCTTCG
+TACCGGACGAATCCTTCGAGTCCGTGCGGGACTCCCTGTTGCTGGCTTTTGACTATCTGGGCGGTGTGCCCCGCGAGG
+TGTTGTTCGACAACATGAAGACCGTGGTGCTGGAACGCGATGCCTACGGTGACGGCAAGCACCGTTTTCACCCCGGCT
+TGCTTCAACTGGCCGATGACCTGGGGTTCCGGATCCGGCTGTGTCGCCCGTATCGGGCCCAGACCAAAGGCAAGGTCG
+AGCGCTTCAATCGCTACTTCCGCGAGAGCTTCTACAACCCGTTGCTGACCCGGATGAAGGGCACGGGGCTGCTGCTCG
+ATTGTGCTGCTGCCAACCGACGCGTCCGTGACTGGTTGGCAGACGAGGCGAATGTGCGGGTCCACGCCACCCTGAACG
+AGCGCCCCATCGACCGTTGGCGGCAGGAGCGGGAACACCTGCAACCCTTGCCATCCCGTGTGCGGCGCGACGAGGCCC
+CCCTGCTGGATAACAGTCTCCGCCCGGTACCACTGGAATCTCTCCAGCACCCACTGTCTGTCTATGACGCAATTGGGG
+AGGCCTGCCGATGAACCTCCAGCATGAGCGGATCGACGCCCTGTGCCAGCAACTCAAACTCGAACGGGTGGCAACGCA
+TTACCCCGTCCTGGCGCAGCAGGCGGTGCGCGAGGACTTCAGCTTCACCGACTTCCTGGAACACCTGTTGCGGCATGA
+AGCGGGGTGTCGCCAGCAGCGCAGCCGCGAACTGCTGACGCGGATGGCTTGCTTCCCGGGCATCAAGACCCTGGAGGA
+CTATGACTTCAGCTTCAACCCCGGCGTGCCCAAGGCACTGGTGCAGGAGCTGGGCAGTCTGGCGTTTGTCGAACGGGC
+CGAGAACGTGGTGCTGATCGGACCCTCTGGCATCGGCAAGACCCACCTCGCCATCGCCTTGGGTTACAAGGCCGCGCA
+AGCCGGGGTCAAGACACGCTTCATCACGGCAGCCGACCTGATGCTGCAACTGAGCACGGCGCAGCGACAAGGGCGGCT
+GAAGGAATACTTCAACCGCGCCATCCTCGGTCCACGGCTGCTGGTGATCGATGAGATCGGCTACCTGCCTTTCGGACG
+CGAGGAAGCGAACCTGTTCTTTCAGGTGGTGGCGAAGCGCTATGAGAAAGGGGCGATGATCCTGACCTCGAACCTGCC
+GTTCAGCCAGTGGGCCGACGCGTTTGCCGGCGATACCACCCTGACAGCCGCGATGCTGGATCGGCTGCTGCACCATGC
+CCATATCCTGACCCTGAGCGGCGAAAGCTACCGCTTGAAGGACAAGAGGAAGGCGGGAGTGGTCAGGAAAAATTCCAA
+ACCCGAATGATCCAGGTGGGTCAGTATTACTTTGGTGATTCAGGGGTAAAGTGGGTCAGTTTTCAGTTGGTGTTGACA
+CCGGCGTACCCTCGGTGCTATCTTCGCGCCCCAATAGTCGGGGCTTGGCCAGGACTTCCTGAGGCCGTCCGTAACGTG
+GATGCCGAGGTCAGGCGAGGTGGCCGACCCATGAACGCCGACCTGATTCGTTTTTCAAGCTCGGTGATAATCCCAGCT
+GTAGCGGCCTGATTACATCCGGCCGCTACACCTAGCTCCACCTTCAAACAAGGAATATCGTTGTTATGTCACTGTATC
+GCCGTCTAGTTCTGCTGTCTTGTCTCTCATGGCCGCTGGCTGGCTTTTCTGCCACCGCGCTGACCAACCTCGTCGCGG
+AACCATTCGCTAAACTCGAACAGGACTTTGGCGGCTCCATCGGTGTGTACGCGATGGATACCGGCTCAGGCGCAACTG
+TAAGTTACCGCGCTGAGGAGCGCTTCCCACTGTGCAGCTCATTCAAGGGCTTTCTTGCTGCCGCTGTGCTGGCTCGCA
+GCCAGCAGCAGGCCGGCTTGCTGGACACACCCATCCGTTACGGCAAAAATGCGCTGGTTCCGTGGTCACCCATCTCGG
+AAAAATATCTGACAACAGGCATGACGGTGGCGGAGCTGTCCGCGGCCGCCGTGCAATACAGTGATAACGCCGCCGCCA
+ATTTGTTGCTGAAGGAGTTGGGCGGCCCGGCCGGGCTGACGGCCTTCATGCGCTCTATCGGCGATACCACGTTCCGTC
+TGGACCGCTGGGAGCTGGAGCTGAACTCCGCCATCCCAGGCGATGCGCGCGATACCTCATCGCCGCGCGCCGTGACGG
+AAAGCTTACAAAAACTGACACTGGGCTCTGCACTGGCTGCGCCGCAGCGGCAGCAGTTTGTTGATTGGCTAAAGGGAA
+ACACGACCGGCAACCACCGCATCCGCGCGGCGGTGCCGGCAGACTGGGCAGTCGGAGACAAAACCGGAACCTGCGGAG
+TGTATGGCACGGCAAATGACTATGCCGTCGTCTGGCCCACTGGGCGCGCACCTATTGTGTTGGCCGTCTACACCCGGG
+CGCCTAACAAGGATGACAAGTACAGCGAGGCCGTCATCGCCGCTGCGGCTAGACTCGCGCTCGAGGGATTGGGCGTCA
+ACGGGCAGTAAAAGGCTCTGAAAATCATCTATTGGCCCACCACCGCCGCCCTTGCGGGCGGCATGGATTACCAACCAC
+TGTCACATTTAGGCTAGGAGTCTGCGCGGCAGAGCCGTGTGACCGGTTTTCTGTAGAGCACTGACGATGGCGGCGGCG
+CTCTCTGCAATTGGCAAGGCGTCGGCGCCAAGGATACCAATCTTGCGGCGCGCGGCGTGTTATGACGACTGGGGTGCA
+TTTGAGCCGCCCCATTTAACCTTCGCCCTCACAGATACGCCATTCGCCTCAGATTTAGCGCCATGCAGACGAGCTTCC
+ACTCGGCTTGCACCTTGTCCAGGCCCCTCATGCTGAACTGACGCAATCCCATCACCGCCTTGATCCAACCATTCGGAG
+CCTCCACGATCGACTTGCGCCGGCGGTAAGCTGCATCGCCTTGCTCCGTTTTCAATTTCGCCGCAATCGCCGCCGTAT
+GCGGATGGGTCTTGGCATTGACCTTGGCATCTTCACGTCCCTCGCGGCCGAGGGCAACGATGACATCGCCGTGGTGAT
+CGGCGACCTTTGCCAGAACAGCCTCACTACGGAATCCCGCATCCGCCAGCGTCTGGGCCGGCATTTCTCCGGTGTTGG
+CCTGAACTGCTGCCAGCATGCCCAGCAGCGCCTGACTGTCCGCGGCGCAGTTGGTCAACTCCGCCGCCACGATGATCT
+GGTGCTCGGCATCGACCGCTGTGTACCCGTTGTAGCTCTGCTCGGAGCCACCACCGGCGTGTTTCATGATCCGGCTGT
+CCGGATCGGTGAAGCTTTCCTGATCACGGTCATCCGGCACACCAAACTCGCGTTTGTACGAGCCACCGCCCTTGTCCG
+AGCCATCCGGATGGCGAGGCCGGCGGCCATCGTCTTCGCTGCGCCCCCGGGCCTGGTCCGCTTCACGCTGGCGCGCTT
+CCAGGCGCGCCTTTGCCGCCTGGATCGCCTCCAGGCGCTTCTCGCGGCGAGAAATCTCGGCAGGAATGTCCAGCTCCG
+GCTCGTTACGCTCCTGGTCGTCGGTAGCCTTGGCGCGATCAAGCAGCGCCTTGATCTCGCAATGCAATTCGTCCTCGG
+CCGGCTTCATGCGCTTATAGCTCATCGCCTTGTGGCGGCTGGCGTTGGCTTTTACCTTGGTGCCGTCGACCGCGATCG
+TGCCAAGCTTCACCAGCCCACATTCGCGCGCCAGTTGCACCACCTGAACGAACAAATTCTCAAGCTCGGTCAGGTGTA
+GGGCACGGAAGTCACTCAGCGTGCGGTGGGCCGGGAAGTTTCCAGCGGCCAGCACACGCAACGCGACATCCTCGTACA
+GCTTCCTGGCTAGTTTGCGCGAAGAGAAGACGCCGCTCGCGTAACCATAGATCAGCACTTTGACCATCATCGCCGGAT
+GAAACGGCTGATTGCCCGGACCACCGCCGGCATACCGGGCGTGGAATGCGCTCAAGTCCAGCGTATCGACAGTCTCGC
+TGATGAAGTAGGCAAGATGCCCTTCAGGTAGCCACTCTCCCAGAGAAGGGGGCAGCAGATAGGATTGGTCGGGTCGGT
+AAGGAAGGTAACTGGCAGCCATCCCCGTATCGTCCTCGATCTTCCGCCGATTTGGCTTCTGCCGCGCAGGCTCCTAGG
+CCACCGTAGCTAAACATACGAGAAAAACCGCTTCTTGAGCGCTCTCTGAGACCACCTTGCCGACAACGCAGAAACGGT
+TGCGGAAAAATCGGCGTTTCCGGCGTACGCCACCCGACCTGGACGAACTATTGCGGACCTGGAACTGGAGTAGCGGAA
+TTCCCCGGGGTTTCAGCGTCGCGCCACAGCGCCTCAGATAGATGCGGTAGCCTTTGGCGGGTCGTCATGCCGCGGA" } } ,
+        seq {
+          id {
+            local
+              str "GU386376.1_1" } ,
+          descr {
+            title "Tyrosine recombinase XerD [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 571 ,
+            seq-data
+              ncbieaa "MKTGQTTASSSTPVGFPDADSLAALRGWYAGLSSRAAVEHYLAARKAAGQSARGM
+LGHIRRQLIVFANSRHRPDLADVFQHAPEERQGRAGAVERAIRLLPTLPAPKPQISDSIDQWLSPRTVRALQAYGIHT
+LSALTVRIPRRRGWWKAIEGLGMTGARQVEAFFAAHPQLTERARALIPIIQPSGIVPWEQLRLPNEVDGSQGNFRAPR
+NACTLNATNDYEAVQAWLALHETVATQRAYRKEAARLILWAIVERGRALSSLTTDDAIAYRAFVRHPTPRERWVGPPR
+PRDSVEWRPFSGGLSARSAAYALTVLSALFRWLIEQRYVLANPFAGVKVRGHALRPALDTARGFTEGEWLLLRAIADG
+LEWSYGWSEPAAQRLRFMLDFGYATGLRASELVGAVLGNVRLDEHGDHWLHLVGKGGKPGKVALPPLAYTALDQYLAQ
+RQLPVSRERWNPKTPLVGSLGEDGNAGITGPHLWCVLRRFFTQAAEAIEADHPVAAEKLRRATPHWMRHSHASHALAR
+GAQLTAVRDNLRHASIATTSMYLHGDELERARQMRQAFGARHVKRGVD" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 7 ,
+                    data
+                      prot {
+                        name {
+                          "Tyrosine recombinase XerD" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 570 ,
+                        id
+                          local
+                            str "GU386376.1_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "GU386376.1_2" } ,
+          descr {
+            title "hypothetical protein MEBLFAMP_00002 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 1009 ,
+            seq-data
+              ncbieaa "MSKKNKLLSVLSDAEQEALYGLPEFDDAQQLEYLAVTETELALANSRPSLHAKVY
+CLLQIGYFKAKHAFFSFDWDEVEDDCAFVLSRYFHGEVFEPKAITKHERYTQREQIAKLFGYWPWSAAFLPQLEQQAA
+RTVRRDVTPGFVAAELIVWLNEHKIIRPGYTTLQELVSETLSAERRRLGNLLEQALDESAKAALSQLLVRDDTLSQLA
+ALKQDAKNFGWRQMVREREKRATLEPLHAIAKTLLPKLDVSQQNLLYYASLANFYTVHDLRNLKADQTQLYLLCYAWV
+RYRQLSDNLVDAMAYHMKQLEDESSAGAKQSFADEQVRRQQETARVGRLLSLYVDDSVADPTPFGEVRQRAYKIMPRD
+TLQTTAQRMSVKPASKLALQWQAVDGLADRMRRHLRPLYVALDLSGSNPDSPWLAALAWAKGVFAKQQRLSQRPLDEW
+PAATLPKRLRPYLLTFDADGKPTGLHADRYEFWLYRQIRKRLQSGELYLDDSLQHRHFSDELVEMDRKIDVLAKMEIP
+FLQQPVHAQLDALTAELRTQWLAFNRELKQGKLTHLEYNKDTQKLTWRKPKSENEKAREKAFYEKLPFCDVADVFRFV
+NDECKFLSAFTPMQPRYAKKVADADSLMAVIIAQAMNHGNHVMARTSDIPYHVLDSGYQQYLRQATLHAANDCISNAI
+ATLPIFPYYSFDLETLYGAVDGQKFSVERPTVKARYSRKYFGRGKGVVAYTLLCNHIPLNGYLIGAHDYEAHHVFDIW
+YRNTSDIMPTAITGDMHSVNKANFAILHWFGRRFEPRFTDLNAQLKELYCADDPAQYQACLIRPVGKIDCDLIHREKP
+NIDRIVATLGLKEMTQGTLIRKLCTYTTTNPTRRAIFEFDKLIRSIYTLRYLRDPQLERNVHRSQNRLESYHQLRSAI
+AQVGGKKELTGRTDIEIEISNQCARLIANTIIFYNSAILSRLVTKYEAAGNSKALALITKISPAAWRHILLNGHYTFQ
+SSGKTIDLDAIVAGLELE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 8 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 1008 ,
+                        id
+                          local
+                            str "GU386376.1_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "GU386376.1_3" } ,
+          descr {
+            title "hypothetical protein MEBLFAMP_00003 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 341 ,
+            seq-data
+              ncbieaa "MLTQEQTVEIRVLARQGHSIRHIARTLGVSRNTVRRYLRDPSVARYQPREPRPTK
+LGPFESYLRQRVEQAHPIWLPATVLNREIRAQGYGGGLSLLRAFLATLKPARREAGPAVRFETEPGRQLQADFVVLRR
+ARSPMSAFVATLGYSRMTFVTFVPDESFESVRDSLLLAFDYLGGVPREVLFDNMKTVVLERDAYGDGKHRFHPGLLQL
+ADDLGFRIRLCRPYRAQTKGKVERFNRYFRESFYNPLLTRMKGTGLLLDCAAANRRVRDWLADEANVRVHATLNERPI
+DRWRQEREHLQPLPSRVRRDEAPLLDNSLRPVPLESLQHPLSVYDAIGEACR" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 9 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 340 ,
+                        id
+                          local
+                            str "GU386376.1_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "GU386376.1_4" } ,
+          descr {
+            title "Insertion sequence IS5376 putative ATP-binding protein
+ [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 259 ,
+            seq-data
+              ncbieaa "MNLQHERIDALCQQLKLERVATHYPVLAQQAVREDFSFTDFLEHLLRHEAGCRQQ
+RSRELLTRMACFPGIKTLEDYDFSFNPGVPKALVQELGSLAFVERAENVVLIGPSGIGKTHLAIALGYKAAQAGVKTR
+FITAADLMLQLSTAQRQGRLKEYFNRAILGPRLLVIDEIGYLPFGREEANLFFQVVAKRYEKGAMILTSNLPFSQWAD
+AFAGDTTLTAAMLDRLLHHAHILTLSGESYRLKDKRKAGVVRKNSKPE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 10 ,
+                    data
+                      prot {
+                        name {
+                          "Insertion sequence IS5376 putative ATP-binding
+ protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 258 ,
+                        id
+                          local
+                            str "GU386376.1_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "GU386376.1_5" } ,
+          descr {
+            title "Carbapenem-hydrolyzing beta-lactamase KPC [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 293 ,
+            seq-data
+              ncbieaa "MSLYRRLVLLSCLSWPLAGFSATALTNLVAEPFAKLEQDFGGSIGVYAMDTGSGA
+TVSYRAEERFPLCSSFKGFLAAAVLARSQQQAGLLDTPIRYGKNALVPWSPISEKYLTTGMTVAELSAAAVQYSDNAA
+ANLLLKELGGPAGLTAFMRSIGDTTFRLDRWELELNSAIPGDARDTSSPRAVTESLQKLTLGSALAAPQRQQFVDWLK
+GNTTGNHRIRAAVPADWAVGDKTGTCGVYGTANDYAVVWPTGRAPIVLAVYTRAPNKDDKYSEAVIAAAARLALEGLG
+VNGQ" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 11 ,
+                    data
+                      prot {
+                        name {
+                          "Carbapenem-hydrolyzing beta-lactamase KPC" } ,
+                        ec {
+                          "3.5.2.6" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 292 ,
+                        id
+                          local
+                            str "GU386376.1_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "GU386376.1_6" } ,
+          descr {
+            title "hypothetical protein MEBLFAMP_00006 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 439 ,
+            seq-data
+              ncbieaa "MAASYLPYRPDQSYLLPPSLGEWLPEGHLAYFISETVDTLDLSAFHARYAGGGPG
+NQPFHPAMMVKVLIYGYASGVFSSRKLARKLYEDVALRVLAAGNFPAHRTLSDFRALHLTELENLFVQVVQLARECGL
+VKLGTIAVDGTKVKANASRHKAMSYKRMKPAEDELHCEIKALLDRAKATDDQERNEPELDIPAEISRREKRLEAIQAA
+KARLEARQREADQARGRSEDDGRRPRHPDGSDKGGGSYKREFGVPDDRDQESFTDPDSRIMKHAGGGSEQSYNGYTAV
+DAEHQIIVAAELTNCAADSQALLGMLAAVQANTGEMPAQTLADAGFRSEAVLAKVADHHGDVIVALGREGREDAKVNA
+KTHPHTAAIAAKLKTEQGDAAYRRRKSIVEAPNGWIKAVMGLRQFSMRGLDKVQAEWKLVCMALNLRRMAYL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 12 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 438 ,
+                        id
+                          local
+                            str "GU386376.1_6" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "GU386376.1_1" ,
+                location
+                  int {
+                    from 10 ,
+                    to 1725 ,
+                    strand minus ,
+                    id
+                      local
+                        str "GU386376.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P0A8P8" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "xerD" ,
+                        locus-tag "MEBLFAMP_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "GU386376.1_2" ,
+                location
+                  int {
+                    from 1835 ,
+                    to 4864 ,
+                    strand plus ,
+                    id
+                      local
+                        str "GU386376.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "MEBLFAMP_00002" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "GU386376.1_3" ,
+                location
+                  int {
+                    from 4971 ,
+                    to 5996 ,
+                    strand plus ,
+                    id
+                      local
+                        str "GU386376.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "MEBLFAMP_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "GU386376.1_4" ,
+                location
+                  int {
+                    from 5993 ,
+                    to 6772 ,
+                    strand plus ,
+                    id
+                      local
+                        str "GU386376.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:Q45619" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "MEBLFAMP_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "GU386376.1_5" ,
+                location
+                  int {
+                    from 7062 ,
+                    to 7943 ,
+                    strand plus ,
+                    id
+                      local
+                        str "GU386376.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:Q9F663" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "bla" ,
+                        locus-tag "MEBLFAMP_00005" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "GU386376.1_6" ,
+                location
+                  int {
+                    from 8195 ,
+                    to 9514 ,
+                    strand minus ,
+                    id
+                      local
+                        str "GU386376.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "MEBLFAMP_00006" } } } } } } } } } }

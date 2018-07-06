@@ -1,0 +1,238 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14-dev from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 6 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 29 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2018 } } } ,
+        create-date
+          std {
+            year 2018 ,
+            month 6 ,
+            day 29 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "DQ897687.1" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 2099 ,
+            seq-data
+              iupacna "CCAGGATGTACAACGTCACCCGCCAAACCATCCGAAAGTGGCAAAACCGCGAGTC
+TCCTGAAGACAAGTCGCATGCGCCGAACAAGATGTACACGACGCTCACGCCCGAGCAGGAGCTCATCGTGGTGGAGCT
+GCGCAAGACGTTGCTGCTGCCCACGGACGACCTGCTGGCGGTCACGCGCGAGTTCATCAATCCAGCCGTCTCGCGTGC
+CGGCCTGGGACGTTGCCTGCGCCGCCACGGTGTCTCGGATCTACGTAACCTGGTCGAGCAGGAAGGCACTGCGCCCGC
+CACGAAAAAGACCTTCAAGGACTACGAGCCGGGCTTTGTGCACATCGACATCAAGTACCTGCCGCAGATGCCCGACGA
+GACGGCAAGGCGCTATCTCTTCGTTGCCATCGACCGTGCTACGCGCTGGGTCTTCATCGAGCTCTATGCCGACCAGAC
+CGATGGCAGCAGTGGCGACTTCCTCAACAAAGTCCAGCAAGCCTGTCCCGTCAAGATCGTCAAGCTTCTGACCGACAA
+CGGCAGCCAGTTCACCGACCGCTTCACGGCTGGCGGCAAGAAGAAGGAACCCAGCGGCACACACGTGTTCGACCGCCT
+GTGCAAGCAGCTCGGCATCGAGCACCGGCTCATCCCGCCTCGTCATCCGCAGACCAACGGCATGGTGGAGCGCTTCAA
+CGGTCGTATCAGCGACATCGTCAACCAGACCCGTTTTGGTTCAGCTGCCGAACTGGAATCGACGCTGCGCAATTACGT
+CAAGATCTACAACCACAGCATTCCGCAACGCGCGCTCCAACACAAAACACCCGTTCAGGCGCTCAAGGAATGGCATGA
+AAAACGCCCTGAATTGTTCAGGAAACGCGTGTATAACCAGCCGGGTCTTGACATATAGGTTAATGTCATGATAATAAT
+GGTTTCTTAGACGTCAGGTGGCACTTTTCGGGGAAATGTGCGCGGAACCCCTATTTGTTTATTTTTCTAAATACATTC
+AAATATGTATCCGCTCATGAGACAATAACCCTGATAAATGCTTCAATAATATTGAAAAATGACTTCTTAACGTGAGTT
+TTCGTTCCACTGAGCGTCAGACCCCTAATCCCAGCTGTAGCGGCCTGATTACATCCGGCCGCTACACCTAGCTCCACC
+TTCAAACAAGGAATATCGTTGATGTCACTGTATCGCCGTCTAGTTCTGCTGTCTTGTCTCTCATGGCCGCTGGCTGGC
+TTTTCTGCCACCGCGCTGACCAACCTCGTCGCGGAACCATTCGCTAAACTCGAACAGGACTTTGGCGGCTCCATCGGT
+GTGTACGCGATGGATACCGGCTCAGGCGCAACTGTAAGTTACCGCGCTGAGGAGCGCTTCCCACTGTGCAGCTCATTC
+AAGGGCTTTCTTGCTGCCGCTGTGCTGGCTCGCAGCCAGCAGCAGGCCGGCTTGCTGGACACACCCATCCGTTACGGC
+AAAAATGCGCTGGTTCCGTGGTCACCCATCTCGGAAAAATATCTGACAACAGGCATGACGGTGGCGGAGCTGTCCGCG
+GCCGCCGTGCAATACAGTGATAACGCCGCCGCCAATTTGTTGCTGAAGGAGTTGGGCGGCCCGGCCGGGCTGACGGCC
+TTCATGCGCTCTATCGGCGATACCACGTTCCGTCTGGACCGCTGGGAGCTGGAGCTGAACTCCGCCATCCCAGGCGAT
+GCGCGCGATACCTCATCGCCGCGCGCCGTGACGGAAAGCTTACAAAAACTGACACTGGGCTCTGCACTGGCTGCGCCG
+CAGCGGCAGCAGTTTGTTGATTGGCTAAAGGGAAACACGACCGGCAACCACCGCATCCGCGCGGCGGTGCCGGCAGAC
+TGGGCAGTCGGAGACAAAACCGGAACCTGCGGAGTGTATGGCACGGCAAATGACTATGCCGTCGTCTGGCCCACTGGG
+CGCGCACCTATTGTGTTGGCCGTCTACACCCGGGCGCCTAACAAGGATGACAAGCACAGCGAGGCCGTCATCGCCGCT
+GCGGCTAGACTCGCGCTCGAGGGATTGGGCGTCAACGGGCAGTAAGGCTCTGAAAATCATCTATTGGCCCACCACCGC
+CGCCCTTGCGGGCGGC" } } ,
+        seq {
+          id {
+            local
+              str "DQ897687.1_1" } ,
+          descr {
+            title "hypothetical protein DLHEKEID_00001 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 295 ,
+            seq-data
+              ncbieaa "MYNVTRQTIRKWQNRESPEDKSHAPNKMYTTLTPEQELIVVELRKTLLLPTDDLL
+AVTREFINPAVSRAGLGRCLRRHGVSDLRNLVEQEGTAPATKKTFKDYEPGFVHIDIKYLPQMPDETARRYLFVAIDR
+ATRWVFIELYADQTDGSSGDFLNKVQQACPVKIVKLLTDNGSQFTDRFTAGGKKKEPSGTHVFDRLCKQLGIEHRLIP
+PRHPQTNGMVERFNGRISDIVNQTRFGSAAELESTLRNYVKIYNHSIPQRALQHKTPVQALKEWHEKRPELFRKRVYN
+QPGLDI" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 3 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 294 ,
+                        id
+                          local
+                            str "DQ897687.1_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "DQ897687.1_2" } ,
+          descr {
+            title "Carbapenem-hydrolyzing beta-lactamase KPC [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 293 ,
+            seq-data
+              ncbieaa "MSLYRRLVLLSCLSWPLAGFSATALTNLVAEPFAKLEQDFGGSIGVYAMDTGSGA
+TVSYRAEERFPLCSSFKGFLAAAVLARSQQQAGLLDTPIRYGKNALVPWSPISEKYLTTGMTVAELSAAAVQYSDNAA
+ANLLLKELGGPAGLTAFMRSIGDTTFRLDRWELELNSAIPGDARDTSSPRAVTESLQKLTLGSALAAPQRQQFVDWLK
+GNTTGNHRIRAAVPADWAVGDKTGTCGVYGTANDYAVVWPTGRAPIVLAVYTRAPNKDDKHSEAVIAAAARLALEGLG
+VNGQ" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 4 ,
+                    data
+                      prot {
+                        name {
+                          "Carbapenem-hydrolyzing beta-lactamase KPC" } ,
+                        ec {
+                          "3.5.2.6" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 292 ,
+                        id
+                          local
+                            str "DQ897687.1_2" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "DQ897687.1_1" ,
+                location
+                  int {
+                    from 5 ,
+                    to 892 ,
+                    strand plus ,
+                    id
+                      local
+                        str "DQ897687.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "DLHEKEID_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "DQ897687.1_2" ,
+                location
+                  int {
+                    from 1168 ,
+                    to 2049 ,
+                    strand plus ,
+                    id
+                      local
+                        str "DQ897687.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:Q9F663" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "bla" ,
+                        locus-tag "DLHEKEID_00002" } } } } } } } } } }

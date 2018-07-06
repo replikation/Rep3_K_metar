@@ -1,0 +1,698 @@
+Seq-entry ::= set {
+  class genbank ,
+  seq-set {
+    set {
+      class nuc-prot ,
+      descr {
+        source {
+          org {
+            taxname "Genus species" ,
+            orgname {
+              mod {
+                {
+                  subtype strain ,
+                  subname "strain" } } ,
+              gcode 11 } } } ,
+        comment "Annotated using prokka 1.14-dev from
+ https://github.com/tseemann/prokka" ,
+        user {
+          type
+            str "NcbiCleanup" ,
+          data {
+            {
+              label
+                str "method" ,
+              data
+                str "SeriousSeqEntryCleanup" } ,
+            {
+              label
+                str "version" ,
+              data
+                int 8 } ,
+            {
+              label
+                str "month" ,
+              data
+                int 6 } ,
+            {
+              label
+                str "day" ,
+              data
+                int 29 } ,
+            {
+              label
+                str "year" ,
+              data
+                int 2018 } } } ,
+        create-date
+          std {
+            year 2018 ,
+            month 6 ,
+            day 29 } } ,
+      seq-set {
+        seq {
+          id {
+            local
+              str "JX500681.1" } ,
+          descr {
+            molinfo {
+              biomol genomic } } ,
+          inst {
+            repr raw ,
+            mol dna ,
+            length 10192 ,
+            seq-data
+              iupacna "TCTTGGTGGGGTTCTAAGCGGGAATCCCAGAAAATTCCGTCATTCCGTATGATGA
+AAATTCAGTCGACTCCTCGCTTGACGTGACGAGCGCCAAAAGCCTGCCGCATCTGCCTGGCGCGCTCGAGCTCATCGC
+CATGCAAATACATCGACGTCGTGGCGATCGACGCATGGCGTAGGTTGTCGCGCACCGCGGTGAGCTGAGCTCCCCGGG
+CCAACGCATGGCTGGCATGACTGTGACGCATCCAATGAGGCGTGGCACGGCGCAGCTTTTCGGCGGCGACCGGATGAT
+CGGCCTCAATGGCCTCAGCGGCTTGCGTAAAGAATCTTCGCAACACGCACCAAAGGTGAGGGCCGGTGATGCCGGCAT
+TACCGTCTTCCCCAAGACTGCCCACCAGGGGCGTTTTCGGATTCCACCGTTCCCGGCTGACTGGCAGTTGACGCTGTG
+CCAAGTATTGGTCCAGCGCCGTATACGCGAGCGGCGGCAAGGCCACCTTACCTGGTTTGCCACCTTTGCCAACCAAAT
+GCAGCCAGTGGTCACCGTGCTCGTCGAGGCGGACATTACCCAGGACGGCGCCGACCAGTTCGCTAGCGCGCAGGCCCG
+TGGCATAGCCGAAGTCGAGCATGAAGCGCAGGCGTTGTGCTGCCGGCTCGGACCAGCCGTAGGACCATTCCAGGCCGT
+CTGCAATGGCGCGCAGCAGTAGCCATTCTCCCTCGGTAAAGCCTCGCGCCGTATCCAGTGCGGGCCGCAAGGCGTGAC
+CGCGTACCTTGACGCCGGCGAAAGGGTTGGCCAGCACATAGCGCTGCTCGATGAGCCACCGGAACAGCGCCGAGAGCA
+CCGTCAGCGCATACGCTGCCGAGCGTGCGGACAAGCCGCCCGAGAAGGGGCGCCATTCCACCGAATCGCGTGGTCGAG
+GTGGCCCCACCCAACGCTCGCGCGGGGTCGGGTGCCGGACAAAGGCCCGGTACGCGATTGCATCGTCCGTGGTCAGGG
+ATGATAGCGCCCGTCCGCGTTCGACGATGGCCCACAGGATTAGCCGCGCAGCCTCCTTGCGATAGGCGCGCTGTGTGG
+CGACAGTCTCGTGCAGCGCCAGCCAGGCCTGCACGGCCTCGTAGTCGTTGGTCGCATTCAGCGTGCAAGCGTTGCGCG
+GGGCCCGGAAATTGCCCTGCGAGCCGTCGACTTCGTTCGGCAGACGCAACTGCTCCCACGGCACGATGCCGCTGGGCT
+GAATAATCGGGATCAGGGCCCGGGCGCGCTCGGTGAGCTGCGGATGTGCGGCAAAGAAAGCCTCGACCTGCCGGGCGC
+CTGTCATGCCGAGTCCCTCGATGGCTTTCCACCAGCCACGCCGGCGGGGAATGCGCACGGTCAGCGCCGAGAGGGTGT
+GGATACCGTACGCCTGCAGTGCCCTGACGGTCCTCGGAGACAGCCACTGGTCGATGCTGTCGCTGATCTGGGGCTTCG
+GCGCCGGCAGCGTGGGCAAGAGCCGGATCGCGCGTTCGACGGCACCCGCGCGCCCCTGTCGCTCTTCGGGGGCGTGCT
+GGAACACGTCGGCCAGATCCGGCCGGTGGCGGCTGTTGGCGAAAACGATGAGCTGGCGGCGGATATGCCCCAGCATCC
+CTCGCGCTGATTGACCGGCGGCCTTGCGTGCCGCCAGGTAGTGTTCAACGGCCGCGCGAGAGCTGAGTCCCGCGTACC
+AGCCGCGCAAGGCAGCCAGCGAATCCGCATCGGGAAAGCCGACTGGGGTAGAACTCGAAGCCGTAGTCTGGCCCGTTT
+TCATATGGACAGGTTGCGATTCGAAAAGCGAGTAACGCGATAATAACGATTATTTCAGTAGAATCGAAAATGCCCCAT
+GTTTCTACGAAACCTCAAGATAGCAAGAACGGGCCATGAGCAAGAAGAACAAGCTACTCAGCGTCCTATCCGACGCCG
+AACAGGAGGCCTTGTATGGCCTGCCGGAGTTCGATGATGCGCAGCAGCTGGAATATCTGGCTGTGACAGAAACCGAGT
+TGGCGCTTGCCAACAGCCGGCCCAGTCTTCATGCCAAGGTCTATTGCCTCTTGCAGATCGGCTACTTCAAGGCCAAGC
+ATGCCTTCTTCAGTTTCGACTGGGACGAAGTCGAGGACGATTGCGCTTTCGTGCTGAGCCGCTATTTCCACGGCGAGG
+TGTTCGAACCCAAGGCGATCACCAAGCATGAACGCTACACCCAGCGCGAGCAGATCGCCAAACTATTCGGCTACTGGC
+CGTGGTCGGCCGCCTTCCTGCCGCAGCTCGAGCAGCAGGCCGCACGGACCGTGCGGCGTGACGTAACGCCGGGGTTCG
+TCGCCGCCGAGCTGATCGTCTGGCTCAATGAGCACAAGATTATCCGGCCCGGCTATACGACCTTGCAAGAGTTGGTCA
+GCGAAACGCTATCCGCCGAGCGCCGGCGCCTGGGCAATCTGCTGGAGCAAGCGTTGGACGAATCTGCCAAGGCCGCGC
+TGAGCCAGCTTCTGGTCCGTGATGACACCCTGTCGCAACTGGCGGCGCTCAAGCAGGACGCCAAGAATTTCGGCTGGC
+GCCAGATGGTCCGCGAGCGCGAAAAGCGCGCCACGCTGGAGCCGCTGCACGCAATCGCCAAGACACTGCTGCCTAAAC
+TCGACGTCTCGCAGCAGAACCTGCTGTACTACGCGAGCCTGGCAAACTTCTACACCGTCCACGACCTGCGCAATCTGA
+AGGCCGATCAGACCCAACTCTACCTGCTGTGCTATGCCTGGGTACGCTACCGGCAGCTCTCCGACAACCTGGTCGATG
+CGATGGCGTACCACATGAAGCAGTTGGAGGACGAAAGCAGCGCTGGTGCCAAACAATCCTTTGCCGACGAGCAGGTGC
+GCCGTCAGCAGGAAACGCCGCGGGTAGGCCGCCTGCTGTCACTCTACGTTGATGATAGCGTGGCCGATCCCACGCCCT
+TCGGCGAGGTGCGGCAGCGCGCCTACAAGATCATGCCTCGCGATACGCTGCAAACCACGGCGCAGCGTATGAGCGTGA
+AGCCGGCGAGCAAGCTGGCCTTGCAGTGGCAGGCGGTGGACGGGCTGGCCGACCGCATGCGCCGCCATCTTCGTCCAC
+TGTACGTTGCGCTCGACCTCTCCGGCTCCAATCCAGACAGTCCATGGCTTGCCGCGCTGGCCTGGGCCAAAGGTGTTT
+TTGCCAAGCAGCAGCGGCTGTCGCAACGGCCACTCGACGAGTGGCCCGCGGCGACACTTCCGAAACGCTTGCGGCCGT
+ACCTGCTGACCTTCGACGCCGACGGTAAACCAACCGGCCTGCACGCTGACCGCTACGAGTTCTGGCTGTACCGCCAGA
+TCAGGAAGCGTCTCCAATCGGGTGAACTCTACCTCGACGACAGCCTGCAACACCGGCACTTCTCAGATGAACTGGTTG
+AGATGGACAGGAAGATCGATGTGCTCGCAAAAATGGAGATCCCCTTCCTGCAGCAACCCGTCCATGCCCAACTCGATG
+CGCTGACTGCCGAACTGCGCACGCAGTGGCTGGCGTTCAACCGCGAGCTGAAACAGGGCAAGCTGACGCACCTCGAAT
+ACAACAAGGACACGCAGAAACTGACCTGGCGCAAGCCCAAGAGCGAGAATGAGAAAGCGCGCGAAAAGGCATTCTACG
+AGAAGCTTCCGTTCTGCGACGTGGCCGACGTGTTTCGCTTCGTCAACGACGAGTGCAAGTTTCTGTCGGCGTTCACGC
+CCATGCAGCCGCGCTACGCGAAGAAGGTCGCCGACGCTGACAGCCTGATGGCGGTCATCATCGCGCAAGCGATGAACC
+ACGGCAACCACGTCATGGCGCGCACCAGCGACATCCCGTACCACGTGCTGGATAGCGGCTACCAGCAGTACCTGCGCC
+AGGCAACGCTGCACGCGGCCAACGACTGCATCAGCAACGCCATCGCCACGCTACCGATCTTCCCATACTACTCGTTCG
+ACCTCGAAACGCTGTACGGTGCCGTCGACGGGCAGAAATTCAGCGTCGAACGGCCGACCGTGAAGGCGCGCTATTCGC
+GCAAGTACTTCGGGCGCGGCAAGGGCGTGGTCGCCTACACGCTGCTGTGCAACCACATCCCGCTCAACGGCTACCTGA
+TCGGCGCGCACGACTACGAGGCCCACCACGTGTTCGACATCTGGTATCGCAACACGTCGGACATCATGCCGACCGCGA
+TCACCGGCGACATGCACAGCGTCAACAAGGCCAACTTCGCCATCCTGCATTGGTTTGGCCGGCGGTTCGAGCCGCGCT
+TCACCGACCTCAACGCGCAATTGAAAGAACTCTACTGCGCTGACGATCCAGCACAGTATCAGGCGTGCCTGATTCGGC
+CAGTCGGGAAAATCGACTGCGATCTCATCCATCGCGAGAAGCCGAACATCGACCGGATCGTCGCCACACTCGGGCTGA
+AGGAAATGACGCAGGGCACGCTGATCCGCAAGCTGTGCACCTACACCACGACGAACCCGACGCGGCGCGCGATCTTCG
+AGTTCGACAAGCTCATCCGCAGCATCTACACGCTTCGCTACCTGCGCGATCCGCAACTGGAACGCAACGTGCACCGCT
+CGCAAAATCGCCTCGAGTCCTACCATCAGCTACGCTCGGCCATTGCCCAGGTCGGCGGTAAGAAGGAACTGACCGGTC
+GCACCGACATTGAAATCGAGATCAGCAACCAGTGCGCACGGCTGATCGCCAACACGATCATTTTCTACAACTCGGCAA
+TCTTGTCGCGGCTGGTGACCAAGTACGAGGCGGCCGGCAACAGCAAGGCGCTGGCACTCATCACAAAAATTTCGCCTG
+CGGCATGGCGGCACATCCTGCTCAACGGGCACTACACCTTTCAAAGCAGCGGCAAGACGATCGATCTCGATGCGATCG
+TCGCAGGCCTGGAACTGGAGTGACGGAATTTTCAGCGGTTCCGTGTTAGCAGCAGTGTAAAACTGACCCACCCCAGCG
+AAGTAAAACTGATCCACCTGGGCTAGTTTGGCGGCCTTTTCGAGGCCGTCGATGTTGACCCAGGAGCAAACCGTGGAA
+ATCAGAGTTCTTGCCCGACAGGGCCACTCCATCCGGCACATCGCCCGCACGTTGGGGGTCTCGCGCAATACCGTGCGC
+CGCTACCTCCGCGATCCGTCGGTAGCGCGATACCAGCCCCGTGAACCACGCCCCACCAAACTGGGGCCATTTGAATCT
+TATCTGCGGCAACGGGTCGAGCAGGCCCACCCCATCTGGCTGCCTGCCACCGTCCTGAATCGGGAAATCCGCGCTCAA
+GGGTATGGCGGCGGTCTCTCGTTATTGCGCGCCTTCCTCGCCACGCTCAAGCCCGCCCGCCGCGAAGCAGGTCCGGCC
+GTCCGTTTCGAGACCGAGCCCGGACGGCAGTTGCAGGCTGATTTCGTGGTCTTGCGCCGGGCCAGATCCCCCATGTCG
+GCCTTCGTCGCCACGCTGGGATACAGCCGCATGACGTTTGTCACCTTCGTACCGGACGAATCCTTCGAGTCCGTGCGG
+GACTCCCTGTTGCTGGCTTTTGACTATCTGGGCGGTGTGCCCCGCGAGGTGTTGTTCGACAACATGAAGACCGTGGTG
+CTGGAACGCGATGCCTACGGTGACGGCAAGCACCGTTTTCACCCCGGCTTGCTTCAACTGGCCGATGACCTGGGGTTC
+CGGATCCGGCTGTGTCGCCCGTATCGGGCCCAGACCAAAGGCAAGGTCGAGCGCTTCAATCGCTACTTCCGCGAGAGC
+TTCTACAACCCGTTGCTGACCCGGATGAAGGGCACGGGGCTGCTGCTCGATTGTGCTGCTGCCAACCGACGCGTCCGT
+GACTGGTTGGCAGACGAGGCGAATGTGCGGGTCCACGCCACCCTGAACGAGCGCCCCATCGACCGTTGGCGGCAGGAG
+CGGGAACACCTGCAACCCTTGCCATCCCGTGTGCGGCGCGACGAGGCCCCCCTGCTGGATAACAGTCTCCGCCCGGTA
+CCACTGGAATCTCTCCAGCACCCACTGTCTGTCTATGACGCAATTGGGGAGGCCTGCCGATGAACCTCCAGCATGAGC
+GGATCGACGCCCTGTGCCAGCAACTCAAACTCGAACGGGTGGCAACGCATTACCCCGTCCTGGCGCAGCAGGCGGTGC
+GCGAGGACTTCAGCTTCACCGACTTCCTGGAACACCTGTTGCGGCATGAAGCGGGGTGTCGCCAGCAGCGCAGCCGCG
+AACTGCTGACGCGGATGGCTTGCTTCCCGGGCATCAAGACCCTGGAGGACTATGACTTCAGCTTCAACCCCGGCGTGC
+CCAAGGCACTGGTGCAGGAGCTGGGCAGTCTGGCGTTTGTCGAACGGGCCGAGAACGTGGTGCTGATCGGACCCTCTG
+GCATCGGCAAGACCCACCTCGCCATCGCCTTGGGTTACAAGGCCGCGCAAGCCGGGGTCAAGACACGCTTCATCACGG
+CAGCCGACCTGATGCTGCAACTGAGCACGGCGCAGCGACAAGGGCGGCTGAAGGAATACTTCAACCGCGCCATCCTCG
+GTCCACGGCTGCTGGTGATCGATGAGATCGGCTACCTGCCTTTCGGACGCGAGGAAGCGAACCTGTTCTTTCAGGTGG
+TGGCGAAGCGCTATGAGAAAGGGGCGATGATCCTGACCTCGAACCTGCCGTTCAGCCAGTGGGCCGACGCGTTTGCCG
+GCGATACCACCCTGACAGCCGCGATGCTGGATCGGCTGCTGCACCATGCCCATATCCTGACCCTGAGCGGCGAAAGCT
+ACCGCTTGAAGGACAAGAGGAAGGCGGGAGTGGTCAGGAAAAATTCCAAACCCGAATGATCCAGGTGGGTCAGTATTA
+CTTTGGTGATTCAGGGGTAAAGTGGGTCAGTTTTCAGTTGGTGTTGACACCGGCGTACCCTCGGTGCTATCTTCGCGC
+CCCAATAGTCGGGGCTTGGCCAGGACTTCCTGAGGCCGTCCGTAACGTGGATGCCGAGGTCAGGCGAGGTGGCCGACC
+CATGAACGCCGACCTGATTCGTTTTTCAATAGCGCTGGACGTTGTGGTGCCAGGGACTTACCAACCCGATGTGTGCCC
+ATCCGGGGCAGTTACAGCCGTTACAGCCTCTGGAGAGGGAGCGGCTTGCCGCTCGGTGATAATCCCAGCTGTAGCGGC
+CTGATTACATCCGGCCGCTACACCTAGCTCCACCTTCAAACAAGGAATATCGTTGATGTCACTGTATCGCCGTCTAGT
+TCTGCTGTCTTGTCTCTCATGGCCGCTGGCTGGCTTTTCTGCCACCGCGCTGACCAACCTCGTCGCGGAACCATTCGC
+TAAACTCGAACAGGACTTTGGCGGCTCCATCGGTGTGTACGCGATGGATACCGGCTCAGGCGCAACTGTAAGTTACCG
+CGCTGAGGAGCGCTTCCCACTGTGCAGCTCATTCAAGGGCTTTCTTGCTGCCGCTGTGCTGGCTCGCAGCCAGCAGCA
+GGCCGGCTTGCTGGACACACCCATCCGTTACGGCAAAAATGCGCTGGTTCCGTGGTCACCCATCTCGGAAAAATATCT
+GACAACAGGCATGACGGTGGCGGAGCTGTCCGCGGCCGCCGTGCAATACAGTGATAACGCCGCCGCCAATTTGTTGCT
+GAAGGAGTTGGGCGGCCCGGCCGGGCTGACGGCCTTCATGCGCTCTATCGGCGATACCACGTTCCGTCTGGACCGCTG
+GGAGCTGGAGCTGAACTCCGCCATCCCAGGCGATGCGCGCGATACCTCATCGCCGCGCGCCGTGACGGAAAGCTTACA
+AAAACTGACACTGGGCTCTGCACTGGCTGCGCCGCAGCGGCAGCAGTTTGTTGATTGGCTAAAGGGAAACACGACCGG
+CAACCACCGCATCCGCGCGGCGGTGCCGGCAGACTGGGCAGTCGGAGACAAAACCGGAACCTGCGGAGTGTATGGCAC
+GGCAAATGACTATGCCGTCGTCTGGCCCACTGGGCGCGCACCTATTGTGTTGGCCGTCTACACCCGGGCGCCTAACAA
+GGATGACAAGTACAGCGAGGCCGTCATCGCCGCTGCGGCTAGACTCGCGCTCGAGGGATTGGGCGTCAACGGGCAGTA
+AGGCTCTGAAAATCATCTATTGGCCCACCACCGCCGCCCTTGCGGGCGGCATGGATTACCAACCACTGTCACATTTAG
+GCTAGGAGTCTGCGCGGCAGAGCCGTGTGACCGGTTTTCTGTAGAGCACTGACGATGGCGGCGGCGCTCTCTGCAATT
+GGCAAGGCGTCGGCGCCAAGGATACCAATCTTGCGGCGCGCGGCGTGTTATGACGACTGGGGTGCATTTGAGCCGCCC
+CATTTAACCTTCGCCCTCACAGATACGCCATTCGCCTCAGATTTAGCGCCATGCAGACGAGCTTCCACTCGGCTTGCA
+CCTTGTCCAGGCCCCTCATGCTGAACTGACGCAATCCCATCACCGCCTTGATCCAACCATTCGGAGCCTCCACGATCG
+ACTTGCGCCGGCGGTAAGCTGCATCGCCTTGCTCCGTTTTCAATTTCGCCGCAATCGCCGCCGTATGCGGATGGGTCT
+TGGCATTGACCTTGGCATCTTCACGTCCCTCGCGGCCGAGGGCAACGATGACATCGCCGTGGTGATCGGCGACCTTTG
+CCAGAACAGCCTCACTACGGAATCCCGCATCCGCCAGCGTCTGGGCCGGCATTTCTCCGGTGTTGGCCTGAACTGCTG
+CCAGCATGCCCAGCAGCGCCTGACTGTCCGCGGCGCAGTTGGTCAACTCCGCCGCCACGATGATCTGGTGCTCGGCAT
+CGACCGCTGTGTACCCGTTGTAGCTCTGCTCGGAGCCACCACCGGCGTGTTTCATGATCCGGCTGTCCGGATCGGTGA
+AGCTTTCCTGATCACGGTCATCCGGCACACCAAACTCGCGTTTGTACGAGCCACCGCCCTTGTCCGAGCCATCCGGAT
+GGCGAGGCCGGCGGCCATCGTCTTCGCTGCGCCCCCGGGCCTGGTCCGCTTCACGCTGGCGCGCTTCCAGGCGCGCCT
+TTGCCGCCTGGATCGCCTCCAGGCGCTTCTCGCGGCGAGAAATCTCGGCAGGAATGTCCAGCTCCGGCTCGTTACGCT
+CCTGGTCGTCGGTAGCCTTGGCGCGATCAAGCAGCGCCTTGATCTCGCAATGCAATTCGTCCTCGGCCGGCTTCATGC
+GCTTATAGCTCATCGCCTTGTGGCGGCTGGCGTTGGCTTTTACCTTGGTGCCGTCGACCGCGATCGTGCCAAGCTTCA
+CCAGCCCACATTCGCGCGCCAGTTGCACCACCTGAACGAACAAATTCTCAAGCTCGGTCAGGTGTAGGGCACGGAAGT
+CACTCAGCGTGCGGTGGGCCGGGAAGTTTCCAGCGGCCAGCACACGCAACGCGACATCCTCGTACAGCTTCCTGGCTA
+GTTTGCGCGAAGAGAAGACGCCGCTCGCGTAACCATAGATCAGCACTTTGACCATCATCGCCGGATGAAACGGCTGAT
+TGCCCGGACCACCGCCGGCATACCGGGCGTGGAATGCGCTCAAGTCCAGCGTATCGACAGTCTCGCTGATGAAGTAGG
+CAAGATGCCCTTCAGGTAGCCACTCTCCCAGAGAAGGGGGCAGCAGATAGGATTGGTCGGGTCGGTAAGGAAGGTAAC
+TGGCAGCCATCCCCGTATCGTCCTCGATCTTCCGCCGATTTGGCTTCTGCCGCGCAGGCTCCTAGGCCACCGTAGCTA
+AACATACGAGAAAAACCGCTTCTTGAGCGCTCTCTGAGACCACCTTGCCGACAACGCAGAAACGGTTGCGGAAAAATC
+GGCGTTTCCGGCGTACGCCACCCGACCTGGACGAACTATTGCGGACCTGGAACTGGAGTAGCGGAATTCCCCGGGGTT
+TCAGCGTCGCGCCACAGCGCCTCAGATAGATGCGGTAGCCTTTGGCGGGTCGTCATGCCGCGGACCACCCCCCCAAAA
+AATTCCACAATGCGGAATGGCGGAATTTTCTGGGGTTCCCGCTTACCCCCCCTTGGAAAAGTCCAGCGTATCGACAGT
+CTCGCTGATGAAGTAGGCAAGATGCCCTTCATGTAGCCACTCTCCCAGAGAAGGGGGTAGCAGATAGGATTGGGCGAG
+ACGGTAAGGAAGGTAANTGGCAGCCATCCTCGTATCGTCCTCGTTCTTCCGCCGATTTGGCTTCTGCCGCGCACG" } } ,
+        seq {
+          id {
+            local
+              str "JX500681.1_1" } ,
+          descr {
+            title "Tyrosine recombinase XerD [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 571 ,
+            seq-data
+              ncbieaa "MKTGQTTASSSTPVGFPDADSLAALRGWYAGLSSRAAVEHYLAARKAAGQSARGM
+LGHIRRQLIVFANSRHRPDLADVFQHAPEERQGRAGAVERAIRLLPTLPAPKPQISDSIDQWLSPRTVRALQAYGIHT
+LSALTVRIPRRRGWWKAIEGLGMTGARQVEAFFAAHPQLTERARALIPIIQPSGIVPWEQLRLPNEVDGSQGNFRAPR
+NACTLNATNDYEAVQAWLALHETVATQRAYRKEAARLILWAIVERGRALSSLTTDDAIAYRAFVRHPTPRERWVGPPR
+PRDSVEWRPFSGGLSARSAAYALTVLSALFRWLIEQRYVLANPFAGVKVRGHALRPALDTARGFTEGEWLLLRAIADG
+LEWSYGWSEPAAQRLRFMLDFGYATGLRASELVGAVLGNVRLDEHGDHWLHLVGKGGKPGKVALPPLAYTALDQYLAQ
+RQLPVSRERWNPKTPLVGSLGEDGNAGITGPHLWCVLRRFFTQAAEAIEADHPVAAEKLRRATPHWMRHSHASHALAR
+GAQLTAVRDNLRHASIATTSMYLHGDELERARQMRQAFGARHVKRGVD" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 8 ,
+                    data
+                      prot {
+                        name {
+                          "Tyrosine recombinase XerD" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 570 ,
+                        id
+                          local
+                            str "JX500681.1_1" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JX500681.1_2" } ,
+          descr {
+            title "hypothetical protein NCHAGEAB_00002 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 1009 ,
+            seq-data
+              ncbieaa "MSKKNKLLSVLSDAEQEALYGLPEFDDAQQLEYLAVTETELALANSRPSLHAKVY
+CLLQIGYFKAKHAFFSFDWDEVEDDCAFVLSRYFHGEVFEPKAITKHERYTQREQIAKLFGYWPWSAAFLPQLEQQAA
+RTVRRDVTPGFVAAELIVWLNEHKIIRPGYTTLQELVSETLSAERRRLGNLLEQALDESAKAALSQLLVRDDTLSQLA
+ALKQDAKNFGWRQMVREREKRATLEPLHAIAKTLLPKLDVSQQNLLYYASLANFYTVHDLRNLKADQTQLYLLCYAWV
+RYRQLSDNLVDAMAYHMKQLEDESSAGAKQSFADEQVRRQQETPRVGRLLSLYVDDSVADPTPFGEVRQRAYKIMPRD
+TLQTTAQRMSVKPASKLALQWQAVDGLADRMRRHLRPLYVALDLSGSNPDSPWLAALAWAKGVFAKQQRLSQRPLDEW
+PAATLPKRLRPYLLTFDADGKPTGLHADRYEFWLYRQIRKRLQSGELYLDDSLQHRHFSDELVEMDRKIDVLAKMEIP
+FLQQPVHAQLDALTAELRTQWLAFNRELKQGKLTHLEYNKDTQKLTWRKPKSENEKAREKAFYEKLPFCDVADVFRFV
+NDECKFLSAFTPMQPRYAKKVADADSLMAVIIAQAMNHGNHVMARTSDIPYHVLDSGYQQYLRQATLHAANDCISNAI
+ATLPIFPYYSFDLETLYGAVDGQKFSVERPTVKARYSRKYFGRGKGVVAYTLLCNHIPLNGYLIGAHDYEAHHVFDIW
+YRNTSDIMPTAITGDMHSVNKANFAILHWFGRRFEPRFTDLNAQLKELYCADDPAQYQACLIRPVGKIDCDLIHREKP
+NIDRIVATLGLKEMTQGTLIRKLCTYTTTNPTRRAIFEFDKLIRSIYTLRYLRDPQLERNVHRSQNRLESYHQLRSAI
+AQVGGKKELTGRTDIEIEISNQCARLIANTIIFYNSAILSRLVTKYEAAGNSKALALITKISPAAWRHILLNGHYTFQ
+SSGKTIDLDAIVAGLELE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 9 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 1008 ,
+                        id
+                          local
+                            str "JX500681.1_2" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JX500681.1_3" } ,
+          descr {
+            title "hypothetical protein NCHAGEAB_00003 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 341 ,
+            seq-data
+              ncbieaa "MLTQEQTVEIRVLARQGHSIRHIARTLGVSRNTVRRYLRDPSVARYQPREPRPTK
+LGPFESYLRQRVEQAHPIWLPATVLNREIRAQGYGGGLSLLRAFLATLKPARREAGPAVRFETEPGRQLQADFVVLRR
+ARSPMSAFVATLGYSRMTFVTFVPDESFESVRDSLLLAFDYLGGVPREVLFDNMKTVVLERDAYGDGKHRFHPGLLQL
+ADDLGFRIRLCRPYRAQTKGKVERFNRYFRESFYNPLLTRMKGTGLLLDCAAANRRVRDWLADEANVRVHATLNERPI
+DRWRQEREHLQPLPSRVRRDEAPLLDNSLRPVPLESLQHPLSVYDAIGEACR" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 10 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 340 ,
+                        id
+                          local
+                            str "JX500681.1_3" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JX500681.1_4" } ,
+          descr {
+            title "Insertion sequence IS5376 putative ATP-binding protein
+ [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 259 ,
+            seq-data
+              ncbieaa "MNLQHERIDALCQQLKLERVATHYPVLAQQAVREDFSFTDFLEHLLRHEAGCRQQ
+RSRELLTRMACFPGIKTLEDYDFSFNPGVPKALVQELGSLAFVERAENVVLIGPSGIGKTHLAIALGYKAAQAGVKTR
+FITAADLMLQLSTAQRQGRLKEYFNRAILGPRLLVIDEIGYLPFGREEANLFFQVVAKRYEKGAMILTSNLPFSQWAD
+AFAGDTTLTAAMLDRLLHHAHILTLSGESYRLKDKRKAGVVRKNSKPE" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 11 ,
+                    data
+                      prot {
+                        name {
+                          "Insertion sequence IS5376 putative ATP-binding
+ protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 258 ,
+                        id
+                          local
+                            str "JX500681.1_4" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JX500681.1_5" } ,
+          descr {
+            title "Carbapenem-hydrolyzing beta-lactamase KPC [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 293 ,
+            seq-data
+              ncbieaa "MSLYRRLVLLSCLSWPLAGFSATALTNLVAEPFAKLEQDFGGSIGVYAMDTGSGA
+TVSYRAEERFPLCSSFKGFLAAAVLARSQQQAGLLDTPIRYGKNALVPWSPISEKYLTTGMTVAELSAAAVQYSDNAA
+ANLLLKELGGPAGLTAFMRSIGDTTFRLDRWELELNSAIPGDARDTSSPRAVTESLQKLTLGSALAAPQRQQFVDWLK
+GNTTGNHRIRAAVPADWAVGDKTGTCGVYGTANDYAVVWPTGRAPIVLAVYTRAPNKDDKYSEAVIAAAARLALEGLG
+VNGQ" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 12 ,
+                    data
+                      prot {
+                        name {
+                          "Carbapenem-hydrolyzing beta-lactamase KPC" } ,
+                        ec {
+                          "3.5.2.6" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 292 ,
+                        id
+                          local
+                            str "JX500681.1_5" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JX500681.1_6" } ,
+          descr {
+            title "hypothetical protein NCHAGEAB_00006 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 439 ,
+            seq-data
+              ncbieaa "MAASYLPYRPDQSYLLPPSLGEWLPEGHLAYFISETVDTLDLSAFHARYAGGGPG
+NQPFHPAMMVKVLIYGYASGVFSSRKLARKLYEDVALRVLAAGNFPAHRTLSDFRALHLTELENLFVQVVQLARECGL
+VKLGTIAVDGTKVKANASRHKAMSYKRMKPAEDELHCEIKALLDRAKATDDQERNEPELDIPAEISRREKRLEAIQAA
+KARLEARQREADQARGRSEDDGRRPRHPDGSDKGGGSYKREFGVPDDRDQESFTDPDSRIMKHAGGGSEQSYNGYTAV
+DAEHQIIVAAELTNCAADSQALLGMLAAVQANTGEMPAQTLADAGFRSEAVLAKVADHHGDVIVALGREGREDAKVNA
+KTHPHTAAIAAKLKTEQGDAAYRRRKSIVEAPNGWIKAVMGLRQFSMRGLDKVQAEWKLVCMALNLRRMAYL" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 13 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 438 ,
+                        id
+                          local
+                            str "JX500681.1_6" } } } } } } ,
+        seq {
+          id {
+            local
+              str "JX500681.1_7" } ,
+          descr {
+            title "hypothetical protein NCHAGEAB_00007 [Genus species]" ,
+            molinfo {
+              biomol peptide ,
+              tech concept-trans } } ,
+          inst {
+            repr raw ,
+            mol aa ,
+            length 46 ,
+            seq-data
+              ncbieaa "MAAXYLPYRLAQSYLLPPSLGEWLHEGHLAYFISETVDTLDFSKGG" } ,
+          annot {
+            {
+              data
+                ftable {
+                  {
+                    id
+                      local
+                        id 14 ,
+                    data
+                      prot {
+                        name {
+                          "hypothetical protein" } } ,
+                    location
+                      int {
+                        from 0 ,
+                        to 45 ,
+                        id
+                          local
+                            str "JX500681.1_7" } } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                id
+                  local
+                    id 1 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JX500681.1_1" ,
+                location
+                  int {
+                    from 59 ,
+                    to 1774 ,
+                    strand minus ,
+                    id
+                      local
+                        str "JX500681.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:P0A8P8" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "xerD" ,
+                        locus-tag "NCHAGEAB_00001" } } } } ,
+              {
+                id
+                  local
+                    id 2 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JX500681.1_2" ,
+                location
+                  int {
+                    from 1884 ,
+                    to 4913 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JX500681.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "NCHAGEAB_00002" } } } } ,
+              {
+                id
+                  local
+                    id 3 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JX500681.1_3" ,
+                location
+                  int {
+                    from 5020 ,
+                    to 6045 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JX500681.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "NCHAGEAB_00003" } } } } ,
+              {
+                id
+                  local
+                    id 4 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JX500681.1_4" ,
+                location
+                  int {
+                    from 6042 ,
+                    to 6821 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JX500681.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:Q45619" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "NCHAGEAB_00004" } } } } ,
+              {
+                id
+                  local
+                    id 5 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JX500681.1_5" ,
+                location
+                  int {
+                    from 7208 ,
+                    to 8089 ,
+                    strand plus ,
+                    id
+                      local
+                        str "JX500681.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } ,
+                  {
+                    qual "inference" ,
+                    val "similar to AA sequence:UniProtKB:Q9F663" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus "bla" ,
+                        locus-tag "NCHAGEAB_00005" } } } } ,
+              {
+                id
+                  local
+                    id 6 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JX500681.1_6" ,
+                location
+                  int {
+                    from 8339 ,
+                    to 9658 ,
+                    strand minus ,
+                    id
+                      local
+                        str "JX500681.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "NCHAGEAB_00006" } } } } ,
+              {
+                id
+                  local
+                    id 7 ,
+                data
+                  cdregion {
+                    frame one ,
+                    code {
+                      id 11 } } ,
+                product
+                  whole
+                    local
+                      str "JX500681.1_7" ,
+                location
+                  int {
+                    from 10003 ,
+                    to 10143 ,
+                    strand minus ,
+                    id
+                      local
+                        str "JX500681.1" } ,
+                qual {
+                  {
+                    qual "inference" ,
+                    val "ab initio prediction:Prodigal:2.6" } } ,
+                xref {
+                  {
+                    data
+                      gene {
+                        locus-tag "NCHAGEAB_00007" } } } } } } } } } }

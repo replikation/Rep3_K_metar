@@ -46,14 +46,13 @@ makeblastdb -in plasmid_bining/all.fasta -dbtype nucl -parse_seqids -out tmp_bla
 
     for x in plasmid_bining/Plasmid_type_$i/*.tmp; do
         value=$(paste -s -d+ $x | bc)
-        if (($value>49)); then
+        if (($value>80)); then
             y=${x/"plasmid_bining/Plasmid_type_$i/"}
             echo -e "${GRE}Keeping ${y%.tmp} with $value ${NC}"
             mv ${x%.tmp}.fasta ${x%.tmp}.control
-        fi
-        if (($value<50)); then
+        else
             y=${x/"plasmid_bining/Plasmid_type_$i/"}
-            echo -e "  transfering ${y%.tmp} to Plasmid_type_$binadd1 with $value"           
+            echo -e "  transfering ${y%.tmp} to Plasmid_type_$binadd1 with $value"   
         fi
     done
     for x in plasmid_bining/Plasmid_type_$i/*.tmp; do rm $x; done  
@@ -69,5 +68,19 @@ rm -r tmp_blast/
 rm plasmid_bining/all.fasta
 }
 
+big_plasmids_seperate()
+{
+rm -r plasmids_phyl/
+mkdir -p plasmids_phyl/
+for x in plasmid_bining/* ; do 
+echo "Processing folder $x"
+name=$(ls -S $x | head -1 )
+type=$(echo "$x" | cut -f2 -d "/" | cut -f3 -d "_")
+cp $x/$name plasmids_phyl/${name%.fasta}_type_$type.fasta
+done
+}
+
+
 move_to_folder
 bining
+big_plasmids_seperate
