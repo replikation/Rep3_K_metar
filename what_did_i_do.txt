@@ -1,12 +1,40 @@
 * BLASTn search on NCBI (nuccore) yielded me 624 different sequences with KPC 0,001 threshold
-* davon alle plasmide (grep "plasmid") extrahiert und mit table skript ein tabelle gebaut (table.sh)
-* blast based binning of plasmids
+* davon alle plasmide (grep "plasmid") -> n =440 -> removed DNA fragments smaller then 5000bp -> n=414 extrahiert. 
+* alle genebanks dwnl.
+* blast annotations mit eigenener database
 * Prokka aller plasmide (die brauche ich dann um alle features im an genen im Baum darzustellen)
 
+* blast based binning of plasmids
 
-# Alignment/Phylo
-* MUSCLE alignment aus jedem bin das größte plasmid
-* RAxML in Newick Format
-* visualization with ggtree in R
+
+aus den daten genefeature table für R
+
+
+Alle toxin/antitoxinsysteme:
+ccdA
+dinJ
+higA
+higA1
+higA_1
+higA-1
+higA-1_1
+higA1_1
+higA-1_2
+higA1_2
+higA_2
+higA-2
+hipB
+mazE
+parD1
+pemI
+relB
+vapB
+vapB_1
+vapB_2
+yaf
+yefM
+
+
+
 
 

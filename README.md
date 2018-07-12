@@ -12,12 +12,14 @@ For Scripts in use see Rep1
 
 #needs a *.list in .
 ```
-#2 kp_blast_anotation.sh
+#2 kp_blast_anotation.sh & kp_prokka_loop
     * -query plasmid_files/*.fasta
 #3 Integron finder
     * -output integron_results/
 #4 kp_plasmid_binning
-#5 kp_table
+    * blast based binning, needed for R and table
+#5 kp_table 
+* (Excel sheet)
     **File location**
 ```bash
     # fasta files for plasmids
@@ -27,3 +29,14 @@ For Scripts in use see Rep1
     # blastresults in gff
     blast_results/*.gff
 ```
+#6 kp_genefeaturetable_forR.sh
+    **File location**
+```bash
+    # blast results
+    blast_results/*.gff
+    #prokka results
+    plasmid_files/${getname}_results/*.tsv
+```
+#other:
+##kp_publication_get.sh 
+* to get overview of ass. publications

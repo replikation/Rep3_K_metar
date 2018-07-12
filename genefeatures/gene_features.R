@@ -4,6 +4,8 @@ library(tidyr)
 library(ggplot2)
 library(RColorBrewer)
 library(ggthemes)
+#change according to install location
+setwd("~/Work_projects/Rep3_K_metar/genefeatures")
 
 ## read table
 mut.tidy <- read.table("gentable.csv", sep=";", header = TRUE)
@@ -15,15 +17,16 @@ mut.tidy[g] <- lapply(mut.tidy[g], as.factor)
 # plotting
 gg <- ggplot(mut.tidy, aes(y=sample, x=gene, fill=mutated)) + geom_tile(color="white", size=0.5)
 gg <- gg + coord_equal()
-gg <- gg + labs(x="genes", y="plasmid type", title="Genmap of KPC plasmids")
+#gg <- gg + labs(x="genes", y="plasmid type", title="Genmap of KPC plasmids")
+gg <- gg + labs(x="", y="Plasmid type")
 gg <- gg + theme_hc()
-gg <- gg + theme(axis.text.x=element_text(angle = 90, hjust = 1))
+gg <- gg + theme(axis.text.x=element_text(angle = 270, vjust=0.5, hjust = 0))
 gg <- gg + theme(legend.position="none")
 gg <- gg + scale_fill_manual(values=c("#eaeaea", "#5D737E", "#CC8B86", "#7FC6A4", "#4a42e5"))
-gg <- gg + facet_grid(~ label, scales = "free", space = "free")
+gg <- gg + facet_grid(year ~ label, scales = "free", space = "free")
 gg
 
-
+#help("ggplot2")
 #old options
 #remove ticks
 #gg <- gg + theme(axis.ticks=element_blank())

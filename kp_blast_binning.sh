@@ -39,14 +39,14 @@ makeblastdb -in plasmid_bining/all.fasta -dbtype nucl -parse_seqids -out tmp_bla
         coverper=$((100*$coverage/$f5))
         touch plasmid_bining/Plasmid_type_$i/$f2.tmp
         echo "0" >> plasmid_bining/Plasmid_type_$i/$f2.tmp # so that i can track organism with no coverage
-        if (($coverper>10)); then
+        if (($coverper>10)); then #10
         echo "$coverper" >> plasmid_bining/Plasmid_type_$i/$f2.tmp                  
         fi                   
     done < "plasmid_bining/plasmid_comparision_$i.blast"
 
     for x in plasmid_bining/Plasmid_type_$i/*.tmp; do
         value=$(paste -s -d+ $x | bc)
-        if (($value>80)); then
+        if (($value>80)); then #80
             y=${x/"plasmid_bining/Plasmid_type_$i/"}
             echo -e "${GRE}Keeping ${y%.tmp} with $value ${NC}"
             mv ${x%.tmp}.fasta ${x%.tmp}.control

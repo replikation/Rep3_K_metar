@@ -83,4 +83,31 @@ done
 
 for x in */*.tmp; do rm $x; done
 for x in */*/*.tmp; do rm $x; done
+####################################
+#overview country to diff. seqtypes#
+####################################
+countries=$(cat *.csv | tail -n+2 | cut -f6 -d";" | sort | uniq)
+    while IFS= read -r ctry ; do
+    
+    amount=$(cat *.csv | cut -f6,8 -d";" | tail -n+2 | grep "$ctry" | cut -f2 -d";" | sort -n | uniq | wc -l)
+    echo "$ctry,$amount"
+    done < <(printf '%s\n' "$countries")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
