@@ -32,7 +32,7 @@ makeblastdb -in plasmid_bining/all.fasta -dbtype nucl -parse_seqids -out tmp_bla
 #if nothing is in the folder:
     if [ "$query_blast" = "" ]; then break; fi
     echo -e "${RED}Plasmid_type $i using blast query [$query_blast]  ${NC}"
-    blastn -query plasmid_bining/Plasmid_type_$i/$query_blast -db tmp_blast/plasmid_db -out plasmid_bining/plasmid_comparision_$i.blast -outfmt "6 qseqid sseqid qstart qend slen sstart send  score" -num_threads $CPU -evalue 0.00000000000000001
+    blastn -query plasmid_bining/Plasmid_type_$i/$query_blast -db tmp_blast/plasmid_db -out plasmid_bining/plasmid_comparision_$i.blast -outfmt "6 qseqid sseqid qstart qend slen sstart send  score" -num_threads $CPU -evalue 10E-100
     while IFS=$'\t' read f1 f2 f3 f4 f5 f6 f7 f8;
         do
         coverage=$(($f4-$f3))
@@ -40,8 +40,8 @@ makeblastdb -in plasmid_bining/all.fasta -dbtype nucl -parse_seqids -out tmp_bla
         touch plasmid_bining/Plasmid_type_$i/$f2.tmp
         echo "0" >> plasmid_bining/Plasmid_type_$i/$f2.tmp # so that i can track organism with no coverage
         if (($coverper>10)); then #10
-        echo "$coverper" >> plasmid_bining/Plasmid_type_$i/$f2.tmp                  
-        fi                   
+        echo "$coverper" >> plasmid_bining/Plasmid_type_$i/$f2.tmp
+        fi
     done < "plasmid_bining/plasmid_comparision_$i.blast"
 
     for x in plasmid_bining/Plasmid_type_$i/*.tmp; do
