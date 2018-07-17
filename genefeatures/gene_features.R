@@ -16,7 +16,7 @@ mut.tidy[g] <- lapply(mut.tidy[g], as.factor)
 
 # plotting
 gg <- ggplot(mut.tidy, aes(y=sample, x=gene, fill=mutated)) + geom_tile(color="white", size=0.5)
-gg <- gg + coord_equal()
+#gg <- gg + coord_equal()
 #gg <- gg + labs(x="genes", y="plasmid type", title="Genmap of KPC plasmids")
 gg <- gg + labs(x="", y="Plasmid type")
 gg <- gg + theme_hc()

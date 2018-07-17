@@ -213,11 +213,18 @@ printf "Salmonella;$gettype;$Salmonella;organism;$getyear\n">>genefeatures/genta
 if grep -q "Serratia" <<< $input ; then Serratia=4; else Serratia=0; fi
 printf "Serratia;$gettype;$Serratia;organism;$getyear\n">>genefeatures/gentable.csv
 done
-
-
-
-
-
+########################################
+##_________summary_4_paper____________##
+########################################
+echo "Creating statistics table under genefeatures/"
+listofgenes=$(cat genefeatures/gentable.csv | tail -n +2 | cut -f1 -d";" | sort | uniq)
+printf "gene;hits;total;percent\n">genefeatures/overview.csv
+while IFS= read -r z || [[ -n "$z" ]]; do
+    total=$(cat genefeatures/gentable.csv | cut -f3,1 -d";" | grep -w "$z" | wc -l)
+    hits=$(cat genefeatures/gentable.csv | cut -f3,1 -d";" | grep -w "$z" | grep -wv "0" | wc -l)
+    percent=$(echo "scale=2; 100*$hits/$total" | bc -l)   
+printf "$z;$hits;$total;$percent\n">>genefeatures/overview.csv
+done < <(printf '%s\n' "$listofgenes")
 
 
 
