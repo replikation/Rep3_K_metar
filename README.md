@@ -36,6 +36,8 @@ For Scripts in use see Rep1
     blast_results/*.gff
     #prokka results
     plasmid_files/${getname}_results/*.tsv
+    #gff files of genebank entries
+    gff_files_of_gb_files/*.gff
 ```
 #other:
 ##kp_publication_get.sh 
