@@ -22,7 +22,7 @@ gg <- gg + labs(x="", y="Plasmid type")
 gg <- gg + theme_hc()
 gg <- gg + theme(axis.text.x=element_text(angle = 270, vjust=0.5, hjust = 0))
 gg <- gg + theme(legend.position="none")
-gg <- gg + scale_fill_manual(values=c("#eaeaea", "#5D737E", "#CC8B86", "#7FC6A4", "#4a42e5"))
+gg <- gg + scale_fill_manual(values=c("#eaeaea", "#5D737E", "#CC8B86", "#7FC6A4", "#4a42e5", "#815777"))
 gg <- gg + facet_grid(year ~ label, scales = "free", space = "free")
 gg
 

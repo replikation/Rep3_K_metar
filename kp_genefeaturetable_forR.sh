@@ -1,7 +1,7 @@
 ########################################
 ##_________year_file__________________##
 ########################################
-#creating a year list first
+echo "Creating a year list first for each plasmidgroup first"
 for z in plasmid_bining/*/year.tmp ; do rm $z ; done
 
 for x in plasmid_bining/* ; do
@@ -9,20 +9,26 @@ acclist=$(ls $x)
 touch $x/year.tmp
     while IFS= read -r accession ; do
         if grep -q '/collection_date="' plasmid_files_gb/${accession%.fasta}.gb 
+          then
+            grep '/collection_date="' plasmid_files_gb/${accession%.fasta}.gb | cut -f 2 -d '"' | grep -Eo [0-9]{4} >> $x/year.tmp
+          else
+            if grep -q "${accession%.fasta}" Additional_collection_dates/years.csv
             then
-                grep '/collection_date="' plasmid_files_gb/${accession%.fasta}.gb | cut -f 2 -d '"' | grep -Eo [0-9]{4} >> $x/year.tmp
+            grep "${accession%.fasta}" Additional_collection_dates/years.csv | cut -f2 -d";" >> $x/year.tmp
             else
-                head -1 plasmid_files_gb/${accession%.fasta}.gb | rev | cut -f1 -d "-" | rev >> $x/year.tmp
+            head -1 plasmid_files_gb/${accession%.fasta}.gb | rev | cut -f1 -d "-" | rev >> $x/year.tmp
+            fi        
         fi
     done < <(printf '%s\n' "$acclist")
 done
+echo "done"
 ##################################
 printf "gene;sample;mutated;label;year\n">genefeatures/gentable.csv
 for x in plasmids_phyl/* ; do
 getname=$(basename -s .fasta "$x" | cut -f1 -d "_")
 gettype=$(basename -s .fasta "$x" | cut -f3 -d "_")
 getyear=$(cat plasmid_bining/Plasmid_type_$gettype/year.tmp | sort | head -1)
-echo "Starting with $getname of plasmidtype $gettype"
+echo "Analysing $getname of plasmidtype $gettype"
 ########################################
 ##_________BETA_LACTAMASES____________##
 ########################################
@@ -85,9 +91,6 @@ printf "Toxin-antitoxin;$gettype;$tox;features;$getyear\n">>genefeatures/gentabl
 #SOS inhib prot psi
 if grep -q "psi" <<< $prokres ; then psi=2; else psi=0; fi
 printf "psiA/B;$gettype;$psi;features;$getyear\n">>genefeatures/gentable.csv
-#Transposon resolvase
-if grep -q "resolvase" <<< $toxsearch ; then resolvase=2; else resolvase=0; fi
-printf "Transposon;$gettype;$resolvase;features;$getyear\n">>genefeatures/gentable.csv
 #Mercury resistance
 if grep -q "Mercuri" <<< $toxsearch ; then Mercuri=2; else Mercuri=0; fi
 printf "Mercuric Res.;$gettype;$Mercuri;features;$getyear\n">>genefeatures/gentable.csv
@@ -97,6 +100,16 @@ printf "Copper Res.;$gettype;$Copper;features;$getyear\n">>genefeatures/gentable
 #Arsenic resistance
 if grep -q "Arsenic" <<< $toxsearch ; then Arsenic=2; else Arsenic=0; fi
 printf "Arsenic Res.;$gettype;$Arsenic;features;$getyear\n">>genefeatures/gentable.csv
+########################################
+##_________Transposon_________________##
+########################################
+#Transposon resolvase
+if grep -qi "resolvase" <<< $toxsearch ; then resolvase=5; else resolvase=0; fi
+if [[ "$resolvase" == "0" ]]; then if grep -q "tnpR" <<< $toxsearch ; then resolvase=5; fi ; fi
+if [[ "$resolvase" == "0" ]]; then if grep -qi -i 'product="resolvase' plasmid_files_gb/$getname*.gb; then resolvase=5; fi ; fi
+if [[ "$resolvase" == "0" ]]; then if grep -qi -i 'product="tnpR' plasmid_files_gb/$getname*.gb; then resolvase=5; fi ; fi
+if [[ "$resolvase" == "0" ]]; then if grep -q "resolvase" blast_results/$getname*.gff; then resolvase=5; fi ; fi
+printf "Resolvase found;$gettype;$resolvase;Transpos.;$getyear\n">>genefeatures/gentable.csv
 ########################################
 ##_________Incgroups__________________##
 ########################################
@@ -214,9 +227,27 @@ if grep -q "Serratia" <<< $input ; then Serratia=4; else Serratia=0; fi
 printf "Serratia;$gettype;$Serratia;organism;$getyear\n">>genefeatures/gentable.csv
 done
 ########################################
+##_________Tn4401_____________________##
+########################################
+echo "Adding Tn4401 information supplied in Tn4401/transposontype.csv"
+if [ -f "Tn4401/transposontype.csv" ]
+then
+	echo "Tn4401/transposontype.csv found. Start formating for R"
+    while IFS=';' read -r accnumber transposontype; do
+        plasmid_type=$(ls plasmids_phyl/${accnumber}*.fasta | cut -f4 -d"_" | cut -f1 -d ".")
+        getyear=$(cat genefeatures/gentable.csv | cut -f2,5 -d";" | sort | uniq | grep -w "$plasmid_type" | cut -f2 -d";")
+        if grep -q "1" <<< $transposontype ; then tn=5; else tn=0; fi
+        printf "Tn4401;$plasmid_type;$tn;Transpos.;$getyear\n">>genefeatures/gentable.csv
+        if grep -q "2" <<< $transposontype ; then split=5; else split=0; fi
+        printf "Tn4401 fragmented;$plasmid_type;$split;Transpos.;$getyear\n">>genefeatures/gentable.csv
+    done < "Tn4401/transposontype.csv"
+else
+	echo "Tn4401/transposontype.csv not found."
+fi
+########################################
 ##_________summary_4_paper____________##
 ########################################
-echo "Creating statistics table under genefeatures/"
+echo "Creating statistics table under genefeatures/overview.csv"
 listofgenes=$(cat genefeatures/gentable.csv | tail -n +2 | cut -f1 -d";" | sort | uniq)
 printf "gene;hits;total;percent\n">genefeatures/overview.csv
 while IFS= read -r z || [[ -n "$z" ]]; do
